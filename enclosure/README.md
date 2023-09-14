@@ -1,4 +1,4 @@
-# Kampela coil PCB
+# Kampela Enclosure G2
 
 ![Kampela Enclosure G2](Kampela_Enclosure_G2.png)
 
