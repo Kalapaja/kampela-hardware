@@ -1,6 +1,6 @@
 # Kampela coil PCB
 
-![Kampela Enclosure G2](/Kampela_Enclosure_G2.png)
+![Kampela Enclosure G2](Kampela_Enclosure_G2.png)
 
 For the Kampela G2 revision, we use a rigid transparent acrylic enclosure made on a CNC machine from an 8mm transparent acrylic sheet and pour it with 2 components of transparent polyurethane after full assembly and testing.
 

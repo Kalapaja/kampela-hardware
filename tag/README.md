@@ -1,6 +1,6 @@
 # Kampela NFC Tag
 
-![Kampela NFC Tag](/Tag.kicad_G_pcb.png)
+![Kampela NFC Tag](Tag.kicad_G_pcb.png)
 
 Kampela NFC Tag is used as a Kampela companion for direct NFC communication with a phone, while Kampela remains be completely passive device minimizing the transmittion of any RF signal even not changing the NFC receiver quality factor to communicate with a user smartphone.
 
