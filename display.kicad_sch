@@ -1,45 +1,10 @@
-(kicad_sch (version 20230409) (generator eeschema)
+(kicad_sch (version 20230620) (generator eeschema)
 
   (uuid 4c82a326-c920-49a6-b5c0-f7805f931e73)
 
   (paper "A4")
 
   (lib_symbols
-    (symbol "Connector:TestPoint" (pin_numbers hide) (pin_names (offset 0.762) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "TP" (at 0 6.858 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "TestPoint" (at 0 5.08 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 5.08 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 5.08 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "test point tp" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "test point" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "Pin* Test*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "TestPoint_0_1"
-        (circle (center 0 3.302) (radius 0.762)
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "TestPoint_1_1"
-        (pin passive line (at 0 0 90) (length 2.54)
-          (name "1" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
     (symbol "Connector_Generic:Conn_01x06" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "J5" (at 0 13.97 0)
         (effects (font (size 1.27 1.27)))
@@ -53,10 +18,10 @@
       (property "Datasheet" "~" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_keywords" "connector" (at 0 0 0)
+      (property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)" (at 0 0 0)
+      (property "ki_keywords" "connector" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "ki_fp_filters" "Connector*:*_1x??_*" (at 0 0 0)
@@ -134,10 +99,10 @@
       (property "Datasheet" "~" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_keywords" "connector" (at 0 0 0)
+      (property "Description" "Generic connector, single row, 01x24, script generated (kicad-library-utils/schlib/autogen/connector/)" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_description" "Generic connector, single row, 01x24, script generated (kicad-library-utils/schlib/autogen/connector/)" (at 0 0 0)
+      (property "ki_keywords" "connector" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "ki_fp_filters" "Connector*:*_1x??_*" (at 0 0 0)
@@ -359,10 +324,10 @@
       (property "Datasheet" "~" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_keywords" "cap capacitor" (at 0 0 0)
+      (property "Description" "Unpolarized capacitor" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_description" "Unpolarized capacitor" (at 0 0 0)
+      (property "ki_keywords" "cap capacitor" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "ki_fp_filters" "C_*" (at 0 0 0)
@@ -410,10 +375,10 @@
       (property "Datasheet" "~" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_keywords" "diode Schottky" (at 0 0 0)
+      (property "Description" "Schottky diode" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_description" "Schottky diode" (at 0 0 0)
+      (property "ki_keywords" "diode Schottky" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*" (at 0 0 0)
@@ -475,10 +440,10 @@
       (property "Datasheet" "~" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_keywords" "L ferrite bead inductor filter" (at 0 0 0)
+      (property "Description" "Ferrite bead, small symbol" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_description" "Ferrite bead, small symbol" (at 0 0 0)
+      (property "ki_keywords" "L ferrite bead inductor filter" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "ki_fp_filters" "Inductor_* L_* *Ferrite*" (at 0 0 0)
@@ -537,10 +502,10 @@
       (property "Datasheet" "~" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_keywords" "inductor choke coil reactor magnetic" (at 0 0 0)
+      (property "Description" "Inductor" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_description" "Inductor" (at 0 0 0)
+      (property "ki_keywords" "inductor choke coil reactor magnetic" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*" (at 0 0 0)
@@ -588,10 +553,10 @@
       (property "Datasheet" "~" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_keywords" "transistor NMOS N-MOS N-MOSFET" (at 0 0 0)
+      (property "Description" "N-MOSFET transistor, gate/source/drain" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_description" "N-MOSFET transistor, gate/source/drain" (at 0 0 0)
+      (property "ki_keywords" "transistor NMOS N-MOS N-MOSFET" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (symbol "Q_NMOS_GSD_0_1"
@@ -733,10 +698,10 @@
       (property "Datasheet" "~" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_keywords" "R res resistor" (at 0 0 0)
+      (property "Description" "Resistor" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_description" "Resistor" (at 0 0 0)
+      (property "ki_keywords" "R res resistor" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "ki_fp_filters" "R_*" (at 0 0 0)
@@ -772,10 +737,10 @@
       (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAT54W_SER.pdf" (at -3.048 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_keywords" "dual schottky diode" (at 0 0 0)
+      (property "Description" "Dual schottky barrier diode, in series, SOT-323" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_description" "Dual schottky barrier diode, in series, SOT-323" (at 0 0 0)
+      (property "ki_keywords" "dual schottky diode" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "ki_fp_filters" "SOT?323*" (at 0 0 0)
@@ -939,10 +904,10 @@
       (property "Datasheet" "http://www.ti.com/lit/ds/symlink/txb0104.pdf" (at 2.794 2.413 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_keywords" "Level-Shifter CMOS-TTL-Translation" (at 0 0 0)
+      (property "Description" "4-Bit Bidirectional Voltage-Level Translator, Auto Direction Sensing and ±15-kV ESD Protection, 1.2 - 3.6V APort, 1.65 - 5.5V BPort, Texas_PUQFN-12" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_description" "4-Bit Bidirectional Voltage-Level Translator, Auto Direction Sensing and ±15-kV ESD Protection, 1.2 - 3.6V APort, 1.65 - 5.5V BPort, Texas_PUQFN-12" (at 0 0 0)
+      (property "ki_keywords" "Level-Shifter CMOS-TTL-Translation" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "ki_fp_filters" "Texas*R*PUQFN*N12*" (at 0 0 0)
@@ -1250,10 +1215,10 @@
       (property "Datasheet" "https://www.onsemi.com/pub/Collateral/FDG1024NZ-D.pdf" (at 0 0 0)
         (effects (font (size 1.27 1.27)) (justify left) hide)
       )
-      (property "ki_keywords" "Dual N-Channel MOSFET Logic Level" (at 0 0 0)
+      (property "Description" "1.2A Id, 20V Vds, Dual N-Channel MOSFET, 175mOhm Ron, SC-70-6" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_description" "1.2A Id, 20V Vds, Dual N-Channel MOSFET, 175mOhm Ron, SC-70-6" (at 0 0 0)
+      (property "ki_keywords" "Dual N-Channel MOSFET Logic Level" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "ki_fp_filters" "SOT?363*" (at 0 0 0)
@@ -1412,10 +1377,10 @@
       (property "Datasheet" "" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_keywords" "power-flag" (at 0 0 0)
+      (property "Description" "Power symbol creates a global label with name \"+1V8\"" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_description" "Power symbol creates a global label with name \"+1V8\"" (at 0 0 0)
+      (property "ki_keywords" "power-flag" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (symbol "+1V8_0_1"
@@ -1464,10 +1429,10 @@
       (property "Datasheet" "" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_keywords" "power-flag" (at 0 0 0)
+      (property "Description" "Power symbol creates a global label with name \"+2V8\"" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_description" "Power symbol creates a global label with name \"+2V8\"" (at 0 0 0)
+      (property "ki_keywords" "power-flag" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (symbol "+2V8_0_1"
@@ -1516,10 +1481,10 @@
       (property "Datasheet" "" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_keywords" "power-flag" (at 0 0 0)
+      (property "Description" "Power symbol creates a global label with name \"GND\" , ground" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_description" "Power symbol creates a global label with name \"GND\" , ground" (at 0 0 0)
+      (property "ki_keywords" "power-flag" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (symbol "GND_0_1"
@@ -1559,9 +1524,6 @@
   )
   (junction (at 163.83 140.97) (diameter 0) (color 0 0 0 0)
     (uuid 26670a9c-11a5-44af-a257-55e98f13795b)
-  )
-  (junction (at 220.98 87.63) (diameter 0) (color 0 0 0 0)
-    (uuid 26e609ad-f060-4295-843c-53d38bd30ecd)
   )
   (junction (at 219.71 67.31) (diameter 0) (color 0 0 0 0)
     (uuid 2dbe2793-b0dc-4a4f-a0cf-44524b277569)
@@ -1683,10 +1645,6 @@
   (wire (pts (xy 91.44 121.92) (xy 95.25 121.92))
     (stroke (width 0) (type default))
     (uuid 195fe4e0-34da-4b3a-9d86-e115cdab39a0)
-  )
-  (wire (pts (xy 220.98 87.63) (xy 227.33 87.63))
-    (stroke (width 0) (type default))
-    (uuid 1b08f09d-7d76-487b-8b4d-42e737dcf1ea)
   )
   (wire (pts (xy 52.07 102.87) (xy 49.53 102.87))
     (stroke (width 0) (type default))
@@ -1876,6 +1834,10 @@
     (stroke (width 0) (type default))
     (uuid 6d51eda3-48af-4f2f-aa8c-309ceb58b052)
   )
+  (wire (pts (xy 214.63 113.03) (xy 219.71 113.03))
+    (stroke (width 0) (type default))
+    (uuid 6d5c1205-e69e-4dc6-9cb4-ade3b849831d)
+  )
   (wire (pts (xy 190.5 36.83) (xy 190.5 39.37))
     (stroke (width 0) (type default))
     (uuid 6dc01b45-3baa-4b6f-94e1-aefb7b24cb37)
@@ -1975,10 +1937,6 @@
   (wire (pts (xy 255.27 88.9) (xy 266.7 88.9))
     (stroke (width 0) (type default))
     (uuid 96bace95-a4ef-41ad-b5ae-7294ca9a3e99)
-  )
-  (wire (pts (xy 160.02 33.02) (xy 160.02 35.56))
-    (stroke (width 0) (type default))
-    (uuid 96ea6a01-a600-48f2-a3c5-746c8a75c8f5)
   )
   (wire (pts (xy 24.13 133.35) (xy 36.83 133.35))
     (stroke (width 0) (type default))
@@ -2156,7 +2114,7 @@
     (stroke (width 0) (type default))
     (uuid d3fdb644-f14e-4cf9-8848-e29b27441c9a)
   )
-  (wire (pts (xy 205.74 87.63) (xy 220.98 87.63))
+  (wire (pts (xy 205.74 87.63) (xy 227.33 87.63))
     (stroke (width 0) (type default))
     (uuid d515ec7a-ce46-4085-8d5d-5497f85976c6)
   )
@@ -2187,10 +2145,6 @@
   (wire (pts (xy 105.41 140.97) (xy 109.22 140.97))
     (stroke (width 0) (type default))
     (uuid deb929ee-9e0f-458b-a1b7-02abfe7bc3de)
-  )
-  (wire (pts (xy 219.964 113.03) (xy 214.63 113.03))
-    (stroke (width 0) (type default))
-    (uuid df38b2ac-6732-41e0-8e7e-370255c04d9c)
   )
   (wire (pts (xy 148.59 133.35) (xy 156.21 133.35))
     (stroke (width 0) (type default))
@@ -2295,7 +2249,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 123e1b3a-1b4a-40f7-820f-1a0ba54dc822)
   )
-  (label "INT" (at 219.964 113.03 0) (fields_autoplaced)
+  (label "INT" (at 219.71 113.03 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 26540831-4a24-4853-9cad-be2c485402a4)
   )
@@ -2604,15 +2558,18 @@
     (property "Datasheet" "~" (at 148.59 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid ad54031c-ffbd-4e05-8419-a44b8243972b))
-    (pin "2" (uuid dc680dfa-ec2e-4886-a9f2-50c680aa409b))
+    (property "Description" "" (at 148.59 67.31 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 12e15de1-17a8-40ee-b721-369d7eaf147a))
+    (pin "2" (uuid 2c04f55f-4229-4027-b85e-a1a969da4223))
     (instances
       (project "Kampela"
         (path "/472e0f49-51e5-4b9c-a9f6-6aed0741c677/7868ecaa-9431-43d7-95a8-9c0f01ec9958"
           (reference "D?") (unit 1)
         )
       )
-      (project "Kampela_E1"
+      (project "Kampela_G2"
         (path "/f1094595-086c-43ea-a0be-6f801d9d8744/7868ecaa-9431-43d7-95a8-9c0f01ec9958"
           (reference "D10") (unit 1)
         )
@@ -2635,14 +2592,17 @@
     (property "Datasheet" "" (at 105.41 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid d0c9c709-84e3-4c83-8ebf-0c0452fbf073))
+    (property "Description" "" (at 105.41 80.01 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid a848dc8f-6955-4c6c-9468-e4ebef339937))
     (instances
       (project "Kampela"
         (path "/472e0f49-51e5-4b9c-a9f6-6aed0741c677/7868ecaa-9431-43d7-95a8-9c0f01ec9958"
           (reference "#PWR?") (unit 1)
         )
       )
-      (project "Kampela_E1"
+      (project "Kampela_G2"
         (path "/f1094595-086c-43ea-a0be-6f801d9d8744/7868ecaa-9431-43d7-95a8-9c0f01ec9958"
           (reference "#PWR071") (unit 1)
         )
@@ -2665,15 +2625,18 @@
     (property "Datasheet" "~" (at 201.93 72.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 970e5085-0944-4eb9-b3b0-f37494042611))
-    (pin "2" (uuid b5413afe-2868-402d-a9c5-1ed9c9331f67))
+    (property "Description" "" (at 201.93 72.39 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 47500fd5-c2f4-45c3-b741-94e9d14a4808))
+    (pin "2" (uuid 84600b35-aea6-4fa5-9c31-47300f40d01c))
     (instances
       (project "Kampela"
         (path "/472e0f49-51e5-4b9c-a9f6-6aed0741c677/7868ecaa-9431-43d7-95a8-9c0f01ec9958"
           (reference "C?") (unit 1)
         )
       )
-      (project "Kampela_E1"
+      (project "Kampela_G2"
         (path "/f1094595-086c-43ea-a0be-6f801d9d8744/7868ecaa-9431-43d7-95a8-9c0f01ec9958"
           (reference "C51") (unit 1)
         )
@@ -2696,15 +2659,18 @@
     (property "Datasheet" "~" (at 128.27 137.16 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 44d03932-8a4a-4093-ad24-bbfd37a4f2f3))
-    (pin "2" (uuid d70cb97a-4506-45e9-bbf8-351b1ee54e86))
+    (property "Description" "" (at 128.27 137.16 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 667d2f31-8c9b-44f8-8af8-9224d006706b))
+    (pin "2" (uuid dce418f9-3d29-422c-8845-ee5515918c3b))
     (instances
       (project "Kampela"
         (path "/472e0f49-51e5-4b9c-a9f6-6aed0741c677/7868ecaa-9431-43d7-95a8-9c0f01ec9958"
           (reference "R?") (unit 1)
         )
       )
-      (project "Kampela_E1"
+      (project "Kampela_G2"
         (path "/f1094595-086c-43ea-a0be-6f801d9d8744/7868ecaa-9431-43d7-95a8-9c0f01ec9958"
           (reference "R23") (unit 1)
         )
@@ -2727,15 +2693,18 @@
     (property "Datasheet" "~" (at 135.89 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 2cfc9292-5b8f-4343-a4aa-909417266ad1))
-    (pin "2" (uuid df63176b-e1d7-45af-81f1-749616a3b108))
+    (property "Description" "" (at 135.89 118.11 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid dd8b330a-07ef-4e9e-8852-15057550ed88))
+    (pin "2" (uuid fe2aefb2-362d-44de-9f13-f7782fde0388))
     (instances
       (project "Kampela"
         (path "/472e0f49-51e5-4b9c-a9f6-6aed0741c677/7868ecaa-9431-43d7-95a8-9c0f01ec9958"
           (reference "R?") (unit 1)
         )
       )
-      (project "Kampela_E1"
+      (project "Kampela_G2"
         (path "/f1094595-086c-43ea-a0be-6f801d9d8744/7868ecaa-9431-43d7-95a8-9c0f01ec9958"
           (reference "R24") (unit 1)
         )
@@ -2758,14 +2727,17 @@
     (property "Datasheet" "" (at 59.69 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f4a5fa5d-f187-4920-bd47-a5fe1cc0468a))
+    (property "Description" "" (at 59.69 102.87 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid ba8e1fa0-d8eb-4824-8e64-0ba74fec953e))
     (instances
       (project "Kampela"
         (path "/472e0f49-51e5-4b9c-a9f6-6aed0741c677/7868ecaa-9431-43d7-95a8-9c0f01ec9958"
           (reference "#PWR?") (unit 1)
         )
       )
-      (project "Kampela_E1"
+      (project "Kampela_G2"
         (path "/f1094595-086c-43ea-a0be-6f801d9d8744/7868ecaa-9431-43d7-95a8-9c0f01ec9958"
           (reference "#PWR069") (unit 1)
         )
@@ -2788,15 +2760,18 @@
     (property "Datasheet" "~" (at 201.93 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid db5c15c8-be9d-467b-8e95-3a1aae6a01ad))
-    (pin "2" (uuid 7eeeb96d-183f-422d-87f1-f02f1d6f3c2b))
+    (property "Description" "" (at 201.93 82.55 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 684ebd51-933b-4cca-af10-95df45ffc899))
+    (pin "2" (uuid c37b41b0-8be2-475b-9fdc-e6a94aac1f8c))
     (instances
       (project "Kampela"
         (path "/472e0f49-51e5-4b9c-a9f6-6aed0741c677/7868ecaa-9431-43d7-95a8-9c0f01ec9958"
           (reference "C?") (unit 1)
         )
       )
-      (project "Kampela_E1"
+      (project "Kampela_G2"
         (path "/f1094595-086c-43ea-a0be-6f801d9d8744/7868ecaa-9431-43d7-95a8-9c0f01ec9958"
           (reference "C53") (unit 1)
         )
@@ -2819,15 +2794,18 @@
     (property "Datasheet" "~" (at 135.89 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 60d3f2c4-4f56-4560-bd74-e3bbbec992e0))
-    (pin "2" (uuid 9b23b536-601e-4703-85b4-c03487efce72))
+    (property "Description" "" (at 135.89 57.15 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 332a39cc-aa58-49e9-ad7b-846204363f55))
+    (pin "2" (uuid 5df21966-3bab-44d9-9608-ad8332bbe7d4))
     (instances
       (project "Kampela"
         (path "/472e0f49-51e5-4b9c-a9f6-6aed0741c677/7868ecaa-9431-43d7-95a8-9c0f01ec9958"
           (reference "C?") (unit 1)
         )
       )
-      (project "Kampela_E1"
+      (project "Kampela_G2"
         (path "/f1094595-086c-43ea-a0be-6f801d9d8744/7868ecaa-9431-43d7-95a8-9c0f01ec9958"
           (reference "C45") (unit 1)
         )
@@ -2850,15 +2828,18 @@
     (property "Datasheet" "~" (at 91.44 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 740b9f45-7c23-4524-8bda-c12b615ee0c9))
-    (pin "2" (uuid 26e2b7a9-4d6c-4ad0-8a34-31b56cae3553))
+    (property "Description" "" (at 91.44 118.11 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 7f7d702b-aed7-4706-8b3c-66f2c3b6505d))
+    (pin "2" (uuid 984bbf11-bb2a-4017-9fd7-f55d37033b0d))
     (instances
       (project "Kampela"
         (path "/472e0f49-51e5-4b9c-a9f6-6aed0741c677/7868ecaa-9431-43d7-95a8-9c0f01ec9958"
           (reference "R?") (unit 1)
         )
       )
-      (project "Kampela_E1"
+      (project "Kampela_G2"
         (path "/f1094595-086c-43ea-a0be-6f801d9d8744/7868ecaa-9431-43d7-95a8-9c0f01ec9958"
           (reference "R20") (unit 1)
         )
@@ -2881,14 +2862,17 @@
     (property "Datasheet" "" (at 110.49 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 742b5420-6569-49ce-a18a-9efff7a4905a))
+    (property "Description" "" (at 110.49 114.3 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 48bd033d-76c4-4273-b2c1-708cec2a288b))
     (instances
       (project "Kampela"
         (path "/472e0f49-51e5-4b9c-a9f6-6aed0741c677/7868ecaa-9431-43d7-95a8-9c0f01ec9958"
           (reference "#PWR?") (unit 1)
         )
       )
-      (project "Kampela_E1"
+      (project "Kampela_G2"
         (path "/f1094595-086c-43ea-a0be-6f801d9d8744/7868ecaa-9431-43d7-95a8-9c0f01ec9958"
           (reference "#PWR075") (unit 1)
         )
@@ -2911,15 +2895,18 @@
     (property "Datasheet" "~" (at 210.82 106.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid c8d66b93-328d-45f4-bb4b-958b88e905d1))
-    (pin "2" (uuid 93fc3972-5080-425a-8feb-fb957358b9e8))
+    (property "Description" "" (at 210.82 106.68 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 9c89af77-9bd7-4b71-8e91-b72a568d2955))
+    (pin "2" (uuid 105bc360-1d41-49e1-8ab6-67702ca89d6c))
     (instances
       (project "Kampela"
         (path "/472e0f49-51e5-4b9c-a9f6-6aed0741c677/7868ecaa-9431-43d7-95a8-9c0f01ec9958"
           (reference "R?") (unit 1)
         )
       )
-      (project "Kampela_E1"
+      (project "Kampela_G2"
         (path "/f1094595-086c-43ea-a0be-6f801d9d8744/7868ecaa-9431-43d7-95a8-9c0f01ec9958"
           (reference "R26") (unit 1)
         )
@@ -2942,14 +2929,17 @@
     (property "Datasheet" "" (at 190.5 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 4d32aca7-4308-40d4-9d40-a94013e88a13))
+    (property "Description" "" (at 190.5 96.52 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid d2a4f197-c809-4f34-bcc6-e504af190375))
     (instances
       (project "Kampela"
         (path "/472e0f49-51e5-4b9c-a9f6-6aed0741c677/7868ecaa-9431-43d7-95a8-9c0f01ec9958"
           (reference "#PWR?") (unit 1)
         )
       )
-      (project "Kampela_E1"
+      (project "Kampela_G2"
         (path "/f1094595-086c-43ea-a0be-6f801d9d8744/7868ecaa-9431-43d7-95a8-9c0f01ec9958"
           (reference "#PWR080") (unit 1)
         )
@@ -2972,14 +2962,17 @@
     (property "Datasheet" "" (at 26.67 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 8ad41cf8-a694-4f74-b5a6-e30657c83823))
+    (property "Description" "" (at 26.67 113.03 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 2f893e5d-62e2-45c0-a114-5ec26cfd8ba5))
     (instances
       (project "Kampela"
         (path "/472e0f49-51e5-4b9c-a9f6-6aed0741c677/7868ecaa-9431-43d7-95a8-9c0f01ec9958"
           (reference "#PWR?") (unit 1)
         )
       )
-      (project "Kampela_E1"
+      (project "Kampela_G2"
         (path "/f1094595-086c-43ea-a0be-6f801d9d8744/7868ecaa-9431-43d7-95a8-9c0f01ec9958"
           (reference "#PWR064") (unit 1)
         )
@@ -3002,14 +2995,17 @@
     (property "Datasheet" "" (at 236.22 29.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 231da181-d6ed-40f6-bf5a-50c299ca7928))
+    (property "Description" "" (at 236.22 29.21 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid c45ba475-b65d-4a24-80a2-4ee93e5258c3))
     (instances
       (project "Kampela"
         (path "/472e0f49-51e5-4b9c-a9f6-6aed0741c677/7868ecaa-9431-43d7-95a8-9c0f01ec9958"
           (reference "#PWR?") (unit 1)
         )
       )
-      (project "Kampela_E1"
+      (project "Kampela_G2"
         (path "/f1094595-086c-43ea-a0be-6f801d9d8744/7868ecaa-9431-43d7-95a8-9c0f01ec9958"
           (reference "#PWR087") (unit 1)
         )
@@ -3032,15 +3028,18 @@
     (property "Datasheet" "~" (at 91.44 137.16 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 46753cb9-6655-4622-b944-e2c9448a0950))
-    (pin "2" (uuid c9c242a7-7f96-4e07-84ae-9529b524c4de))
+    (property "Description" "" (at 91.44 137.16 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 5b07753f-bf3e-4c96-971b-0f27d9b36e0b))
+    (pin "2" (uuid 4b3ec1c4-1879-4b99-aa31-d7bebca876a5))
     (instances
       (project "Kampela"
         (path "/472e0f49-51e5-4b9c-a9f6-6aed0741c677/7868ecaa-9431-43d7-95a8-9c0f01ec9958"
           (reference "R?") (unit 1)
         )
       )
-      (project "Kampela_E1"
+      (project "Kampela_G2"
         (path "/f1094595-086c-43ea-a0be-6f801d9d8744/7868ecaa-9431-43d7-95a8-9c0f01ec9958"
           (reference "R21") (unit 1)
         )
@@ -3063,15 +3062,18 @@
     (property "Datasheet" "~" (at 160.02 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 7553ded4-fdbc-4c62-b5cd-e64a3dfc540c))
-    (pin "2" (uuid e4ea4ee8-7291-47c9-a01e-ee38c0ae031d))
+    (property "Description" "" (at 160.02 87.63 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid c71d7ba4-b1d4-410e-835a-806bd8b28671))
+    (pin "2" (uuid 65865fea-9712-46ec-ad17-dab25a4b30ef))
     (instances
       (project "Kampela"
         (path "/472e0f49-51e5-4b9c-a9f6-6aed0741c677/7868ecaa-9431-43d7-95a8-9c0f01ec9958"
           (reference "C?") (unit 1)
         )
       )
-      (project "Kampela_E1"
+      (project "Kampela_G2"
         (path "/f1094595-086c-43ea-a0be-6f801d9d8744/7868ecaa-9431-43d7-95a8-9c0f01ec9958"
           (reference "C48") (unit 1)
         )
@@ -3094,15 +3096,18 @@
     (property "Datasheet" "~" (at 212.09 74.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 7bad80de-a457-4ab1-9812-de98e1cc79a8))
-    (pin "2" (uuid 06e37641-61eb-4a5c-890b-7a4535bc37c8))
+    (property "Description" "" (at 212.09 74.93 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 271e08df-b26a-4e48-9a66-c70e785cc0cd))
+    (pin "2" (uuid 8708bb10-774a-4f53-af09-e1dc0d1aca44))
     (instances
       (project "Kampela"
         (path "/472e0f49-51e5-4b9c-a9f6-6aed0741c677/7868ecaa-9431-43d7-95a8-9c0f01ec9958"
           (reference "C?") (unit 1)
         )
       )
-      (project "Kampela_E1"
+      (project "Kampela_G2"
         (path "/f1094595-086c-43ea-a0be-6f801d9d8744/7868ecaa-9431-43d7-95a8-9c0f01ec9958"
           (reference "C55") (unit 1)
         )
@@ -3125,14 +3130,17 @@
     (property "Datasheet" "" (at 135.89 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 5e36fb39-fb7a-4ed5-b894-e8377e42a191))
+    (property "Description" "" (at 135.89 114.3 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 575b28ec-ea9d-4bbe-8a32-abdcbdb3c0a9))
     (instances
       (project "Kampela"
         (path "/472e0f49-51e5-4b9c-a9f6-6aed0741c677/7868ecaa-9431-43d7-95a8-9c0f01ec9958"
           (reference "#PWR?") (unit 1)
         )
       )
-      (project "Kampela_E1"
+      (project "Kampela_G2"
         (path "/f1094595-086c-43ea-a0be-6f801d9d8744/7868ecaa-9431-43d7-95a8-9c0f01ec9958"
           (reference "#PWR078") (unit 1)
         )
@@ -3155,15 +3163,18 @@
     (property "Datasheet" "~" (at 156.21 137.16 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 145743e3-db50-4bee-ab18-286b0eda9eb7))
-    (pin "2" (uuid 0a744477-aa75-45dd-ab6c-3a8c8f9399ef))
+    (property "Description" "" (at 156.21 137.16 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid dbc62814-a807-4a68-9e43-3a6d565533d8))
+    (pin "2" (uuid ab15375d-4797-4999-92f9-f91ff8b35c18))
     (instances
       (project "Kampela"
         (path "/472e0f49-51e5-4b9c-a9f6-6aed0741c677/7868ecaa-9431-43d7-95a8-9c0f01ec9958"
           (reference "R?") (unit 1)
         )
       )
-      (project "Kampela_E1"
+      (project "Kampela_G2"
         (path "/f1094595-086c-43ea-a0be-6f801d9d8744/7868ecaa-9431-43d7-95a8-9c0f01ec9958"
           (reference "R6") (unit 1)
         )
@@ -3186,15 +3197,18 @@
     (property "Datasheet" "~" (at 115.57 74.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 33e59258-f81a-4c54-98d6-75521f60a5d7))
-    (pin "2" (uuid a1f9386c-077a-4a45-9c1f-5b58bab4c28e))
+    (property "Description" "" (at 115.57 74.93 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 52494010-4de6-46d8-b9a9-7b243dee34ab))
+    (pin "2" (uuid 922d3d99-3e0c-441c-865f-c55918f1a952))
     (instances
       (project "Kampela"
         (path "/472e0f49-51e5-4b9c-a9f6-6aed0741c677/7868ecaa-9431-43d7-95a8-9c0f01ec9958"
           (reference "C?") (unit 1)
         )
       )
-      (project "Kampela_E1"
+      (project "Kampela_G2"
         (path "/f1094595-086c-43ea-a0be-6f801d9d8744/7868ecaa-9431-43d7-95a8-9c0f01ec9958"
           (reference "C44") (unit 1)
         )
@@ -3217,15 +3231,18 @@
     (property "Datasheet" "~" (at 210.82 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 551f9f3f-afc3-4814-8a4c-f29196bf3cf3))
-    (pin "2" (uuid 2891e05e-5fa7-4e01-8965-a1d048807ec5))
+    (property "Description" "" (at 210.82 118.11 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 6aeb9974-e97c-4c75-970e-4736a3fb40b8))
+    (pin "2" (uuid fc47dfb2-8e81-4a8d-ba58-ca1c88e5b855))
     (instances
       (project "Kampela"
         (path "/472e0f49-51e5-4b9c-a9f6-6aed0741c677/7868ecaa-9431-43d7-95a8-9c0f01ec9958"
           (reference "R?") (unit 1)
         )
       )
-      (project "Kampela_E1"
+      (project "Kampela_G2"
         (path "/f1094595-086c-43ea-a0be-6f801d9d8744/7868ecaa-9431-43d7-95a8-9c0f01ec9958"
           (reference "R27") (unit 1)
         )
@@ -3248,25 +3265,28 @@
     (property "Datasheet" "http://www.ti.com/lit/ds/symlink/txb0104.pdf" (at 49.784 123.317 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 21c9151b-666d-4755-94bb-d775c886ab80))
-    (pin "10" (uuid 61cfa878-dc50-408d-a1fc-dc0ccaa647e6))
-    (pin "11" (uuid 315b2f87-dbd8-4df6-861d-c04f723c75f8))
-    (pin "12" (uuid f6d22baf-0693-4b59-88e6-efe2a218c381))
-    (pin "2" (uuid 2f5f3cc3-c86b-49a0-a871-fa1d675635e4))
-    (pin "3" (uuid d6eecc2b-742d-48a7-9067-7479016a7fd3))
-    (pin "4" (uuid cbc8c3c5-4ce9-4c44-b1fe-d46ef923aa35))
-    (pin "5" (uuid 1b4687da-924a-4f2a-ba6f-47cddcf9b3b6))
-    (pin "6" (uuid 808868d4-cc5f-4643-b4a2-0b513df4ff76))
-    (pin "7" (uuid e81c4e16-38ae-4f81-b059-5522154a2d3e))
-    (pin "8" (uuid 8ebc7d1e-3e61-420f-a504-fd3b535c212e))
-    (pin "9" (uuid a5eb7bac-22d6-4c42-8e4b-35a0ceff3499))
+    (property "Description" "" (at 46.99 125.73 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 273bee83-a02d-4d87-803c-a1cea8809c24))
+    (pin "10" (uuid 72400a86-6cb2-4687-9f7f-8b276b5118bb))
+    (pin "11" (uuid 6629422a-0c1e-4c53-bac0-bae9d6090beb))
+    (pin "12" (uuid f275d25c-cbdf-4e71-bb84-9e07c1523256))
+    (pin "2" (uuid 9666b681-9e58-47ad-9ebc-976db94c35e6))
+    (pin "3" (uuid 0cc24d8b-60c4-4bca-aa6d-5b646b0084cc))
+    (pin "4" (uuid db34e906-0c85-4780-a31d-50aeab72a672))
+    (pin "5" (uuid 7cdb0f28-3a38-47e1-87fb-233e37e6d3c7))
+    (pin "6" (uuid 3a93c4d2-36b4-4e1d-ad75-1d050ca79a33))
+    (pin "7" (uuid 6e10b3ba-d72e-464e-b9b7-9fd6621c8313))
+    (pin "8" (uuid 7e78d686-8e35-40a9-b833-9e2a337ecba9))
+    (pin "9" (uuid ce85bcc4-1718-449c-b2f0-7e049b2cdf31))
     (instances
       (project "Kampela"
         (path "/472e0f49-51e5-4b9c-a9f6-6aed0741c677/7868ecaa-9431-43d7-95a8-9c0f01ec9958"
           (reference "U?") (unit 1)
         )
       )
-      (project "Kampela_E1"
+      (project "Kampela_G2"
         (path "/f1094595-086c-43ea-a0be-6f801d9d8744/7868ecaa-9431-43d7-95a8-9c0f01ec9958"
           (reference "U7") (unit 1)
         )
@@ -3289,16 +3309,19 @@
     (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAT54W_SER.pdf" (at 147.32 42.672 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f4523d3f-036b-4df6-9650-4d002a661f10))
-    (pin "2" (uuid 125a2c73-b86c-4de9-86d6-4d85163cac9e))
-    (pin "3" (uuid 4a02c65f-91bf-4648-9fc1-4c51d8d942bf))
+    (property "Description" "" (at 147.32 45.72 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 708791e9-875b-40a4-a934-a49f9a320ffb))
+    (pin "2" (uuid 4100539f-c5d9-4307-8ad5-65a4448519e6))
+    (pin "3" (uuid c3d9cc17-9d34-409e-a0a8-540c98bbc816))
     (instances
       (project "Kampela"
         (path "/472e0f49-51e5-4b9c-a9f6-6aed0741c677/7868ecaa-9431-43d7-95a8-9c0f01ec9958"
           (reference "D?") (unit 1)
         )
       )
-      (project "Kampela_E1"
+      (project "Kampela_G2"
         (path "/f1094595-086c-43ea-a0be-6f801d9d8744/7868ecaa-9431-43d7-95a8-9c0f01ec9958"
           (reference "D9") (unit 1)
         )
@@ -3321,15 +3344,18 @@
     (property "Datasheet" "~" (at 210.82 100.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 1f090262-9fcb-499b-af77-7cd92df7d119))
-    (pin "2" (uuid eac69baf-36af-4d9c-a686-d44a6519cdbe))
+    (property "Description" "" (at 210.82 100.33 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 5f9346a1-6a21-494c-9476-71d437f528de))
+    (pin "2" (uuid 9522298b-d6e5-41d9-a8ba-a59b8cdf2072))
     (instances
       (project "Kampela"
         (path "/472e0f49-51e5-4b9c-a9f6-6aed0741c677/7868ecaa-9431-43d7-95a8-9c0f01ec9958"
           (reference "R?") (unit 1)
         )
       )
-      (project "Kampela_E1"
+      (project "Kampela_G2"
         (path "/f1094595-086c-43ea-a0be-6f801d9d8744/7868ecaa-9431-43d7-95a8-9c0f01ec9958"
           (reference "R25") (unit 1)
         )
@@ -3352,15 +3378,18 @@
     (property "Datasheet" "~" (at 125.73 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 6a873b22-d9f2-4c50-9709-3b43663ad176))
-    (pin "2" (uuid 45891e8e-bcce-4a20-9c1a-51f366684bb1))
+    (property "Description" "" (at 125.73 87.63 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 66365b3f-049a-49eb-a0db-a2f2ade2eab3))
+    (pin "2" (uuid 2da23361-6964-4ca4-89e3-ffa007c26088))
     (instances
       (project "Kampela"
         (path "/472e0f49-51e5-4b9c-a9f6-6aed0741c677/7868ecaa-9431-43d7-95a8-9c0f01ec9958"
           (reference "R?") (unit 1)
         )
       )
-      (project "Kampela_E1"
+      (project "Kampela_G2"
         (path "/f1094595-086c-43ea-a0be-6f801d9d8744/7868ecaa-9431-43d7-95a8-9c0f01ec9958"
           (reference "R19") (unit 1)
         )
@@ -3383,14 +3412,17 @@
     (property "Datasheet" "" (at 163.83 140.97 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 1d93b988-9879-440d-85ee-b8adcc9d8d5b))
+    (property "Description" "" (at 163.83 140.97 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 8befb1c7-f208-4cda-9cd7-b86cf5da69d4))
     (instances
       (project "Kampela"
         (path "/472e0f49-51e5-4b9c-a9f6-6aed0741c677/7868ecaa-9431-43d7-95a8-9c0f01ec9958"
           (reference "#PWR?") (unit 1)
         )
       )
-      (project "Kampela_E1"
+      (project "Kampela_G2"
         (path "/f1094595-086c-43ea-a0be-6f801d9d8744/7868ecaa-9431-43d7-95a8-9c0f01ec9958"
           (reference "#PWR018") (unit 1)
         )
@@ -3413,14 +3445,17 @@
     (property "Datasheet" "" (at 135.89 140.97 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 83ccd925-3ecb-4a0c-b42f-784512d8f9ce))
+    (property "Description" "" (at 135.89 140.97 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 5dc26788-71aa-4ad5-bb25-f812b3f82f66))
     (instances
       (project "Kampela"
         (path "/472e0f49-51e5-4b9c-a9f6-6aed0741c677/7868ecaa-9431-43d7-95a8-9c0f01ec9958"
           (reference "#PWR?") (unit 1)
         )
       )
-      (project "Kampela_E1"
+      (project "Kampela_G2"
         (path "/f1094595-086c-43ea-a0be-6f801d9d8744/7868ecaa-9431-43d7-95a8-9c0f01ec9958"
           (reference "#PWR079") (unit 1)
         )
@@ -3443,14 +3478,17 @@
     (property "Datasheet" "" (at 199.39 100.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 309304f5-646b-4af9-baaf-5afd9ccde64d))
+    (property "Description" "" (at 199.39 100.33 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 40450f4c-d017-4772-bcb4-e44e97eeddec))
     (instances
       (project "Kampela"
         (path "/472e0f49-51e5-4b9c-a9f6-6aed0741c677/7868ecaa-9431-43d7-95a8-9c0f01ec9958"
           (reference "#PWR?") (unit 1)
         )
       )
-      (project "Kampela_E1"
+      (project "Kampela_G2"
         (path "/f1094595-086c-43ea-a0be-6f801d9d8744/7868ecaa-9431-43d7-95a8-9c0f01ec9958"
           (reference "#PWR081") (unit 1)
         )
@@ -3473,15 +3511,18 @@
     (property "Datasheet" "~" (at 250.19 38.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 410abed1-5294-455f-a910-9d4933834c47))
-    (pin "2" (uuid fbaa57f4-7260-438e-a98d-a15296be4483))
+    (property "Description" "" (at 250.19 38.1 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 5902b6ab-766e-41c0-9ab6-653bd7393b6c))
+    (pin "2" (uuid 55e3fda6-1a6e-4593-bf38-706b0dc11463))
     (instances
       (project "Kampela"
         (path "/472e0f49-51e5-4b9c-a9f6-6aed0741c677/7868ecaa-9431-43d7-95a8-9c0f01ec9958"
           (reference "C?") (unit 1)
         )
       )
-      (project "Kampela_E1"
+      (project "Kampela_G2"
         (path "/f1094595-086c-43ea-a0be-6f801d9d8744/7868ecaa-9431-43d7-95a8-9c0f01ec9958"
           (reference "C57") (unit 1)
         )
@@ -3504,38 +3545,41 @@
     (property "Datasheet" "~" (at 232.41 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 7157438b-b009-464b-a032-a29cf4b0cf48))
-    (pin "10" (uuid 660f5c97-3518-4361-9e93-fda8fedf5b8c))
-    (pin "11" (uuid 4be5af1c-f01a-499f-8e4a-1781a09b82b2))
-    (pin "12" (uuid 3013d1f8-62a3-4b6f-acbf-03792bd28d48))
-    (pin "13" (uuid f2acdd24-1f71-4d09-9a76-f5f31f6e4bad))
-    (pin "14" (uuid c422b03f-185a-4e12-a8ea-512a901737f1))
-    (pin "15" (uuid 901b8751-a631-4247-aa32-73828837891d))
-    (pin "16" (uuid acc4c191-049e-4999-99bc-01e0b136e87b))
-    (pin "17" (uuid 3ee83504-4828-466c-bde5-dcb6ee706fa9))
-    (pin "18" (uuid b9ec1301-46e5-4944-99e9-7fa25e189d4a))
-    (pin "19" (uuid b8f2530b-c950-4763-824c-e86c68e56fec))
-    (pin "2" (uuid b22e2ab0-9150-4bae-af5c-4e6e1bf089a4))
-    (pin "20" (uuid bc132fc2-e283-4d6c-a3e2-a9d8542aea4f))
-    (pin "21" (uuid 146456a6-5361-4530-88ee-67f19b9efac6))
-    (pin "22" (uuid 0b5df7d8-c2f6-491a-9938-c7a592190f5f))
-    (pin "23" (uuid f987bec6-c8eb-4006-8d47-77003791d7ce))
-    (pin "24" (uuid 8ae2e406-8c6a-4321-80a8-cdb1b263ec69))
-    (pin "3" (uuid e2e0bd40-3fdd-475b-b697-c66b970f8917))
-    (pin "4" (uuid 737bf860-abea-4181-8db0-7820ba9e8415))
-    (pin "5" (uuid eb026d50-25a5-43ed-bb26-0e94c94dae3b))
-    (pin "6" (uuid 2faccac2-8ee5-4784-be5e-d40562bcf595))
-    (pin "7" (uuid ae6d6cb8-a091-4419-9d98-5da418fd772a))
-    (pin "8" (uuid b10150e6-9f30-4d96-9e86-f9f3e701b1a8))
-    (pin "9" (uuid e3c0c4dc-d020-4bf9-ab02-489cc870aae2))
-    (pin "S2" (uuid 3923dc6f-f202-4282-b8b3-1216d2a16b39))
+    (property "Description" "" (at 232.41 57.15 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid c1dce0fa-5c42-4a99-ad41-e8849d7f1acd))
+    (pin "10" (uuid 1b29732e-faec-444e-a39c-7c85341546d9))
+    (pin "11" (uuid d060f68d-cf95-49bb-ac71-b2ee609c2110))
+    (pin "12" (uuid 0482510b-752e-4729-bff4-37672881fd0c))
+    (pin "13" (uuid debee6b8-90fe-4bc8-ac51-db7749f7fa3b))
+    (pin "14" (uuid df19018e-2e89-4717-8ba1-393b7ddebfa1))
+    (pin "15" (uuid ae7612ae-76dc-4456-839b-63523dbe3cff))
+    (pin "16" (uuid e6b6d36e-8a9d-407b-9dee-ef3e8eae65bf))
+    (pin "17" (uuid f12858d6-267d-4aa6-9f4c-ceca4bd6146e))
+    (pin "18" (uuid fcae630b-c4cf-405e-a65e-75ec316b628a))
+    (pin "19" (uuid a4bc212e-bbb8-4d5b-8000-b9669c751b35))
+    (pin "2" (uuid 90281a25-a598-47a0-8c13-f016f315e118))
+    (pin "20" (uuid 21cf35db-5dd8-4477-b107-a957f7e8c64e))
+    (pin "21" (uuid 0a9513c7-3520-4d85-888b-b68b66fed46c))
+    (pin "22" (uuid a6c79c70-dcc9-47b7-abf5-fbb83a8703c7))
+    (pin "23" (uuid f8b34053-e39e-4448-bef8-6047125fc197))
+    (pin "24" (uuid 0bbe6534-2d9b-420a-bef8-80d32113ec2e))
+    (pin "3" (uuid 3000a5ab-ce43-48ba-8e14-c1147c7dbd98))
+    (pin "4" (uuid 603348e5-cb78-40eb-b8d7-258ba4888a1f))
+    (pin "5" (uuid bf2c2472-89d8-44cb-ac8b-1850eae8f06f))
+    (pin "6" (uuid 3c34019e-04b0-473a-b943-b3ca1fe05ec8))
+    (pin "7" (uuid bd55bf0c-19a0-4f18-8b76-a2293d3b7a3d))
+    (pin "8" (uuid da5d0a88-b870-4818-9ae4-9fce6543fd67))
+    (pin "9" (uuid e172dc60-f11a-48c8-af0a-a83ed947f8be))
+    (pin "S2" (uuid e43d4ea0-b80a-4edd-ad05-963f8d60b76d))
     (instances
       (project "Kampela"
         (path "/472e0f49-51e5-4b9c-a9f6-6aed0741c677/7868ecaa-9431-43d7-95a8-9c0f01ec9958"
           (reference "J?") (unit 1)
         )
       )
-      (project "Kampela_E1"
+      (project "Kampela_G2"
         (path "/f1094595-086c-43ea-a0be-6f801d9d8744/7868ecaa-9431-43d7-95a8-9c0f01ec9958"
           (reference "J4") (unit 1)
         )
@@ -3558,14 +3602,17 @@
     (property "Datasheet" "" (at 160.02 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid d53ada32-4ee6-4e58-b486-5a46ffbd0853))
+    (property "Description" "" (at 160.02 96.52 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid d0845f8a-79d9-4ec8-83a3-18fcb6495db0))
     (instances
       (project "Kampela"
         (path "/472e0f49-51e5-4b9c-a9f6-6aed0741c677/7868ecaa-9431-43d7-95a8-9c0f01ec9958"
           (reference "#PWR?") (unit 1)
         )
       )
-      (project "Kampela_E1"
+      (project "Kampela_G2"
         (path "/f1094595-086c-43ea-a0be-6f801d9d8744/7868ecaa-9431-43d7-95a8-9c0f01ec9958"
           (reference "#PWR077") (unit 1)
         )
@@ -3588,14 +3635,17 @@
     (property "Datasheet" "" (at 163.83 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 15b0ffd2-55e3-46cb-9e49-e7ef04805221))
+    (property "Description" "" (at 163.83 114.3 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid cd9eae65-35b6-478a-a06c-635b837c3883))
     (instances
       (project "Kampela"
         (path "/472e0f49-51e5-4b9c-a9f6-6aed0741c677/7868ecaa-9431-43d7-95a8-9c0f01ec9958"
           (reference "#PWR?") (unit 1)
         )
       )
-      (project "Kampela_E1"
+      (project "Kampela_G2"
         (path "/f1094595-086c-43ea-a0be-6f801d9d8744/7868ecaa-9431-43d7-95a8-9c0f01ec9958"
           (reference "#PWR062") (unit 1)
         )
@@ -3618,14 +3668,17 @@
     (property "Datasheet" "" (at 105.41 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid eb45bc9d-474b-4b2e-98d6-14c8c96656d0))
+    (property "Description" "" (at 105.41 45.72 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 911cd613-635c-4f75-8724-850580d4f022))
     (instances
       (project "Kampela"
         (path "/472e0f49-51e5-4b9c-a9f6-6aed0741c677/7868ecaa-9431-43d7-95a8-9c0f01ec9958"
           (reference "#PWR?") (unit 1)
         )
       )
-      (project "Kampela_E1"
+      (project "Kampela_G2"
         (path "/f1094595-086c-43ea-a0be-6f801d9d8744/7868ecaa-9431-43d7-95a8-9c0f01ec9958"
           (reference "#PWR070") (unit 1)
         )
@@ -3648,76 +3701,19 @@
     (property "Datasheet" "" (at 274.32 44.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e7ef291a-74b0-45f6-a53c-15d549655721))
+    (property "Description" "" (at 274.32 44.45 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid c8b05c1e-4cec-47af-9e3d-1e6410e698d3))
     (instances
       (project "Kampela"
         (path "/472e0f49-51e5-4b9c-a9f6-6aed0741c677/7868ecaa-9431-43d7-95a8-9c0f01ec9958"
           (reference "#PWR?") (unit 1)
         )
       )
-      (project "Kampela_E1"
+      (project "Kampela_G2"
         (path "/f1094595-086c-43ea-a0be-6f801d9d8744/7868ecaa-9431-43d7-95a8-9c0f01ec9958"
           (reference "#PWR088") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Connector:TestPoint") (at 160.02 67.31 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 81567c81-7266-43f4-b25c-b9875fe45eeb)
-    (property "Reference" "TP?" (at 162.56 64.0079 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "TestPoint" (at 162.56 65.2779 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm" (at 165.1 67.31 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 165.1 67.31 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 2f93ec48-c3c5-496f-8f82-db28ac1a3975))
-    (instances
-      (project "Kampela"
-        (path "/472e0f49-51e5-4b9c-a9f6-6aed0741c677/7868ecaa-9431-43d7-95a8-9c0f01ec9958"
-          (reference "TP?") (unit 1)
-        )
-      )
-      (project "Kampela_E1"
-        (path "/f1094595-086c-43ea-a0be-6f801d9d8744/7868ecaa-9431-43d7-95a8-9c0f01ec9958"
-          (reference "TP5") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Connector:TestPoint") (at 220.98 87.63 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 83a69c8d-4560-4b80-a6d4-17328759689a)
-    (property "Reference" "TP?" (at 223.52 90.9319 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Value" "TestPoint" (at 218.44 89.6621 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm" (at 215.9 87.63 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 215.9 87.63 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid a9e413df-664b-4916-b1ec-f5c189f96f25))
-    (instances
-      (project "Kampela"
-        (path "/472e0f49-51e5-4b9c-a9f6-6aed0741c677/7868ecaa-9431-43d7-95a8-9c0f01ec9958"
-          (reference "TP?") (unit 1)
-        )
-      )
-      (project "Kampela_E1"
-        (path "/f1094595-086c-43ea-a0be-6f801d9d8744/7868ecaa-9431-43d7-95a8-9c0f01ec9958"
-          (reference "TP6") (unit 1)
         )
       )
     )
@@ -3738,14 +3734,17 @@
     (property "Datasheet" "" (at 115.57 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 0348d791-bacb-4f49-bce6-d60530aa3ca8))
+    (property "Description" "" (at 115.57 80.01 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 4c0724cb-2591-4a93-a098-6ad75ad0a154))
     (instances
       (project "Kampela"
         (path "/472e0f49-51e5-4b9c-a9f6-6aed0741c677/7868ecaa-9431-43d7-95a8-9c0f01ec9958"
           (reference "#PWR?") (unit 1)
         )
       )
-      (project "Kampela_E1"
+      (project "Kampela_G2"
         (path "/f1094595-086c-43ea-a0be-6f801d9d8744/7868ecaa-9431-43d7-95a8-9c0f01ec9958"
           (reference "#PWR072") (unit 1)
         )
@@ -3768,15 +3767,18 @@
     (property "Datasheet" "~" (at 64.77 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 07995555-18b5-4a88-b1ef-1786cdc4f7ff))
-    (pin "2" (uuid aaad67f0-78f8-491a-b5db-7245ea0d3f4d))
+    (property "Description" "" (at 64.77 118.11 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 156a0739-b109-4d44-a00e-65df9275a0c4))
+    (pin "2" (uuid c65ffaa2-0589-435d-9b92-330251aa3357))
     (instances
       (project "Kampela"
         (path "/472e0f49-51e5-4b9c-a9f6-6aed0741c677/7868ecaa-9431-43d7-95a8-9c0f01ec9958"
           (reference "R?") (unit 1)
         )
       )
-      (project "Kampela_E1"
+      (project "Kampela_G2"
         (path "/f1094595-086c-43ea-a0be-6f801d9d8744/7868ecaa-9431-43d7-95a8-9c0f01ec9958"
           (reference "R33") (unit 1)
         )
@@ -3799,15 +3801,18 @@
     (property "Datasheet" "~" (at 38.1 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid ce58201f-c30a-41fe-b952-1099941a88ce))
-    (pin "2" (uuid bf60808d-14a0-4fc7-a2e8-f51a0f12b706))
+    (property "Description" "" (at 38.1 102.87 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 8a6c5256-ffbd-4885-ae0c-7804a46aebca))
+    (pin "2" (uuid b7677cd9-7b51-4070-b566-95f712947fc3))
     (instances
       (project "Kampela"
         (path "/472e0f49-51e5-4b9c-a9f6-6aed0741c677/7868ecaa-9431-43d7-95a8-9c0f01ec9958"
           (reference "C?") (unit 1)
         )
       )
-      (project "Kampela_E1"
+      (project "Kampela_G2"
         (path "/f1094595-086c-43ea-a0be-6f801d9d8744/7868ecaa-9431-43d7-95a8-9c0f01ec9958"
           (reference "C41") (unit 1)
         )
@@ -3830,46 +3835,19 @@
     (property "Datasheet" "https://www.onsemi.com/pub/Collateral/FDG1024NZ-D.pdf" (at 133.35 133.35 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (pin "1" (uuid 19effc04-1812-49b3-8b51-752d3cbd3609))
-    (pin "2" (uuid 29ac38c0-890e-4605-9e26-92a77490375d))
-    (pin "6" (uuid 33f44a6f-2780-4906-846b-8546f9a7cc95))
-    (pin "3" (uuid 5d763023-7711-435c-90d2-5583dba28e54))
-    (pin "4" (uuid a108680b-2323-407a-b059-cd8e02a57e66))
-    (pin "5" (uuid ab4adfb2-d1cd-4b0a-a026-9c66b832a3ef))
+    (property "Description" "" (at 133.35 133.35 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 87013ec2-49dc-4a21-a385-c795540d9982))
+    (pin "2" (uuid 159fcf8f-20c4-463c-9658-4a0e88e18cd2))
+    (pin "6" (uuid fe221018-bd5d-4b7b-b84d-9d727b45caeb))
+    (pin "3" (uuid 4e9a79e1-19f8-4385-9915-934e48e61229))
+    (pin "4" (uuid 1fb87d29-6645-478a-b0ca-b5499b136757))
+    (pin "5" (uuid 0178e07c-9ac0-4402-ad44-7d0128648c5a))
     (instances
-      (project "Kampela_E1"
+      (project "Kampela_G2"
         (path "/f1094595-086c-43ea-a0be-6f801d9d8744/7868ecaa-9431-43d7-95a8-9c0f01ec9958"
           (reference "Q4") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Connector:TestPoint") (at 160.02 33.02 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 9411a1aa-085d-4717-ad67-b7dc2571d28e)
-    (property "Reference" "TP?" (at 162.56 29.7179 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "TestPoint" (at 162.56 30.9879 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm" (at 165.1 33.02 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 165.1 33.02 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid cfda28b1-a4df-4b00-ad5e-1e77b5a4e82d))
-    (instances
-      (project "Kampela"
-        (path "/472e0f49-51e5-4b9c-a9f6-6aed0741c677/7868ecaa-9431-43d7-95a8-9c0f01ec9958"
-          (reference "TP?") (unit 1)
-        )
-      )
-      (project "Kampela_E1"
-        (path "/f1094595-086c-43ea-a0be-6f801d9d8744/7868ecaa-9431-43d7-95a8-9c0f01ec9958"
-          (reference "TP4") (unit 1)
         )
       )
     )
@@ -3890,15 +3868,18 @@
     (property "Datasheet" "~" (at 201.93 77.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 3e451674-50f7-4db1-a70b-c99cf7002611))
-    (pin "2" (uuid 313b6e26-b4fb-4f7e-96b9-b304d93c2784))
+    (property "Description" "" (at 201.93 77.47 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid f2a8a99f-ab21-4d0a-b32b-703087afe256))
+    (pin "2" (uuid 9a4cefae-2b56-4370-8578-518b67951b00))
     (instances
       (project "Kampela"
         (path "/472e0f49-51e5-4b9c-a9f6-6aed0741c677/7868ecaa-9431-43d7-95a8-9c0f01ec9958"
           (reference "C?") (unit 1)
         )
       )
-      (project "Kampela_E1"
+      (project "Kampela_G2"
         (path "/f1094595-086c-43ea-a0be-6f801d9d8744/7868ecaa-9431-43d7-95a8-9c0f01ec9958"
           (reference "C52") (unit 1)
         )
@@ -3921,15 +3902,18 @@
     (property "Datasheet" "~" (at 105.41 53.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 3c231845-51b5-42d5-a706-98dafd657755))
-    (pin "2" (uuid 9e874c78-73d8-4282-a0e1-99ab7ba38491))
+    (property "Description" "" (at 105.41 53.34 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 62c3374c-1897-4882-802f-20ca17294cde))
+    (pin "2" (uuid e7fde2d2-eaec-431a-a85c-a0a0e804d52a))
     (instances
       (project "Kampela"
         (path "/472e0f49-51e5-4b9c-a9f6-6aed0741c677/7868ecaa-9431-43d7-95a8-9c0f01ec9958"
           (reference "FB?") (unit 1)
         )
       )
-      (project "Kampela_E1"
+      (project "Kampela_G2"
         (path "/f1094595-086c-43ea-a0be-6f801d9d8744/7868ecaa-9431-43d7-95a8-9c0f01ec9958"
           (reference "FB4") (unit 1)
         )
@@ -3952,15 +3936,18 @@
     (property "Datasheet" "~" (at 106.68 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f998b9ab-e07f-4b5e-9560-8c00837ba14b))
-    (pin "2" (uuid 9ebc93c7-8d7a-4cce-bd6c-fad26d19f763))
+    (property "Description" "" (at 106.68 114.3 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid fa71448e-4b83-4dea-8185-f2a4a0128cbf))
+    (pin "2" (uuid cc3357d8-5664-4fb7-8038-7cbb06b1b529))
     (instances
       (project "Kampela"
         (path "/472e0f49-51e5-4b9c-a9f6-6aed0741c677/7868ecaa-9431-43d7-95a8-9c0f01ec9958"
           (reference "C?") (unit 1)
         )
       )
-      (project "Kampela_E1"
+      (project "Kampela_G2"
         (path "/f1094595-086c-43ea-a0be-6f801d9d8744/7868ecaa-9431-43d7-95a8-9c0f01ec9958"
           (reference "C46") (unit 1)
         )
@@ -3983,15 +3970,18 @@
     (property "Datasheet" "~" (at 163.83 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 09c53e15-5637-4d28-a6c2-e57dfc409672))
-    (pin "2" (uuid a598bbd3-e5b7-44f2-9602-1ac12a8c656a))
+    (property "Description" "" (at 163.83 118.11 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid d7e2933a-a5b2-4387-8861-efeb9ef67fd7))
+    (pin "2" (uuid 70cf8263-d82b-420b-b2df-66734436ee67))
     (instances
       (project "Kampela"
         (path "/472e0f49-51e5-4b9c-a9f6-6aed0741c677/7868ecaa-9431-43d7-95a8-9c0f01ec9958"
           (reference "R?") (unit 1)
         )
       )
-      (project "Kampela_E1"
+      (project "Kampela_G2"
         (path "/f1094595-086c-43ea-a0be-6f801d9d8744/7868ecaa-9431-43d7-95a8-9c0f01ec9958"
           (reference "R29") (unit 1)
         )
@@ -4014,15 +4004,18 @@
     (property "Datasheet" "~" (at 210.82 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 30306af9-a711-448e-806f-7075fb0f1e05))
-    (pin "2" (uuid 44095776-cf08-4138-9371-0f7226e9f0d2))
+    (property "Description" "" (at 210.82 113.03 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 5c0be9ea-351f-4c82-851b-e5ab5e81dcad))
+    (pin "2" (uuid 83b9d68d-5926-4dfa-b944-67fbffa7a4de))
     (instances
       (project "Kampela"
         (path "/472e0f49-51e5-4b9c-a9f6-6aed0741c677/7868ecaa-9431-43d7-95a8-9c0f01ec9958"
           (reference "R?") (unit 1)
         )
       )
-      (project "Kampela_E1"
+      (project "Kampela_G2"
         (path "/f1094595-086c-43ea-a0be-6f801d9d8744/7868ecaa-9431-43d7-95a8-9c0f01ec9958"
           (reference "R28") (unit 1)
         )
@@ -4045,14 +4038,17 @@
     (property "Datasheet" "https://www.onsemi.com/pub/Collateral/FDG1024NZ-D.pdf" (at 161.29 133.35 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (pin "1" (uuid 07b6cc74-7d93-4c32-9272-4183f51cd625))
-    (pin "2" (uuid 693e5c80-c294-4fb6-ac50-d238df2ea15f))
-    (pin "6" (uuid 4899d1ee-d38a-4463-8851-b9a85b47686d))
-    (pin "3" (uuid ceafabcc-f9bf-44b9-82b4-991207c96fcc))
-    (pin "4" (uuid e3f148b9-ac72-4b49-af56-27948599f328))
-    (pin "5" (uuid a3ab4fe3-1c6b-49fc-ae3d-75783a53a2d7))
+    (property "Description" "" (at 161.29 133.35 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid b251b6c0-4dc3-4ad2-8874-16764eaac5de))
+    (pin "2" (uuid 9826913a-92f1-4708-82c2-69818237162f))
+    (pin "6" (uuid 7dfd2d23-8569-4757-af80-9fe7f488a6c0))
+    (pin "3" (uuid 2bb60cbd-a65c-4f9e-82d4-16f535f9285c))
+    (pin "4" (uuid 62f59064-5df8-4814-8289-f14415069370))
+    (pin "5" (uuid f7c30206-2fa2-44fb-9c75-ca00d8d4c89f))
     (instances
-      (project "Kampela_E1"
+      (project "Kampela_G2"
         (path "/f1094595-086c-43ea-a0be-6f801d9d8744/7868ecaa-9431-43d7-95a8-9c0f01ec9958"
           (reference "Q4") (unit 2)
         )
@@ -4075,15 +4071,18 @@
     (property "Datasheet" "~" (at 127 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 354b97fe-02e8-47ee-be0c-d856313c4652))
-    (pin "2" (uuid 1224e41a-39d2-4e82-b612-a557c47f4cdc))
+    (property "Description" "" (at 127 67.31 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 33eff6c1-d618-4c29-abc3-b88f2611e89e))
+    (pin "2" (uuid 0cc3a621-e87f-4e4d-ad9f-5c996462363d))
     (instances
       (project "Kampela"
         (path "/472e0f49-51e5-4b9c-a9f6-6aed0741c677/7868ecaa-9431-43d7-95a8-9c0f01ec9958"
           (reference "L?") (unit 1)
         )
       )
-      (project "Kampela_E1"
+      (project "Kampela_G2"
         (path "/f1094595-086c-43ea-a0be-6f801d9d8744/7868ecaa-9431-43d7-95a8-9c0f01ec9958"
           (reference "L3") (unit 1)
         )
@@ -4106,14 +4105,17 @@
     (property "Datasheet" "https://www.onsemi.com/pub/Collateral/FDG1024NZ-D.pdf" (at 100.33 138.43 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (pin "1" (uuid 07b6cc74-7d93-4c32-9272-4183f51cd624))
-    (pin "2" (uuid 693e5c80-c294-4fb6-ac50-d238df2ea15e))
-    (pin "6" (uuid 4899d1ee-d38a-4463-8851-b9a85b47686c))
-    (pin "3" (uuid 3c47548b-3770-45c1-a0f5-8405a5cf88d2))
-    (pin "4" (uuid 7b2777af-5208-41c2-8334-abc7766dacaa))
-    (pin "5" (uuid 7dc1a72c-01af-46bf-98c1-08e4d7982a85))
+    (property "Description" "" (at 100.33 138.43 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 55ddfc1c-fdd6-4a3d-a534-e3f211341158))
+    (pin "2" (uuid 323b6e33-2482-4434-bbda-adbab2494701))
+    (pin "6" (uuid b1b74c6d-5c14-470c-b316-038ef951f56c))
+    (pin "3" (uuid 9730f3fc-73c6-4ad3-b05a-c413b7f5e3fe))
+    (pin "4" (uuid e1eb79d4-8690-4abc-a6f5-2f8de135ef94))
+    (pin "5" (uuid 4bad6e79-d665-4b2e-b9ce-4bf194db44f8))
     (instances
-      (project "Kampela_E1"
+      (project "Kampela_G2"
         (path "/f1094595-086c-43ea-a0be-6f801d9d8744/7868ecaa-9431-43d7-95a8-9c0f01ec9958"
           (reference "Q3") (unit 2)
         )
@@ -4136,20 +4138,23 @@
     (property "Datasheet" "~" (at 269.24 36.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid d141f374-c26b-4a17-b0fc-12d611ccfaa6))
-    (pin "2" (uuid e8dda858-6dee-45df-8653-502356f8489b))
-    (pin "3" (uuid 6fdc95ee-ffb6-4730-b2d6-ce0f1bc4e03b))
-    (pin "4" (uuid 82d6e7d1-451f-4e19-9703-dcc4a0fe607c))
-    (pin "5" (uuid 9dc857c9-9678-469a-8be4-cb5570aa703f))
-    (pin "6" (uuid 1c3d02a0-ac78-492a-ab0f-085bae3c908e))
-    (pin "S2" (uuid 49ecb662-b036-4c64-8bb5-67a340e74808))
+    (property "Description" "" (at 269.24 36.83 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid bb80a7b3-8005-437b-9fc7-2c2e3ca78c77))
+    (pin "2" (uuid b0c38a09-d545-4117-a167-1428a6daef7f))
+    (pin "3" (uuid 4c129354-c235-4b59-8f46-1ab1860572d6))
+    (pin "4" (uuid 22592a01-33c3-4538-b083-ae6ed2dd67a7))
+    (pin "5" (uuid 256fe217-cf00-4fd7-af48-aab64969f480))
+    (pin "6" (uuid 95cd5710-fe58-4c00-a393-339a03727e56))
+    (pin "S2" (uuid 1a91296e-f90b-429d-9a0a-862e2345d37c))
     (instances
       (project "Kampela"
         (path "/472e0f49-51e5-4b9c-a9f6-6aed0741c677/7868ecaa-9431-43d7-95a8-9c0f01ec9958"
           (reference "J?") (unit 1)
         )
       )
-      (project "Kampela_E1"
+      (project "Kampela_G2"
         (path "/f1094595-086c-43ea-a0be-6f801d9d8744/7868ecaa-9431-43d7-95a8-9c0f01ec9958"
           (reference "J5") (unit 1)
         )
@@ -4172,15 +4177,18 @@
     (property "Datasheet" "~" (at 196.85 36.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 5be1a102-876b-4169-9386-8f42d1515397))
-    (pin "2" (uuid 5c31681e-4190-4f82-a904-7448f976069f))
+    (property "Description" "" (at 196.85 36.83 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 8277e678-9951-45b5-9d63-e6db1e338351))
+    (pin "2" (uuid 535c84b3-7fc7-41d8-ad6b-551d35d555bf))
     (instances
       (project "Kampela"
         (path "/472e0f49-51e5-4b9c-a9f6-6aed0741c677/7868ecaa-9431-43d7-95a8-9c0f01ec9958"
           (reference "C?") (unit 1)
         )
       )
-      (project "Kampela_E1"
+      (project "Kampela_G2"
         (path "/f1094595-086c-43ea-a0be-6f801d9d8744/7868ecaa-9431-43d7-95a8-9c0f01ec9958"
           (reference "C49") (unit 1)
         )
@@ -4203,16 +4211,19 @@
     (property "Datasheet" "~" (at 133.35 74.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 4e746add-80bc-4bd6-9d0c-9607de768adc))
-    (pin "2" (uuid cf29c82b-f764-46ba-b05e-05a4bd569205))
-    (pin "3" (uuid 1ed2087e-32b5-47f1-aedc-e26c4aacf06f))
+    (property "Description" "" (at 133.35 74.93 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid dd7189eb-9c53-4769-a3e5-0ea97e6a92e9))
+    (pin "2" (uuid c5754846-80b2-478e-937d-504da11808d5))
+    (pin "3" (uuid 77b12ce5-c90c-4f07-bc75-069d065ff43f))
     (instances
       (project "Kampela"
         (path "/472e0f49-51e5-4b9c-a9f6-6aed0741c677/7868ecaa-9431-43d7-95a8-9c0f01ec9958"
           (reference "Q?") (unit 1)
         )
       )
-      (project "Kampela_E1"
+      (project "Kampela_G2"
         (path "/f1094595-086c-43ea-a0be-6f801d9d8744/7868ecaa-9431-43d7-95a8-9c0f01ec9958"
           (reference "Q2") (unit 1)
         )
@@ -4235,15 +4246,18 @@
     (property "Datasheet" "~" (at 201.93 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid df34be52-1cc8-423b-b93a-f253d5eaf382))
-    (pin "2" (uuid daec3081-ab1d-48d1-94d8-3ad122c266ab))
+    (property "Description" "" (at 201.93 67.31 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid a3f3fec8-6de7-472c-9b73-bb18e825cd25))
+    (pin "2" (uuid 1e63b18b-de15-4aaa-9dd2-9f3bf4c8aaf9))
     (instances
       (project "Kampela"
         (path "/472e0f49-51e5-4b9c-a9f6-6aed0741c677/7868ecaa-9431-43d7-95a8-9c0f01ec9958"
           (reference "C?") (unit 1)
         )
       )
-      (project "Kampela_E1"
+      (project "Kampela_G2"
         (path "/f1094595-086c-43ea-a0be-6f801d9d8744/7868ecaa-9431-43d7-95a8-9c0f01ec9958"
           (reference "C50") (unit 1)
         )
@@ -4266,14 +4280,17 @@
     (property "Datasheet" "" (at 46.99 146.05 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 41d13a55-ff5f-4ea9-b1e0-ea93aacc14eb))
+    (property "Description" "" (at 46.99 146.05 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid a76bcccd-2633-4d60-9e62-c2a0ea4a1c0a))
     (instances
       (project "Kampela"
         (path "/472e0f49-51e5-4b9c-a9f6-6aed0741c677/7868ecaa-9431-43d7-95a8-9c0f01ec9958"
           (reference "#PWR?") (unit 1)
         )
       )
-      (project "Kampela_E1"
+      (project "Kampela_G2"
         (path "/f1094595-086c-43ea-a0be-6f801d9d8744/7868ecaa-9431-43d7-95a8-9c0f01ec9958"
           (reference "#PWR067") (unit 1)
         )
@@ -4296,14 +4313,17 @@
     (property "Datasheet" "" (at 34.29 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 70ad8276-9a42-4391-bc10-0e02449b6265))
+    (property "Description" "" (at 34.29 102.87 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 9b3b5260-f65a-478d-9ca7-2a4327070706))
     (instances
       (project "Kampela"
         (path "/472e0f49-51e5-4b9c-a9f6-6aed0741c677/7868ecaa-9431-43d7-95a8-9c0f01ec9958"
           (reference "#PWR?") (unit 1)
         )
       )
-      (project "Kampela_E1"
+      (project "Kampela_G2"
         (path "/f1094595-086c-43ea-a0be-6f801d9d8744/7868ecaa-9431-43d7-95a8-9c0f01ec9958"
           (reference "#PWR065") (unit 1)
         )
@@ -4326,14 +4346,17 @@
     (property "Datasheet" "" (at 255.27 133.35 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 5181678f-ae08-4061-926b-a1186a41d8a2))
+    (property "Description" "" (at 255.27 133.35 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid cf3ffd9c-140d-42b1-9b45-a4514e6e132d))
     (instances
       (project "Kampela"
         (path "/472e0f49-51e5-4b9c-a9f6-6aed0741c677/7868ecaa-9431-43d7-95a8-9c0f01ec9958"
           (reference "#PWR?") (unit 1)
         )
       )
-      (project "Kampela_E1"
+      (project "Kampela_G2"
         (path "/f1094595-086c-43ea-a0be-6f801d9d8744/7868ecaa-9431-43d7-95a8-9c0f01ec9958"
           (reference "#PWR093") (unit 1)
         )
@@ -4356,15 +4379,18 @@
     (property "Datasheet" "~" (at 213.36 39.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 5b34fa25-dbdf-4247-873f-d7ac50ecf533))
-    (pin "2" (uuid 0f645d40-980e-4395-a40e-9c92f5e27c50))
+    (property "Description" "" (at 213.36 39.37 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid d96bde5e-cc97-4d71-a004-7a3c2b38fa6b))
+    (pin "2" (uuid d5fcb38a-62ac-47ff-89d8-d5e371fef9a1))
     (instances
       (project "Kampela"
         (path "/472e0f49-51e5-4b9c-a9f6-6aed0741c677/7868ecaa-9431-43d7-95a8-9c0f01ec9958"
           (reference "C?") (unit 1)
         )
       )
-      (project "Kampela_E1"
+      (project "Kampela_G2"
         (path "/f1094595-086c-43ea-a0be-6f801d9d8744/7868ecaa-9431-43d7-95a8-9c0f01ec9958"
           (reference "C56") (unit 1)
         )
@@ -4387,14 +4413,17 @@
     (property "Datasheet" "" (at 160.02 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b3711451-8f46-427a-b9cc-bab81a279e45))
+    (property "Description" "" (at 160.02 57.15 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 7a64ca79-3d69-4ae4-9fee-25eb3f586bbd))
     (instances
       (project "Kampela"
         (path "/472e0f49-51e5-4b9c-a9f6-6aed0741c677/7868ecaa-9431-43d7-95a8-9c0f01ec9958"
           (reference "#PWR?") (unit 1)
         )
       )
-      (project "Kampela_E1"
+      (project "Kampela_G2"
         (path "/f1094595-086c-43ea-a0be-6f801d9d8744/7868ecaa-9431-43d7-95a8-9c0f01ec9958"
           (reference "#PWR076") (unit 1)
         )
@@ -4417,14 +4446,17 @@
     (property "Datasheet" "" (at 256.54 44.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 1e3d095e-0c3a-4f2e-84a3-4e4b3b6dcce1))
+    (property "Description" "" (at 256.54 44.45 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid e211a3d4-bb26-4e9e-b877-5924501a4981))
     (instances
       (project "Kampela"
         (path "/472e0f49-51e5-4b9c-a9f6-6aed0741c677/7868ecaa-9431-43d7-95a8-9c0f01ec9958"
           (reference "#PWR?") (unit 1)
         )
       )
-      (project "Kampela_E1"
+      (project "Kampela_G2"
         (path "/f1094595-086c-43ea-a0be-6f801d9d8744/7868ecaa-9431-43d7-95a8-9c0f01ec9958"
           (reference "#PWR082") (unit 1)
         )
@@ -4447,15 +4479,18 @@
     (property "Datasheet" "~" (at 105.41 74.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 152aee2b-7960-4e5c-b222-0b140e22c99f))
-    (pin "2" (uuid 559ad139-08b9-46a8-a23a-12abe91af6d0))
+    (property "Description" "" (at 105.41 74.93 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid a278db5b-190b-428c-933d-80df49f0d100))
+    (pin "2" (uuid 826c9430-44fc-409d-8499-535fa5a8eab8))
     (instances
       (project "Kampela"
         (path "/472e0f49-51e5-4b9c-a9f6-6aed0741c677/7868ecaa-9431-43d7-95a8-9c0f01ec9958"
           (reference "C?") (unit 1)
         )
       )
-      (project "Kampela_E1"
+      (project "Kampela_G2"
         (path "/f1094595-086c-43ea-a0be-6f801d9d8744/7868ecaa-9431-43d7-95a8-9c0f01ec9958"
           (reference "C43") (unit 1)
         )
@@ -4478,14 +4513,17 @@
     (property "Datasheet" "" (at 125.73 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid bb416427-3634-41b8-abef-2ec91e84867a))
+    (property "Description" "" (at 125.73 96.52 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 8a4d5d41-a05a-46f0-8e4f-fc5c9aba37b6))
     (instances
       (project "Kampela"
         (path "/472e0f49-51e5-4b9c-a9f6-6aed0741c677/7868ecaa-9431-43d7-95a8-9c0f01ec9958"
           (reference "#PWR?") (unit 1)
         )
       )
-      (project "Kampela_E1"
+      (project "Kampela_G2"
         (path "/f1094595-086c-43ea-a0be-6f801d9d8744/7868ecaa-9431-43d7-95a8-9c0f01ec9958"
           (reference "#PWR073") (unit 1)
         )
@@ -4508,14 +4546,17 @@
     (property "Datasheet" "" (at 135.89 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid ebf3c19b-489f-4a78-a71c-26e1c625d117))
+    (property "Description" "" (at 135.89 96.52 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 157e4695-ba07-4224-b5a5-65cdc5cc4c8f))
     (instances
       (project "Kampela"
         (path "/472e0f49-51e5-4b9c-a9f6-6aed0741c677/7868ecaa-9431-43d7-95a8-9c0f01ec9958"
           (reference "#PWR?") (unit 1)
         )
       )
-      (project "Kampela_E1"
+      (project "Kampela_G2"
         (path "/f1094595-086c-43ea-a0be-6f801d9d8744/7868ecaa-9431-43d7-95a8-9c0f01ec9958"
           (reference "#PWR074") (unit 1)
         )
@@ -4538,14 +4579,17 @@
     (property "Datasheet" "https://www.onsemi.com/pub/Collateral/FDG1024NZ-D.pdf" (at 100.33 119.38 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (pin "1" (uuid a0b347a9-2976-429b-9b75-f1285f5735f3))
-    (pin "2" (uuid 9ef2f752-1ed9-458a-a0ec-7c1972a83aee))
-    (pin "6" (uuid 79aee6cf-9298-4d88-b8af-5a7453ea736e))
-    (pin "3" (uuid 5d763023-7711-435c-90d2-5583dba28e55))
-    (pin "4" (uuid a108680b-2323-407a-b059-cd8e02a57e67))
-    (pin "5" (uuid ab4adfb2-d1cd-4b0a-a026-9c66b832a3f0))
+    (property "Description" "" (at 100.33 119.38 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid aa7ade12-04ce-49c4-90dc-fc35230145b0))
+    (pin "2" (uuid 221c6986-31be-4197-a78f-8c72d9b63c13))
+    (pin "6" (uuid 72c6bfb5-cd03-448c-b326-20b1442fdbf0))
+    (pin "3" (uuid 27a83684-cd28-4440-9c89-087cb2204aa9))
+    (pin "4" (uuid b9e8dcab-5ca6-4a50-b42c-a5c1d49782fd))
+    (pin "5" (uuid 434e8aaa-e267-45c4-b6e7-b51f4102164c))
     (instances
-      (project "Kampela_E1"
+      (project "Kampela_G2"
         (path "/f1094595-086c-43ea-a0be-6f801d9d8744/7868ecaa-9431-43d7-95a8-9c0f01ec9958"
           (reference "Q3") (unit 1)
         )
@@ -4568,14 +4612,17 @@
     (property "Datasheet" "" (at 49.53 100.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 521860eb-6b42-4366-9b16-c7ad50b16072))
+    (property "Description" "" (at 49.53 100.33 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid b5d95877-2e9d-49fd-af7f-d2c6f856339e))
     (instances
       (project "Kampela"
         (path "/472e0f49-51e5-4b9c-a9f6-6aed0741c677/7868ecaa-9431-43d7-95a8-9c0f01ec9958"
           (reference "#PWR?") (unit 1)
         )
       )
-      (project "Kampela_E1"
+      (project "Kampela_G2"
         (path "/f1094595-086c-43ea-a0be-6f801d9d8744/7868ecaa-9431-43d7-95a8-9c0f01ec9958"
           (reference "#PWR068") (unit 1)
         )
@@ -4598,15 +4645,18 @@
     (property "Datasheet" "~" (at 135.89 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 9b168622-f1c1-42c5-b3d2-1b29cdb640c6))
-    (pin "2" (uuid c9f36f71-e7cf-4118-ac88-9d9fd41b3439))
+    (property "Description" "" (at 135.89 87.63 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 4bc1ad0a-be9c-4ac2-89ae-44cdd9c318df))
+    (pin "2" (uuid dd028784-916f-48a6-a4a9-bc7321ce7e42))
     (instances
       (project "Kampela"
         (path "/472e0f49-51e5-4b9c-a9f6-6aed0741c677/7868ecaa-9431-43d7-95a8-9c0f01ec9958"
           (reference "R?") (unit 1)
         )
       )
-      (project "Kampela_E1"
+      (project "Kampela_G2"
         (path "/f1094595-086c-43ea-a0be-6f801d9d8744/7868ecaa-9431-43d7-95a8-9c0f01ec9958"
           (reference "R22") (unit 1)
         )
@@ -4629,15 +4679,18 @@
     (property "Datasheet" "~" (at 201.93 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 56e23aca-050a-498f-93fb-32a8179db97b))
-    (pin "2" (uuid c93df8aa-773b-49b5-ba62-8ede3457e1dc))
+    (property "Description" "" (at 201.93 87.63 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid c9bbcd9f-f373-401d-9e22-d22dcfa0fb27))
+    (pin "2" (uuid d300a5b5-73ef-45f7-a065-37d44afacf4a))
     (instances
       (project "Kampela"
         (path "/472e0f49-51e5-4b9c-a9f6-6aed0741c677/7868ecaa-9431-43d7-95a8-9c0f01ec9958"
           (reference "C?") (unit 1)
         )
       )
-      (project "Kampela_E1"
+      (project "Kampela_G2"
         (path "/f1094595-086c-43ea-a0be-6f801d9d8744/7868ecaa-9431-43d7-95a8-9c0f01ec9958"
           (reference "C54") (unit 1)
         )
@@ -4660,15 +4713,18 @@
     (property "Datasheet" "~" (at 210.82 123.19 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 6094b4e7-e48e-425a-b82e-7ccb6a616979))
-    (pin "2" (uuid fdd3779b-1bbd-4070-be51-02ce0afcdc84))
+    (property "Description" "" (at 210.82 123.19 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 753c3e34-23c3-43d7-98d0-315739d252fc))
+    (pin "2" (uuid 8119da5d-7807-4570-9b5b-f896690e6f6a))
     (instances
       (project "Kampela"
         (path "/472e0f49-51e5-4b9c-a9f6-6aed0741c677/7868ecaa-9431-43d7-95a8-9c0f01ec9958"
           (reference "R?") (unit 1)
         )
       )
-      (project "Kampela_E1"
+      (project "Kampela_G2"
         (path "/f1094595-086c-43ea-a0be-6f801d9d8744/7868ecaa-9431-43d7-95a8-9c0f01ec9958"
           (reference "R34") (unit 1)
         )
@@ -4691,14 +4747,17 @@
     (property "Datasheet" "" (at 256.54 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 3e1b2530-c9ac-49e0-b46a-d6215d7ef3a0))
+    (property "Description" "" (at 256.54 85.09 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid f7c8e53e-1b17-4fff-8171-d8788fadd41b))
     (instances
       (project "Kampela"
         (path "/472e0f49-51e5-4b9c-a9f6-6aed0741c677/7868ecaa-9431-43d7-95a8-9c0f01ec9958"
           (reference "#PWR?") (unit 1)
         )
       )
-      (project "Kampela_E1"
+      (project "Kampela_G2"
         (path "/f1094595-086c-43ea-a0be-6f801d9d8744/7868ecaa-9431-43d7-95a8-9c0f01ec9958"
           (reference "#PWR095") (unit 1)
         )
@@ -4721,15 +4780,18 @@
     (property "Datasheet" "~" (at 160.02 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 9e7e03df-b2cf-4c53-a9cd-485e54ec96b4))
-    (pin "2" (uuid 4e5ea9dc-b975-405a-9803-e76598b2e82c))
+    (property "Description" "" (at 160.02 45.72 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid e19712f3-1ef7-4ec4-8493-6acbb60195f4))
+    (pin "2" (uuid 342fcb5e-ebd4-47c4-aaea-89ee8b902938))
     (instances
       (project "Kampela"
         (path "/472e0f49-51e5-4b9c-a9f6-6aed0741c677/7868ecaa-9431-43d7-95a8-9c0f01ec9958"
           (reference "C?") (unit 1)
         )
       )
-      (project "Kampela_E1"
+      (project "Kampela_G2"
         (path "/f1094595-086c-43ea-a0be-6f801d9d8744/7868ecaa-9431-43d7-95a8-9c0f01ec9958"
           (reference "C47") (unit 1)
         )
@@ -4752,15 +4814,18 @@
     (property "Datasheet" "~" (at 55.88 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid ef810c22-8582-4f6a-9b28-841885f285d8))
-    (pin "2" (uuid e400b29d-2147-46fb-9e66-c9047e7d9a33))
+    (property "Description" "" (at 55.88 102.87 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 97555901-0902-4958-b1b5-3b3995d4772b))
+    (pin "2" (uuid 6d4535c9-773c-4544-8868-d9f80fc782ec))
     (instances
       (project "Kampela"
         (path "/472e0f49-51e5-4b9c-a9f6-6aed0741c677/7868ecaa-9431-43d7-95a8-9c0f01ec9958"
           (reference "C?") (unit 1)
         )
       )
-      (project "Kampela_E1"
+      (project "Kampela_G2"
         (path "/f1094595-086c-43ea-a0be-6f801d9d8744/7868ecaa-9431-43d7-95a8-9c0f01ec9958"
           (reference "C42") (unit 1)
         )
@@ -4783,14 +4848,17 @@
     (property "Datasheet" "" (at 44.45 100.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 357f4ad3-3d40-4b37-841f-78c3dfcfe7d7))
+    (property "Description" "" (at 44.45 100.33 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid e3d0fb33-3b4f-4d2b-8193-b703b166ec6a))
     (instances
       (project "Kampela"
         (path "/472e0f49-51e5-4b9c-a9f6-6aed0741c677/7868ecaa-9431-43d7-95a8-9c0f01ec9958"
           (reference "#PWR?") (unit 1)
         )
       )
-      (project "Kampela_E1"
+      (project "Kampela_G2"
         (path "/f1094595-086c-43ea-a0be-6f801d9d8744/7868ecaa-9431-43d7-95a8-9c0f01ec9958"
           (reference "#PWR066") (unit 1)
         )
@@ -4813,14 +4881,17 @@
     (property "Datasheet" "" (at 256.54 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 502dd1bb-7ec5-48e7-a5dd-f06c9712f575))
+    (property "Description" "" (at 256.54 81.28 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid ef3f0117-3747-4a37-9bbd-635090c51cd4))
     (instances
       (project "Kampela"
         (path "/472e0f49-51e5-4b9c-a9f6-6aed0741c677/7868ecaa-9431-43d7-95a8-9c0f01ec9958"
           (reference "#PWR?") (unit 1)
         )
       )
-      (project "Kampela_E1"
+      (project "Kampela_G2"
         (path "/f1094595-086c-43ea-a0be-6f801d9d8744/7868ecaa-9431-43d7-95a8-9c0f01ec9958"
           (reference "#PWR094") (unit 1)
         )
