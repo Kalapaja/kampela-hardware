@@ -1,2110 +1,4591 @@
-(kicad_sch (version 20230620) (generator eeschema)
-
-  (uuid fed1c332-e928-41ce-a00d-0fa0cc15f0e1)
-
-  (paper "A4")
-
-  (lib_symbols
-    (symbol "Device:C" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
-      (property "Reference" "C" (at 0.635 2.54 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Value" "C" (at 0.635 -2.54 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Footprint" "" (at 0.9652 -3.81 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Description" "Unpolarized capacitor" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "cap capacitor" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "C_*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "C_0_1"
-        (polyline
-          (pts
-            (xy -2.032 -0.762)
-            (xy 2.032 -0.762)
-          )
-          (stroke (width 0.508) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -2.032 0.762)
-            (xy 2.032 0.762)
-          )
-          (stroke (width 0.508) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "C_1_1"
-        (pin passive line (at 0 3.81 270) (length 2.794)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 -3.81 90) (length 2.794)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "power:GND" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "#PWR" (at 0 -6.35 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Value" "GND" (at 0 -3.81 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Description" "Power symbol creates a global label with name \"GND\" , ground" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "power-flag" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "GND_0_1"
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy 0 -1.27)
-            (xy 1.27 -1.27)
-            (xy 0 -2.54)
-            (xy -1.27 -1.27)
-            (xy 0 -1.27)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "GND_1_1"
-        (pin power_in line (at 0 0 270) (length 0) hide
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-  )
-
-  (junction (at 193.04 64.77) (diameter 0) (color 0 0 0 0)
-    (uuid 014ab28f-3b06-4941-b74f-b091a4bc4f8c)
-  )
-  (junction (at 152.4 64.77) (diameter 0) (color 0 0 0 0)
-    (uuid 034b666e-c8a7-4b82-a834-86fc4a984a65)
-  )
-  (junction (at 180.34 46.99) (diameter 0) (color 0 0 0 0)
-    (uuid 03cb015d-31cd-4b78-8ad9-b00dd23279bb)
-  )
-  (junction (at 100.33 92.71) (diameter 0) (color 0 0 0 0)
-    (uuid 046f42a3-b1f0-4773-a7b6-0ba9161bb54b)
-  )
-  (junction (at 181.61 101.6) (diameter 0) (color 0 0 0 0)
-    (uuid 0c891104-e9a9-41c9-944e-2b2972668fbd)
-  )
-  (junction (at 138.43 119.38) (diameter 0) (color 0 0 0 0)
-    (uuid 0d48590c-9280-4c1d-bd56-b4b5a0068d30)
-  )
-  (junction (at 166.37 64.77) (diameter 0) (color 0 0 0 0)
-    (uuid 0fb9ac1e-036e-4241-ab62-98f452cde161)
-  )
-  (junction (at 138.43 146.05) (diameter 0) (color 0 0 0 0)
-    (uuid 13283741-2d37-40d2-b9d7-1da205dcc755)
-  )
-  (junction (at 125.73 101.6) (diameter 0) (color 0 0 0 0)
-    (uuid 2084e30f-37f4-47fa-9e44-e67d26fd65c3)
-  )
-  (junction (at 167.64 146.05) (diameter 0) (color 0 0 0 0)
-    (uuid 2f05609a-2f8e-4e20-b9bd-ae326ddf32cc)
-  )
-  (junction (at 153.67 92.71) (diameter 0) (color 0 0 0 0)
-    (uuid 2fd63501-833f-4bb5-968c-09d14fa55d51)
-  )
-  (junction (at 125.73 74.93) (diameter 0) (color 0 0 0 0)
-    (uuid 33465f0c-27f6-42c0-aea0-8d0be9fef0a9)
-  )
-  (junction (at 113.03 128.27) (diameter 0) (color 0 0 0 0)
-    (uuid 3db3f4f1-d97b-4626-a8d0-5e34245f407f)
-  )
-  (junction (at 100.33 146.05) (diameter 0) (color 0 0 0 0)
-    (uuid 44e37e8d-7c03-4d9a-b534-91695059f7f7)
-  )
-  (junction (at 167.64 119.38) (diameter 0) (color 0 0 0 0)
-    (uuid 45df0d74-6cc3-4a7c-b765-1aca32ae3b92)
-  )
-  (junction (at 113.03 46.99) (diameter 0) (color 0 0 0 0)
-    (uuid 4a130768-29b6-44f5-9bb0-a8d5438761fe)
-  )
-  (junction (at 153.67 119.38) (diameter 0) (color 0 0 0 0)
-    (uuid 5bf8bb34-a68f-41c8-83ba-fa3bf76e5ce3)
-  )
-  (junction (at 113.03 64.77) (diameter 0) (color 0 0 0 0)
-    (uuid 61496012-2713-4eee-92b5-59647b670a9b)
-  )
-  (junction (at 113.03 92.71) (diameter 0) (color 0 0 0 0)
-    (uuid 66b6dfc3-8c1d-41aa-b664-798a8dc39d54)
-  )
-  (junction (at 125.73 146.05) (diameter 0) (color 0 0 0 0)
-    (uuid 6714d01e-ef38-4892-9a72-740b03d837c9)
-  )
-  (junction (at 100.33 64.77) (diameter 0) (color 0 0 0 0)
-    (uuid 7235e136-8256-4b8f-bba9-7a47151b4319)
-  )
-  (junction (at 153.67 128.27) (diameter 0) (color 0 0 0 0)
-    (uuid 745b4541-4ca7-4d6c-b2c4-b4f13b1bc861)
-  )
-  (junction (at 138.43 92.71) (diameter 0) (color 0 0 0 0)
-    (uuid 79fe208c-341b-4a85-a920-5db1753ba399)
-  )
-  (junction (at 167.64 92.71) (diameter 0) (color 0 0 0 0)
-    (uuid 7ab50b38-d4b4-4949-9d27-f33965da9d3c)
-  )
-  (junction (at 193.04 46.99) (diameter 0) (color 0 0 0 0)
-    (uuid 7b05c28e-c580-4917-8fc5-e0cb41d97f72)
-  )
-  (junction (at 153.67 146.05) (diameter 0) (color 0 0 0 0)
-    (uuid 805fe9cc-2b97-42fe-a4d3-63880daeca08)
-  )
-  (junction (at 100.33 119.38) (diameter 0) (color 0 0 0 0)
-    (uuid 82920dc7-788d-413f-9574-5db6df33f3c0)
-  )
-  (junction (at 181.61 74.93) (diameter 0) (color 0 0 0 0)
-    (uuid 83b5445d-6308-4651-a4ae-9ff09a02b1ae)
-  )
-  (junction (at 166.37 46.99) (diameter 0) (color 0 0 0 0)
-    (uuid 87c4b0a7-bbee-4d43-a49a-5ffae4d5e6d4)
-  )
-  (junction (at 167.64 101.6) (diameter 0) (color 0 0 0 0)
-    (uuid 8e7ef6d9-b8bd-476e-90ea-9b2986870723)
-  )
-  (junction (at 125.73 92.71) (diameter 0) (color 0 0 0 0)
-    (uuid 940c475f-20e1-45e9-95a3-2a516c25c34d)
-  )
-  (junction (at 181.61 119.38) (diameter 0) (color 0 0 0 0)
-    (uuid a28a8914-2cf8-4609-8f2a-29f40b9dff71)
-  )
-  (junction (at 138.43 74.93) (diameter 0) (color 0 0 0 0)
-    (uuid a2ad9e76-3d9e-4edc-a606-53eee4d246da)
-  )
-  (junction (at 138.43 128.27) (diameter 0) (color 0 0 0 0)
-    (uuid aebf1f8d-c3ed-4448-936b-9e8f88e184c5)
-  )
-  (junction (at 125.73 128.27) (diameter 0) (color 0 0 0 0)
-    (uuid af175c69-e786-4042-8e93-a28d1f5698a4)
-  )
-  (junction (at 167.64 74.93) (diameter 0) (color 0 0 0 0)
-    (uuid b0a0ec30-4955-413d-85be-f6358802f597)
-  )
-  (junction (at 180.34 64.77) (diameter 0) (color 0 0 0 0)
-    (uuid b1ac9403-4a63-4ab3-b425-c9dd3545cf80)
-  )
-  (junction (at 153.67 101.6) (diameter 0) (color 0 0 0 0)
-    (uuid b4632656-fae6-41c0-a588-51ec7b1609d8)
-  )
-  (junction (at 152.4 46.99) (diameter 0) (color 0 0 0 0)
-    (uuid b646e905-624b-450e-8e2c-75595cfadbd9)
-  )
-  (junction (at 181.61 92.71) (diameter 0) (color 0 0 0 0)
-    (uuid bf76d184-5243-4044-9681-cb23ce655da6)
-  )
-  (junction (at 181.61 146.05) (diameter 0) (color 0 0 0 0)
-    (uuid c1b93721-9652-4077-a963-a7303d38c15b)
-  )
-  (junction (at 113.03 146.05) (diameter 0) (color 0 0 0 0)
-    (uuid c36e667b-fe73-4177-b5ce-b83236d22933)
-  )
-  (junction (at 113.03 119.38) (diameter 0) (color 0 0 0 0)
-    (uuid c3a36163-4d99-4511-9d5a-bdb59b016a4d)
-  )
-  (junction (at 113.03 101.6) (diameter 0) (color 0 0 0 0)
-    (uuid c67d082e-e226-42ba-994a-a3afdbae6b4b)
-  )
-  (junction (at 153.67 74.93) (diameter 0) (color 0 0 0 0)
-    (uuid cb528de8-5601-44ea-b321-6a8be21029b0)
-  )
-  (junction (at 125.73 46.99) (diameter 0) (color 0 0 0 0)
-    (uuid cb75a25b-3fa7-4133-b562-86cdec23e44a)
-  )
-  (junction (at 113.03 74.93) (diameter 0) (color 0 0 0 0)
-    (uuid ccb414ee-6894-42dc-8ff6-562b48d927e7)
-  )
-  (junction (at 138.43 64.77) (diameter 0) (color 0 0 0 0)
-    (uuid d3112671-6491-4e79-9594-77a24090adc7)
-  )
-  (junction (at 167.64 128.27) (diameter 0) (color 0 0 0 0)
-    (uuid dd45acf0-c35e-4f0c-afc2-85bb1a07d2dd)
-  )
-  (junction (at 138.43 46.99) (diameter 0) (color 0 0 0 0)
-    (uuid e13acef7-67d8-4ee6-beb4-52f091697af5)
-  )
-  (junction (at 138.43 101.6) (diameter 0) (color 0 0 0 0)
-    (uuid e1b22f49-5c49-4f7d-a5bb-10bd304c2605)
-  )
-  (junction (at 125.73 64.77) (diameter 0) (color 0 0 0 0)
-    (uuid f3dfba59-9c31-4910-b775-5a3ee25e1c52)
-  )
-  (junction (at 181.61 128.27) (diameter 0) (color 0 0 0 0)
-    (uuid f708dec0-91ef-4b35-93d9-c5dccd69afde)
-  )
-  (junction (at 125.73 119.38) (diameter 0) (color 0 0 0 0)
-    (uuid f9a3559f-8d95-4ca9-ba6c-a06a6b3ca792)
-  )
-
-  (wire (pts (xy 138.43 101.6) (xy 138.43 105.41))
-    (stroke (width 0) (type default))
-    (uuid 01832084-9fd7-4536-97f1-313e340e3f24)
-  )
-  (wire (pts (xy 194.31 101.6) (xy 194.31 105.41))
-    (stroke (width 0) (type default))
-    (uuid 048eff1d-9e5d-4a20-ade3-13f0cad0925e)
-  )
-  (wire (pts (xy 113.03 139.7) (xy 113.03 146.05))
-    (stroke (width 0) (type default))
-    (uuid 065bd32e-1677-4c88-847d-9a46fdd46b00)
-  )
-  (wire (pts (xy 152.4 46.99) (xy 152.4 50.8))
-    (stroke (width 0) (type default))
-    (uuid 0986ab25-7bf2-4586-b2e2-eb56ae6bc259)
-  )
-  (wire (pts (xy 180.34 46.99) (xy 180.34 50.8))
-    (stroke (width 0) (type default))
-    (uuid 11622d60-dcea-447a-8a21-61918ab3b6d2)
-  )
-  (wire (pts (xy 167.64 92.71) (xy 181.61 92.71))
-    (stroke (width 0) (type default))
-    (uuid 12002efe-1b42-43f1-a2dd-51d99ef81c6f)
-  )
-  (wire (pts (xy 125.73 101.6) (xy 125.73 105.41))
-    (stroke (width 0) (type default))
-    (uuid 12ad5e30-6c23-42eb-a791-3155b6150556)
-  )
-  (wire (pts (xy 113.03 46.99) (xy 125.73 46.99))
-    (stroke (width 0) (type default))
-    (uuid 1996049e-cd1e-4d81-9bbb-936eaa661c33)
-  )
-  (wire (pts (xy 113.03 113.03) (xy 113.03 119.38))
-    (stroke (width 0) (type default))
-    (uuid 1ca291fa-2fa9-4465-9764-5a944f8b4304)
-  )
-  (wire (pts (xy 100.33 46.99) (xy 113.03 46.99))
-    (stroke (width 0) (type default))
-    (uuid 1cabbe1b-4b9e-43ef-a34d-9bfacbd46ebd)
-  )
-  (wire (pts (xy 153.67 113.03) (xy 153.67 119.38))
-    (stroke (width 0) (type default))
-    (uuid 1e14584a-4901-4f55-9dd3-ed1ec11c6b56)
-  )
-  (wire (pts (xy 138.43 74.93) (xy 138.43 78.74))
-    (stroke (width 0) (type default))
-    (uuid 1e219b32-1199-4950-898e-715e07375070)
-  )
-  (wire (pts (xy 167.64 146.05) (xy 181.61 146.05))
-    (stroke (width 0) (type default))
-    (uuid 1f4d00d6-8951-4457-8bba-b4a4f4172472)
-  )
-  (wire (pts (xy 113.03 46.99) (xy 113.03 50.8))
-    (stroke (width 0) (type default))
-    (uuid 25390822-f8e2-486f-8840-1f39e18083b1)
-  )
-  (wire (pts (xy 113.03 128.27) (xy 125.73 128.27))
-    (stroke (width 0) (type default))
-    (uuid 26529c00-c5b1-4ce3-bcb2-4042ed87ccb8)
-  )
-  (wire (pts (xy 180.34 58.42) (xy 180.34 64.77))
-    (stroke (width 0) (type default))
-    (uuid 279314fe-bd3f-439b-9920-6aca6838f7b8)
-  )
-  (wire (pts (xy 100.33 146.05) (xy 113.03 146.05))
-    (stroke (width 0) (type default))
-    (uuid 2cecdc94-40ae-45ad-87a4-3dfbb6f495ad)
-  )
-  (wire (pts (xy 113.03 92.71) (xy 125.73 92.71))
-    (stroke (width 0) (type default))
-    (uuid 33445c7f-a759-4891-a0f4-69e2556b12c3)
-  )
-  (wire (pts (xy 152.4 46.99) (xy 166.37 46.99))
-    (stroke (width 0) (type default))
-    (uuid 34124153-5700-45ad-8043-80fcac83f208)
-  )
-  (wire (pts (xy 138.43 113.03) (xy 138.43 119.38))
-    (stroke (width 0) (type default))
-    (uuid 351e1c9b-b019-4d36-8fa3-462bfaa58b94)
-  )
-  (wire (pts (xy 181.61 113.03) (xy 181.61 119.38))
-    (stroke (width 0) (type default))
-    (uuid 3664e154-a4bd-421e-a48f-0d1cb5f30f0f)
-  )
-  (wire (pts (xy 100.33 86.36) (xy 100.33 92.71))
-    (stroke (width 0) (type default))
-    (uuid 376c933e-abdc-4140-8219-efdcc88c4b4e)
-  )
-  (wire (pts (xy 113.03 86.36) (xy 113.03 92.71))
-    (stroke (width 0) (type default))
-    (uuid 38e02e5e-5074-4013-b142-73db2d027219)
-  )
-  (wire (pts (xy 125.73 128.27) (xy 125.73 132.08))
-    (stroke (width 0) (type default))
-    (uuid 3a66ec2f-94de-42f3-a907-a95bf3ae5f6c)
-  )
-  (wire (pts (xy 181.61 101.6) (xy 194.31 101.6))
-    (stroke (width 0) (type default))
-    (uuid 3e1fa015-16b6-4fcd-bac6-ecf0de6f728f)
-  )
-  (wire (pts (xy 194.31 139.7) (xy 194.31 146.05))
-    (stroke (width 0) (type default))
-    (uuid 3ea10e27-3a92-4c50-a15c-28fbcc4a8774)
-  )
-  (wire (pts (xy 194.31 113.03) (xy 194.31 119.38))
-    (stroke (width 0) (type default))
-    (uuid 436e9feb-f777-4c61-9873-5431b9363597)
-  )
-  (wire (pts (xy 181.61 86.36) (xy 181.61 92.71))
-    (stroke (width 0) (type default))
-    (uuid 4492e086-470e-4fe3-ad65-c5fd2660cf80)
-  )
-  (wire (pts (xy 100.33 64.77) (xy 113.03 64.77))
-    (stroke (width 0) (type default))
-    (uuid 44eaca44-d53b-4e53-9b6b-c44d5bb364f5)
-  )
-  (wire (pts (xy 100.33 78.74) (xy 100.33 74.93))
-    (stroke (width 0) (type default))
-    (uuid 468abefe-96e5-48dc-b948-21817a3ce296)
-  )
-  (wire (pts (xy 138.43 146.05) (xy 153.67 146.05))
-    (stroke (width 0) (type default))
-    (uuid 488366cc-560a-4371-8867-cc5cb9a6fed7)
-  )
-  (wire (pts (xy 100.33 132.08) (xy 100.33 128.27))
-    (stroke (width 0) (type default))
-    (uuid 4931276e-9ca0-4c0e-b108-dd03ce09fea8)
-  )
-  (wire (pts (xy 100.33 119.38) (xy 113.03 119.38))
-    (stroke (width 0) (type default))
-    (uuid 498565a7-a387-48c7-8da0-a38f62c5c98e)
-  )
-  (wire (pts (xy 181.61 74.93) (xy 194.31 74.93))
-    (stroke (width 0) (type default))
-    (uuid 49acf1fa-b88a-4625-bb0a-779b303392df)
-  )
-  (wire (pts (xy 166.37 58.42) (xy 166.37 64.77))
-    (stroke (width 0) (type default))
-    (uuid 4a20f104-061e-49f4-ac23-4b85f51ab236)
-  )
-  (wire (pts (xy 100.33 139.7) (xy 100.33 146.05))
-    (stroke (width 0) (type default))
-    (uuid 4a844b56-8f5e-449c-824a-a99bf0f688a7)
-  )
-  (wire (pts (xy 138.43 86.36) (xy 138.43 92.71))
-    (stroke (width 0) (type default))
-    (uuid 4b265394-a8cb-48de-9880-9189c558debf)
-  )
-  (wire (pts (xy 138.43 139.7) (xy 138.43 146.05))
-    (stroke (width 0) (type default))
-    (uuid 4d980e59-fe13-4495-b82b-1d3f1ff27cba)
-  )
-  (wire (pts (xy 193.04 64.77) (xy 207.01 64.77))
-    (stroke (width 0) (type default))
-    (uuid 4e8a8ac3-67e5-4b4b-b762-c14d4c1b79e9)
-  )
-  (wire (pts (xy 125.73 58.42) (xy 125.73 64.77))
-    (stroke (width 0) (type default))
-    (uuid 51976115-7a46-45ee-b462-ddd15d138782)
-  )
-  (wire (pts (xy 167.64 128.27) (xy 167.64 132.08))
-    (stroke (width 0) (type default))
-    (uuid 556ec47f-8bcb-41a5-a66d-d035ae06929b)
-  )
-  (wire (pts (xy 138.43 128.27) (xy 153.67 128.27))
-    (stroke (width 0) (type default))
-    (uuid 55a7d92c-434d-481b-af85-7800029dc173)
-  )
-  (wire (pts (xy 193.04 46.99) (xy 207.01 46.99))
-    (stroke (width 0) (type default))
-    (uuid 57cb26b3-9acf-45d2-9f63-dc977b068bb2)
-  )
-  (wire (pts (xy 153.67 139.7) (xy 153.67 146.05))
-    (stroke (width 0) (type default))
-    (uuid 5c6536b9-774b-4092-a897-1e1e8f9e7773)
-  )
-  (wire (pts (xy 180.34 46.99) (xy 193.04 46.99))
-    (stroke (width 0) (type default))
-    (uuid 5cb668e5-96c3-4814-98af-7576c2e82d93)
-  )
-  (wire (pts (xy 113.03 128.27) (xy 113.03 132.08))
-    (stroke (width 0) (type default))
-    (uuid 5d22ab13-91ab-4b20-8921-d1392c4d2b05)
-  )
-  (wire (pts (xy 167.64 101.6) (xy 167.64 105.41))
-    (stroke (width 0) (type default))
-    (uuid 5ea60d02-af4a-467e-b046-6d69102db813)
-  )
-  (wire (pts (xy 113.03 64.77) (xy 125.73 64.77))
-    (stroke (width 0) (type default))
-    (uuid 5ff57a08-c838-458c-939d-8494e2a0fa11)
-  )
-  (wire (pts (xy 125.73 146.05) (xy 138.43 146.05))
-    (stroke (width 0) (type default))
-    (uuid 61bdffd3-45c8-45ec-981d-ffc936c33701)
-  )
-  (wire (pts (xy 167.64 86.36) (xy 167.64 92.71))
-    (stroke (width 0) (type default))
-    (uuid 630703aa-7a12-4801-96e1-2be10edd98d8)
-  )
-  (wire (pts (xy 100.33 128.27) (xy 113.03 128.27))
-    (stroke (width 0) (type default))
-    (uuid 637ba497-3233-48a5-844e-88df44d12c55)
-  )
-  (wire (pts (xy 100.33 105.41) (xy 100.33 101.6))
-    (stroke (width 0) (type default))
-    (uuid 6382b8a3-3b8b-4cfa-8a8f-b1895610da51)
-  )
-  (wire (pts (xy 113.03 74.93) (xy 113.03 78.74))
-    (stroke (width 0) (type default))
-    (uuid 648506f1-0534-488b-848f-af7ec2cb7324)
-  )
-  (wire (pts (xy 166.37 64.77) (xy 180.34 64.77))
-    (stroke (width 0) (type default))
-    (uuid 653373d3-3c80-4a51-a2f7-044d4f065820)
-  )
-  (wire (pts (xy 167.64 128.27) (xy 181.61 128.27))
-    (stroke (width 0) (type default))
-    (uuid 68a4d8c2-ff44-4264-afed-0274aa6d50c8)
-  )
-  (wire (pts (xy 153.67 119.38) (xy 167.64 119.38))
-    (stroke (width 0) (type default))
-    (uuid 6906ff91-b40c-4afc-babf-0dc956dc6d52)
-  )
-  (wire (pts (xy 153.67 74.93) (xy 153.67 78.74))
-    (stroke (width 0) (type default))
-    (uuid 6b5bdda0-dedc-46c0-a2e1-993a53d73a9c)
-  )
-  (wire (pts (xy 100.33 50.8) (xy 100.33 46.99))
-    (stroke (width 0) (type default))
-    (uuid 6d936b77-63ea-44d4-9e89-40f8c51586bd)
-  )
-  (wire (pts (xy 194.31 74.93) (xy 194.31 78.74))
-    (stroke (width 0) (type default))
-    (uuid 70256170-e92d-4126-b054-4e8783d7c786)
-  )
-  (wire (pts (xy 113.03 101.6) (xy 113.03 105.41))
-    (stroke (width 0) (type default))
-    (uuid 780a807b-691c-465c-b884-e1e47dccb557)
-  )
-  (wire (pts (xy 167.64 113.03) (xy 167.64 119.38))
-    (stroke (width 0) (type default))
-    (uuid 78e9ee98-3bd9-45f7-935b-2a3d7b938dcd)
-  )
-  (wire (pts (xy 153.67 74.93) (xy 167.64 74.93))
-    (stroke (width 0) (type default))
-    (uuid 79ab7574-596f-4556-b7db-fbb70aafa83b)
-  )
-  (wire (pts (xy 153.67 146.05) (xy 167.64 146.05))
-    (stroke (width 0) (type default))
-    (uuid 7aa07771-a059-4d66-9bb6-2d096e477eeb)
-  )
-  (wire (pts (xy 138.43 119.38) (xy 153.67 119.38))
-    (stroke (width 0) (type default))
-    (uuid 7ae63382-7595-40be-a0ab-89b677c1090c)
-  )
-  (wire (pts (xy 181.61 128.27) (xy 181.61 132.08))
-    (stroke (width 0) (type default))
-    (uuid 7d340af5-f086-48c8-b17b-03431f5accfc)
-  )
-  (wire (pts (xy 113.03 74.93) (xy 125.73 74.93))
-    (stroke (width 0) (type default))
-    (uuid 7ee557f8-98f9-4bee-baca-973707ffa54b)
-  )
-  (wire (pts (xy 125.73 86.36) (xy 125.73 92.71))
-    (stroke (width 0) (type default))
-    (uuid 838294a4-02d7-4b15-ad95-dd73b4e608e6)
-  )
-  (wire (pts (xy 125.73 128.27) (xy 138.43 128.27))
-    (stroke (width 0) (type default))
-    (uuid 85312f35-8a75-47c5-997a-d8eaaf922a72)
-  )
-  (wire (pts (xy 166.37 46.99) (xy 180.34 46.99))
-    (stroke (width 0) (type default))
-    (uuid 8718f7d2-5f6f-4bbc-ad8c-fdd9523f43b8)
-  )
-  (wire (pts (xy 125.73 119.38) (xy 138.43 119.38))
-    (stroke (width 0) (type default))
-    (uuid 8c460433-b452-456f-9e59-eb0c914f1aaf)
-  )
-  (wire (pts (xy 100.33 113.03) (xy 100.33 119.38))
-    (stroke (width 0) (type default))
-    (uuid 8cb59b1c-fb1a-40ce-b117-68eb4e0ec4e8)
-  )
-  (wire (pts (xy 100.33 64.77) (xy 100.33 66.04))
-    (stroke (width 0) (type default))
-    (uuid 8d616636-b39a-48ad-8f96-c7553886bbc4)
-  )
-  (wire (pts (xy 153.67 86.36) (xy 153.67 92.71))
-    (stroke (width 0) (type default))
-    (uuid 8e0c9cc6-5470-4a33-a332-71af963e5f4f)
-  )
-  (wire (pts (xy 125.73 139.7) (xy 125.73 146.05))
-    (stroke (width 0) (type default))
-    (uuid 90c54310-f784-46d8-b993-8642c70ba3a9)
-  )
-  (wire (pts (xy 138.43 101.6) (xy 153.67 101.6))
-    (stroke (width 0) (type default))
-    (uuid 96898852-c5c5-4a45-b570-5c35f4295ddc)
-  )
-  (wire (pts (xy 100.33 74.93) (xy 113.03 74.93))
-    (stroke (width 0) (type default))
-    (uuid 98f0aee8-8296-4176-8301-3d7a6642162a)
-  )
-  (wire (pts (xy 113.03 101.6) (xy 125.73 101.6))
-    (stroke (width 0) (type default))
-    (uuid 9d370503-c8a4-446c-ae4e-4e6eafaef1be)
-  )
-  (wire (pts (xy 153.67 101.6) (xy 153.67 105.41))
-    (stroke (width 0) (type default))
-    (uuid 9e491d05-a92e-432d-840a-c65f0bddb0a9)
-  )
-  (wire (pts (xy 113.03 146.05) (xy 125.73 146.05))
-    (stroke (width 0) (type default))
-    (uuid 9f89a3d8-3260-4aea-98ed-9a2b6cad88e1)
-  )
-  (wire (pts (xy 125.73 46.99) (xy 138.43 46.99))
-    (stroke (width 0) (type default))
-    (uuid a0055c92-6749-4af4-91c0-7bc30cebc589)
-  )
-  (wire (pts (xy 113.03 119.38) (xy 125.73 119.38))
-    (stroke (width 0) (type default))
-    (uuid a0887bc9-8ed9-4c61-8689-864f9343d142)
-  )
-  (wire (pts (xy 138.43 74.93) (xy 153.67 74.93))
-    (stroke (width 0) (type default))
-    (uuid a8d66522-f703-4796-b7c0-1979b581a867)
-  )
-  (wire (pts (xy 193.04 58.42) (xy 193.04 64.77))
-    (stroke (width 0) (type default))
-    (uuid aaab1aab-d026-49e1-9318-96a513a406a1)
-  )
-  (wire (pts (xy 193.04 64.77) (xy 180.34 64.77))
-    (stroke (width 0) (type default))
-    (uuid abb7b483-be61-43f9-b6d8-363c668b6180)
-  )
-  (wire (pts (xy 193.04 46.99) (xy 193.04 50.8))
-    (stroke (width 0) (type default))
-    (uuid ad31b4f7-3cac-42b0-898a-338ed0bb1444)
-  )
-  (wire (pts (xy 166.37 46.99) (xy 166.37 50.8))
-    (stroke (width 0) (type default))
-    (uuid b166ae04-b554-4669-878d-45ab61869598)
-  )
-  (wire (pts (xy 153.67 128.27) (xy 167.64 128.27))
-    (stroke (width 0) (type default))
-    (uuid b2b92c6e-9df9-4280-bc9e-d9763188d4b2)
-  )
-  (wire (pts (xy 152.4 58.42) (xy 152.4 64.77))
-    (stroke (width 0) (type default))
-    (uuid b2f0627d-d49b-48b3-92f8-1d76c9d5df90)
-  )
-  (wire (pts (xy 125.73 113.03) (xy 125.73 119.38))
-    (stroke (width 0) (type default))
-    (uuid b4228410-93ca-4231-b161-493a589d588d)
-  )
-  (wire (pts (xy 153.67 92.71) (xy 167.64 92.71))
-    (stroke (width 0) (type default))
-    (uuid b5fd6c7e-d97e-4ff8-80fc-eb9f0a020e4c)
-  )
-  (wire (pts (xy 100.33 58.42) (xy 100.33 64.77))
-    (stroke (width 0) (type default))
-    (uuid bab26209-eb0c-44aa-8532-a3a9209ad01d)
-  )
-  (wire (pts (xy 153.67 128.27) (xy 153.67 132.08))
-    (stroke (width 0) (type default))
-    (uuid bb9acba2-983e-48fa-bd2a-5112bd54645d)
-  )
-  (wire (pts (xy 138.43 58.42) (xy 138.43 64.77))
-    (stroke (width 0) (type default))
-    (uuid bdac02cc-a212-4a5a-86e3-7d25ee556eb2)
-  )
-  (wire (pts (xy 181.61 139.7) (xy 181.61 146.05))
-    (stroke (width 0) (type default))
-    (uuid bde90aec-e8e9-4770-b934-f819f059e410)
-  )
-  (wire (pts (xy 194.31 119.38) (xy 181.61 119.38))
-    (stroke (width 0) (type default))
-    (uuid c60999ed-416f-4c0a-b4b1-1a56fdf315b0)
-  )
-  (wire (pts (xy 167.64 74.93) (xy 167.64 78.74))
-    (stroke (width 0) (type default))
-    (uuid c801c222-4e58-4560-86ae-634ea8529729)
-  )
-  (wire (pts (xy 194.31 92.71) (xy 181.61 92.71))
-    (stroke (width 0) (type default))
-    (uuid c824b2ed-2f36-4c08-9318-7b29c2894c02)
-  )
-  (wire (pts (xy 152.4 64.77) (xy 166.37 64.77))
-    (stroke (width 0) (type default))
-    (uuid ca6154dd-c897-4681-80ab-3d7e0636334b)
-  )
-  (wire (pts (xy 138.43 46.99) (xy 152.4 46.99))
-    (stroke (width 0) (type default))
-    (uuid cab8d7e3-1d5f-4e34-88f8-ce9fb7b5ac1c)
-  )
-  (wire (pts (xy 167.64 139.7) (xy 167.64 146.05))
-    (stroke (width 0) (type default))
-    (uuid cd4eb9b0-6be6-496c-91ba-8df4b7630501)
-  )
-  (wire (pts (xy 125.73 101.6) (xy 138.43 101.6))
-    (stroke (width 0) (type default))
-    (uuid d029aff6-66fb-4d96-bcab-ef323e2780ba)
-  )
-  (wire (pts (xy 181.61 128.27) (xy 194.31 128.27))
-    (stroke (width 0) (type default))
-    (uuid d3cb4527-a360-4986-b7a5-4f1dd470c5d7)
-  )
-  (wire (pts (xy 125.73 46.99) (xy 125.73 50.8))
-    (stroke (width 0) (type default))
-    (uuid d450bcf6-a738-4e65-b29f-0fe981d2c68c)
-  )
-  (wire (pts (xy 153.67 101.6) (xy 167.64 101.6))
-    (stroke (width 0) (type default))
-    (uuid d59a493e-6090-4767-9cfb-93ee304d74a9)
-  )
-  (wire (pts (xy 125.73 92.71) (xy 138.43 92.71))
-    (stroke (width 0) (type default))
-    (uuid dc169b20-1f31-488d-b92c-552e175efd17)
-  )
-  (wire (pts (xy 125.73 64.77) (xy 138.43 64.77))
-    (stroke (width 0) (type default))
-    (uuid dc9f4ac6-2f0c-4802-813f-02c00e859f4d)
-  )
-  (wire (pts (xy 167.64 101.6) (xy 181.61 101.6))
-    (stroke (width 0) (type default))
-    (uuid dd3ddf75-8a9c-4f34-b40c-c8da2e627e7f)
-  )
-  (wire (pts (xy 113.03 58.42) (xy 113.03 64.77))
-    (stroke (width 0) (type default))
-    (uuid df75018d-609d-421a-8f41-86a2a9e13df3)
-  )
-  (wire (pts (xy 181.61 101.6) (xy 181.61 105.41))
-    (stroke (width 0) (type default))
-    (uuid e6d01e3d-6cd2-4abf-805c-da7f90f15139)
-  )
-  (wire (pts (xy 194.31 146.05) (xy 181.61 146.05))
-    (stroke (width 0) (type default))
-    (uuid e862bd6d-b947-4a1d-9971-d65affc211a0)
-  )
-  (wire (pts (xy 138.43 128.27) (xy 138.43 132.08))
-    (stroke (width 0) (type default))
-    (uuid e9e1ce44-9c26-40a6-8686-54476de80e57)
-  )
-  (wire (pts (xy 125.73 74.93) (xy 138.43 74.93))
-    (stroke (width 0) (type default))
-    (uuid ea53d2d3-75e0-4ab5-ba69-aaa0783a9c13)
-  )
-  (wire (pts (xy 181.61 74.93) (xy 181.61 78.74))
-    (stroke (width 0) (type default))
-    (uuid ecf09a00-bdc3-4914-aa06-a38bcfb62225)
-  )
-  (wire (pts (xy 167.64 74.93) (xy 181.61 74.93))
-    (stroke (width 0) (type default))
-    (uuid ee4e9acb-6605-49b1-bae9-84aa0df6f811)
-  )
-  (wire (pts (xy 138.43 64.77) (xy 152.4 64.77))
-    (stroke (width 0) (type default))
-    (uuid f5b7ac2b-c437-4424-8ab9-1046157c340f)
-  )
-  (wire (pts (xy 138.43 46.99) (xy 138.43 50.8))
-    (stroke (width 0) (type default))
-    (uuid f785cda4-09ff-41e2-b1e5-aadd7199b689)
-  )
-  (wire (pts (xy 194.31 128.27) (xy 194.31 132.08))
-    (stroke (width 0) (type default))
-    (uuid f87d1fee-c9aa-45e0-9a84-4cf37abcda8f)
-  )
-  (wire (pts (xy 167.64 119.38) (xy 181.61 119.38))
-    (stroke (width 0) (type default))
-    (uuid f91223f0-dff7-40c8-a715-7c4db31fea74)
-  )
-  (wire (pts (xy 125.73 74.93) (xy 125.73 78.74))
-    (stroke (width 0) (type default))
-    (uuid f9dafe1a-d6a7-4518-953a-4b65793017f4)
-  )
-  (wire (pts (xy 100.33 92.71) (xy 113.03 92.71))
-    (stroke (width 0) (type default))
-    (uuid fb89f312-7756-47ff-9f5e-9ae144a5a987)
-  )
-  (wire (pts (xy 138.43 92.71) (xy 153.67 92.71))
-    (stroke (width 0) (type default))
-    (uuid fe058347-b5e7-4fb0-aa36-fa403e7a996f)
-  )
-  (wire (pts (xy 194.31 86.36) (xy 194.31 92.71))
-    (stroke (width 0) (type default))
-    (uuid fee2cc75-b6f8-4eda-9667-fb28c72408d5)
-  )
-  (wire (pts (xy 100.33 101.6) (xy 113.03 101.6))
-    (stroke (width 0) (type default))
-    (uuid fefead2a-0097-41d8-a7f5-3c3664ce620f)
-  )
-
-  (label "HV" (at 100.33 101.6 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 5ad65c68-c95e-4cd6-b7b9-21ce2b560998)
-  )
-  (label "HV" (at 100.33 46.99 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 69a4fa40-f7d8-4df7-8bcf-248f7fdcbc8c)
-  )
-  (label "HV" (at 100.33 128.27 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 9ba36131-957e-4131-b399-dc2382868ee5)
-  )
-  (label "HV" (at 100.33 74.93 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid ab0b7997-ec66-4490-bde7-d66b6803afa4)
-  )
-
-  (hierarchical_label "GND" (shape input) (at 207.01 64.77 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 11459df1-541d-4e6e-8b51-8e98634f4def)
-  )
-  (hierarchical_label "HV" (shape input) (at 207.01 46.99 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 1d068258-f460-4f37-985f-6cdb335a5cae)
-  )
-
-  (symbol (lib_id "Device:C") (at 100.33 82.55 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 05378835-e4f2-41fd-994b-eb531d34dd1a)
-    (property "Reference" "C?" (at 104.14 81.2799 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Value" "47x16" (at 104.14 83.8199 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "Capacitor_SMD:C_1210_3225Metric" (at 99.3648 78.74 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 100.33 82.55 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "" (at 100.33 82.55 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 67e489ee-0ec7-4b33-8858-590ae172f399))
-    (pin "2" (uuid 9e5eafa8-890a-447e-945a-89a929229377))
-    (instances
-      (project "Kampela"
-        (path "/472e0f49-51e5-4b9c-a9f6-6aed0741c677/107d2fe5-3a51-4aa0-a4ed-d8d997e2d812"
-          (reference "C?") (unit 1)
-        )
-      )
-      (project "Kampela_G2"
-        (path "/f1094595-086c-43ea-a0be-6f801d9d8744/107d2fe5-3a51-4aa0-a4ed-d8d997e2d812"
-          (reference "C81") (unit 1)
-        )
-        (path "/f1094595-086c-43ea-a0be-6f801d9d8744/66544aab-419b-42ce-b140-a8b6097cd9d6"
-          (reference "C8") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C") (at 138.43 109.22 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 0d3951ef-73fb-4f05-bb30-6a6ff1d21b32)
-    (property "Reference" "C?" (at 142.24 107.9499 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Value" "47x16" (at 142.24 110.4899 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "Capacitor_SMD:C_1210_3225Metric" (at 137.4648 105.41 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 138.43 109.22 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "" (at 138.43 109.22 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 2990f118-070d-4fcc-8f1b-1d1c1690fecf))
-    (pin "2" (uuid c70afa87-daca-4888-9cd9-d499512eb0b0))
-    (instances
-      (project "Kampela"
-        (path "/472e0f49-51e5-4b9c-a9f6-6aed0741c677/107d2fe5-3a51-4aa0-a4ed-d8d997e2d812"
-          (reference "C?") (unit 1)
-        )
-      )
-      (project "Kampela_G2"
-        (path "/f1094595-086c-43ea-a0be-6f801d9d8744/107d2fe5-3a51-4aa0-a4ed-d8d997e2d812"
-          (reference "C60") (unit 1)
-        )
-        (path "/f1094595-086c-43ea-a0be-6f801d9d8744/66544aab-419b-42ce-b140-a8b6097cd9d6"
-          (reference "C65") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C") (at 138.43 82.55 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 119615cf-7767-4e1f-a0f6-80937bfd3d9e)
-    (property "Reference" "C?" (at 142.24 81.2799 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Value" "47x16" (at 142.24 83.8199 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "Capacitor_SMD:C_1210_3225Metric" (at 137.4648 78.74 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 138.43 82.55 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "" (at 138.43 82.55 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid fff57de9-b712-46d5-a866-cfaa327c8d7d))
-    (pin "2" (uuid 9d8960c2-96f4-4df7-97dd-c21a06510fbe))
-    (instances
-      (project "Kampela"
-        (path "/472e0f49-51e5-4b9c-a9f6-6aed0741c677/107d2fe5-3a51-4aa0-a4ed-d8d997e2d812"
-          (reference "C?") (unit 1)
-        )
-      )
-      (project "Kampela_G2"
-        (path "/f1094595-086c-43ea-a0be-6f801d9d8744/107d2fe5-3a51-4aa0-a4ed-d8d997e2d812"
-          (reference "C58") (unit 1)
-        )
-        (path "/f1094595-086c-43ea-a0be-6f801d9d8744/66544aab-419b-42ce-b140-a8b6097cd9d6"
-          (reference "C63") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C") (at 181.61 109.22 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 133f6a2b-8015-4a0e-87e6-bb93f503c1ca)
-    (property "Reference" "C?" (at 185.42 107.9499 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Value" "47x16" (at 185.42 110.4899 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "Capacitor_SMD:C_1210_3225Metric" (at 180.6448 105.41 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 181.61 109.22 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "" (at 181.61 109.22 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 7dd7b333-f1a6-424b-8b05-a62beee33a2a))
-    (pin "2" (uuid a453919e-2739-4379-9bd4-d28cbac2ffd5))
-    (instances
-      (project "Kampela"
-        (path "/472e0f49-51e5-4b9c-a9f6-6aed0741c677/107d2fe5-3a51-4aa0-a4ed-d8d997e2d812"
-          (reference "C?") (unit 1)
-        )
-      )
-      (project "Kampela_G2"
-        (path "/f1094595-086c-43ea-a0be-6f801d9d8744/107d2fe5-3a51-4aa0-a4ed-d8d997e2d812"
-          (reference "C69") (unit 1)
-        )
-        (path "/f1094595-086c-43ea-a0be-6f801d9d8744/66544aab-419b-42ce-b140-a8b6097cd9d6"
-          (reference "C79") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C") (at 181.61 135.89 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 1a63d193-830a-45a6-b999-bd2f520f8ecc)
-    (property "Reference" "C?" (at 185.42 134.6199 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Value" "47x16" (at 185.42 137.1599 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "Capacitor_SMD:C_1210_3225Metric" (at 180.6448 132.08 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 181.61 135.89 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "" (at 181.61 135.89 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 738979ca-a4bd-4078-b5a7-bd3710ee8139))
-    (pin "2" (uuid 9eac663d-0669-4e88-9fec-727ca14f145c))
-    (instances
-      (project "Kampela"
-        (path "/472e0f49-51e5-4b9c-a9f6-6aed0741c677/107d2fe5-3a51-4aa0-a4ed-d8d997e2d812"
-          (reference "C?") (unit 1)
-        )
-      )
-      (project "Kampela_G2"
-        (path "/f1094595-086c-43ea-a0be-6f801d9d8744/107d2fe5-3a51-4aa0-a4ed-d8d997e2d812"
-          (reference "C63") (unit 1)
-        )
-        (path "/f1094595-086c-43ea-a0be-6f801d9d8744/66544aab-419b-42ce-b140-a8b6097cd9d6"
-          (reference "C81") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C") (at 125.73 82.55 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 3bd63f0b-debf-49f3-9c42-4a2b8f40e793)
-    (property "Reference" "C?" (at 129.54 81.2799 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Value" "47x16" (at 129.54 83.8199 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "Capacitor_SMD:C_1210_3225Metric" (at 124.7648 78.74 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 125.73 82.55 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "" (at 125.73 82.55 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 204b4f78-18c2-40ea-88c4-00e63db32501))
-    (pin "2" (uuid 2557cbb0-27e4-4b9c-9a6c-b08c744d71a0))
-    (instances
-      (project "Kampela"
-        (path "/472e0f49-51e5-4b9c-a9f6-6aed0741c677/107d2fe5-3a51-4aa0-a4ed-d8d997e2d812"
-          (reference "C?") (unit 1)
-        )
-      )
-      (project "Kampela_G2"
-        (path "/f1094595-086c-43ea-a0be-6f801d9d8744/107d2fe5-3a51-4aa0-a4ed-d8d997e2d812"
-          (reference "C66") (unit 1)
-        )
-        (path "/f1094595-086c-43ea-a0be-6f801d9d8744/66544aab-419b-42ce-b140-a8b6097cd9d6"
-          (reference "C59") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 100.33 92.71 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 3be4367a-0a14-4741-95a3-5304d2bee5ba)
-    (property "Reference" "#PWR?" (at 100.33 99.06 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 100.33 97.79 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "" (at 100.33 92.71 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 100.33 92.71 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "" (at 100.33 92.71 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid cc0d37dc-a476-4d54-b538-04559cfe75f2))
-    (instances
-      (project "Kampela"
-        (path "/472e0f49-51e5-4b9c-a9f6-6aed0741c677/107d2fe5-3a51-4aa0-a4ed-d8d997e2d812"
-          (reference "#PWR?") (unit 1)
-        )
-      )
-      (project "Kampela_G2"
-        (path "/f1094595-086c-43ea-a0be-6f801d9d8744/107d2fe5-3a51-4aa0-a4ed-d8d997e2d812"
-          (reference "#PWR098") (unit 1)
-        )
-        (path "/f1094595-086c-43ea-a0be-6f801d9d8744/66544aab-419b-42ce-b140-a8b6097cd9d6"
-          (reference "#PWR098") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C") (at 100.33 135.89 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 3d0b8229-03c8-4e9b-a0da-22f3260ccad0)
-    (property "Reference" "C?" (at 104.14 134.6199 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Value" "47x16" (at 104.14 137.1599 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "Capacitor_SMD:C_1210_3225Metric" (at 99.3648 132.08 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 100.33 135.89 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "" (at 100.33 135.89 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 09edc9d1-1cc2-4b75-a432-defd49bbbe95))
-    (pin "2" (uuid 4ad784eb-6f01-48a4-a702-d0dbd195782f))
-    (instances
-      (project "Kampela"
-        (path "/472e0f49-51e5-4b9c-a9f6-6aed0741c677/107d2fe5-3a51-4aa0-a4ed-d8d997e2d812"
-          (reference "C?") (unit 1)
-        )
-      )
-      (project "Kampela_G2"
-        (path "/f1094595-086c-43ea-a0be-6f801d9d8744/107d2fe5-3a51-4aa0-a4ed-d8d997e2d812"
-          (reference "C78") (unit 1)
-        )
-        (path "/f1094595-086c-43ea-a0be-6f801d9d8744/66544aab-419b-42ce-b140-a8b6097cd9d6"
-          (reference "C11") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C") (at 138.43 135.89 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 4afadd7b-34ae-4ec7-9298-49cb860f5527)
-    (property "Reference" "C?" (at 142.24 134.6199 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Value" "47x16" (at 142.24 137.1599 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "Capacitor_SMD:C_1210_3225Metric" (at 137.4648 132.08 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 138.43 135.89 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "" (at 138.43 135.89 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 92b347ba-16ed-4d7e-b146-56b32e8a7ac5))
-    (pin "2" (uuid 908340e0-9a58-47d3-9e8a-c2f7e3fd65fa))
-    (instances
-      (project "Kampela"
-        (path "/472e0f49-51e5-4b9c-a9f6-6aed0741c677/107d2fe5-3a51-4aa0-a4ed-d8d997e2d812"
-          (reference "C?") (unit 1)
-        )
-      )
-      (project "Kampela_G2"
-        (path "/f1094595-086c-43ea-a0be-6f801d9d8744/107d2fe5-3a51-4aa0-a4ed-d8d997e2d812"
-          (reference "C62") (unit 1)
-        )
-        (path "/f1094595-086c-43ea-a0be-6f801d9d8744/66544aab-419b-42ce-b140-a8b6097cd9d6"
-          (reference "C66") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C") (at 125.73 109.22 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 4c6e5200-f3bd-4a03-9622-a8d303d4ba1b)
-    (property "Reference" "C?" (at 129.54 107.9499 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Value" "47x16" (at 129.54 110.4899 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "Capacitor_SMD:C_1210_3225Metric" (at 124.7648 105.41 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 125.73 109.22 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "" (at 125.73 109.22 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 47fa0a8a-4b4f-45e7-af4f-a1880fcfe26f))
-    (pin "2" (uuid d8c96998-e596-4e7d-b9ce-bffa91fdfffa))
-    (instances
-      (project "Kampela"
-        (path "/472e0f49-51e5-4b9c-a9f6-6aed0741c677/107d2fe5-3a51-4aa0-a4ed-d8d997e2d812"
-          (reference "C?") (unit 1)
-        )
-      )
-      (project "Kampela_G2"
-        (path "/f1094595-086c-43ea-a0be-6f801d9d8744/107d2fe5-3a51-4aa0-a4ed-d8d997e2d812"
-          (reference "C68") (unit 1)
-        )
-        (path "/f1094595-086c-43ea-a0be-6f801d9d8744/66544aab-419b-42ce-b140-a8b6097cd9d6"
-          (reference "C60") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C") (at 167.64 135.89 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 5151a291-857a-4061-9aec-f8b0e47cfac4)
-    (property "Reference" "C?" (at 171.45 134.6199 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Value" "47x16" (at 171.45 137.1599 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "Capacitor_SMD:C_1210_3225Metric" (at 166.6748 132.08 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 167.64 135.89 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "" (at 167.64 135.89 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 4277231e-f99a-4da4-b222-c47c83b07c3e))
-    (pin "2" (uuid dc33eec4-8308-4692-81b5-fc3e0ec491ef))
-    (instances
-      (project "Kampela"
-        (path "/472e0f49-51e5-4b9c-a9f6-6aed0741c677/107d2fe5-3a51-4aa0-a4ed-d8d997e2d812"
-          (reference "C?") (unit 1)
-        )
-      )
-      (project "Kampela_G2"
-        (path "/f1094595-086c-43ea-a0be-6f801d9d8744/107d2fe5-3a51-4aa0-a4ed-d8d997e2d812"
-          (reference "C71") (unit 1)
-        )
-        (path "/f1094595-086c-43ea-a0be-6f801d9d8744/66544aab-419b-42ce-b140-a8b6097cd9d6"
-          (reference "C76") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 100.33 66.04 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 661df795-d500-4d5b-afc2-ae522304d933)
-    (property "Reference" "#PWR?" (at 100.33 72.39 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 100.33 71.12 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "" (at 100.33 66.04 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 100.33 66.04 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "" (at 100.33 66.04 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 34f255c7-7227-4f90-b2bc-02a25c7bf200))
-    (instances
-      (project "Kampela"
-        (path "/472e0f49-51e5-4b9c-a9f6-6aed0741c677/107d2fe5-3a51-4aa0-a4ed-d8d997e2d812"
-          (reference "#PWR?") (unit 1)
-        )
-      )
-      (project "Kampela_G2"
-        (path "/f1094595-086c-43ea-a0be-6f801d9d8744/107d2fe5-3a51-4aa0-a4ed-d8d997e2d812"
-          (reference "#PWR023") (unit 1)
-        )
-        (path "/f1094595-086c-43ea-a0be-6f801d9d8744/66544aab-419b-42ce-b140-a8b6097cd9d6"
-          (reference "#PWR023") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 100.33 146.05 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 6d12d6a1-9f6d-454b-bb30-daa4fbaafc8b)
-    (property "Reference" "#PWR?" (at 100.33 152.4 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 100.33 151.13 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "" (at 100.33 146.05 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 100.33 146.05 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "" (at 100.33 146.05 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 8e37030d-8ea9-49fc-9a00-dae6288f64a8))
-    (instances
-      (project "Kampela"
-        (path "/472e0f49-51e5-4b9c-a9f6-6aed0741c677/107d2fe5-3a51-4aa0-a4ed-d8d997e2d812"
-          (reference "#PWR?") (unit 1)
-        )
-      )
-      (project "Kampela_G2"
-        (path "/f1094595-086c-43ea-a0be-6f801d9d8744/107d2fe5-3a51-4aa0-a4ed-d8d997e2d812"
-          (reference "#PWR0100") (unit 1)
-        )
-        (path "/f1094595-086c-43ea-a0be-6f801d9d8744/66544aab-419b-42ce-b140-a8b6097cd9d6"
-          (reference "#PWR0100") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C") (at 153.67 109.22 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 72ce1c5b-bceb-4ebf-9d61-c9d000c913ab)
-    (property "Reference" "C?" (at 157.48 107.9499 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Value" "47x16" (at 157.48 110.4899 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "Capacitor_SMD:C_1210_3225Metric" (at 152.7048 105.41 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 153.67 109.22 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "" (at 153.67 109.22 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 16330bf6-c16d-4ca0-a67b-0f82336e9537))
-    (pin "2" (uuid 6acc47fa-1386-4c6f-ada5-5f0dfa6cd0e3))
-    (instances
-      (project "Kampela"
-        (path "/472e0f49-51e5-4b9c-a9f6-6aed0741c677/107d2fe5-3a51-4aa0-a4ed-d8d997e2d812"
-          (reference "C?") (unit 1)
-        )
-      )
-      (project "Kampela_G2"
-        (path "/f1094595-086c-43ea-a0be-6f801d9d8744/107d2fe5-3a51-4aa0-a4ed-d8d997e2d812"
-          (reference "C77") (unit 1)
-        )
-        (path "/f1094595-086c-43ea-a0be-6f801d9d8744/66544aab-419b-42ce-b140-a8b6097cd9d6"
-          (reference "C69") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C") (at 113.03 54.61 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 7f73655c-29c7-483c-afb3-cf9584d6f104)
-    (property "Reference" "C?" (at 116.84 53.3399 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Value" "47x16" (at 116.84 55.8799 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "Capacitor_SMD:C_1210_3225Metric" (at 112.0648 50.8 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 113.03 54.61 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "" (at 113.03 54.61 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 4236fda4-5383-4673-a5df-42e2c35eea57))
-    (pin "2" (uuid ee2c0945-dcf8-4b73-9f86-3f9417436296))
-    (instances
-      (project "Kampela"
-        (path "/472e0f49-51e5-4b9c-a9f6-6aed0741c677/107d2fe5-3a51-4aa0-a4ed-d8d997e2d812"
-          (reference "C?") (unit 1)
-        )
-      )
-      (project "Kampela_G2"
-        (path "/f1094595-086c-43ea-a0be-6f801d9d8744/107d2fe5-3a51-4aa0-a4ed-d8d997e2d812"
-          (reference "C8") (unit 1)
-        )
-        (path "/f1094595-086c-43ea-a0be-6f801d9d8744/66544aab-419b-42ce-b140-a8b6097cd9d6"
-          (reference "C13") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C") (at 194.31 135.89 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 80ec9456-6b73-4e8e-be1c-d9d872faab25)
-    (property "Reference" "C?" (at 198.12 134.6199 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Value" "47x16" (at 198.12 137.1599 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "Capacitor_SMD:C_1210_3225Metric" (at 193.3448 132.08 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 194.31 135.89 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "" (at 194.31 135.89 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 8cc553f3-d299-4c46-aeca-8d1744407950))
-    (pin "2" (uuid 4adb5971-2710-4221-997f-8a8b869a61f2))
-    (instances
-      (project "Kampela"
-        (path "/472e0f49-51e5-4b9c-a9f6-6aed0741c677/107d2fe5-3a51-4aa0-a4ed-d8d997e2d812"
-          (reference "C?") (unit 1)
-        )
-      )
-      (project "Kampela_G2"
-        (path "/f1094595-086c-43ea-a0be-6f801d9d8744/107d2fe5-3a51-4aa0-a4ed-d8d997e2d812"
-          (reference "C65") (unit 1)
-        )
-        (path "/f1094595-086c-43ea-a0be-6f801d9d8744/66544aab-419b-42ce-b140-a8b6097cd9d6"
-          (reference "C85") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C") (at 100.33 54.61 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 8185faf8-9de2-4688-a393-ca9d0af3df59)
-    (property "Reference" "C?" (at 104.14 53.3399 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Value" "47x16" (at 104.14 55.8799 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "Capacitor_SMD:C_1210_3225Metric" (at 99.3648 50.8 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 100.33 54.61 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "" (at 100.33 54.61 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 7f9cb67c-77f5-48a5-bedf-8c743b990ed2))
-    (pin "2" (uuid 9d9bd34b-ad55-4124-b18e-b74ac87cf331))
-    (instances
-      (project "Kampela"
-        (path "/472e0f49-51e5-4b9c-a9f6-6aed0741c677/107d2fe5-3a51-4aa0-a4ed-d8d997e2d812"
-          (reference "C?") (unit 1)
-        )
-      )
-      (project "Kampela_G2"
-        (path "/f1094595-086c-43ea-a0be-6f801d9d8744/107d2fe5-3a51-4aa0-a4ed-d8d997e2d812"
-          (reference "C6") (unit 1)
-        )
-        (path "/f1094595-086c-43ea-a0be-6f801d9d8744/66544aab-419b-42ce-b140-a8b6097cd9d6"
-          (reference "C6") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C") (at 100.33 109.22 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 848f2b40-406f-48d0-910d-a6f083aaaec6)
-    (property "Reference" "C?" (at 104.14 107.9499 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Value" "47x16" (at 104.14 110.4899 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "Capacitor_SMD:C_1210_3225Metric" (at 99.3648 105.41 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 100.33 109.22 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "" (at 100.33 109.22 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid e2d2e933-56c3-4e48-8ed4-99a591f7a388))
-    (pin "2" (uuid fcc7162b-6cff-43b6-8fea-dfd86172bb52))
-    (instances
-      (project "Kampela"
-        (path "/472e0f49-51e5-4b9c-a9f6-6aed0741c677/107d2fe5-3a51-4aa0-a4ed-d8d997e2d812"
-          (reference "C?") (unit 1)
-        )
-      )
-      (project "Kampela_G2"
-        (path "/f1094595-086c-43ea-a0be-6f801d9d8744/107d2fe5-3a51-4aa0-a4ed-d8d997e2d812"
-          (reference "C76") (unit 1)
-        )
-        (path "/f1094595-086c-43ea-a0be-6f801d9d8744/66544aab-419b-42ce-b140-a8b6097cd9d6"
-          (reference "C10") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C") (at 193.04 54.61 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 87536164-ec2a-42a5-8b07-593920b496c7)
-    (property "Reference" "C?" (at 196.85 53.3399 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Value" "47x16" (at 196.85 55.8799 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "Capacitor_SMD:C_1210_3225Metric" (at 192.0748 50.8 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 193.04 54.61 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "" (at 193.04 54.61 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid c593bef9-db3b-447a-b121-14c093e6a97e))
-    (pin "2" (uuid 172ce348-1ba7-48f8-afe4-76e680f26551))
-    (instances
-      (project "Kampela"
-        (path "/472e0f49-51e5-4b9c-a9f6-6aed0741c677/107d2fe5-3a51-4aa0-a4ed-d8d997e2d812"
-          (reference "C?") (unit 1)
-        )
-      )
-      (project "Kampela_G2"
-        (path "/f1094595-086c-43ea-a0be-6f801d9d8744/107d2fe5-3a51-4aa0-a4ed-d8d997e2d812"
-          (reference "C19") (unit 1)
-        )
-        (path "/f1094595-086c-43ea-a0be-6f801d9d8744/66544aab-419b-42ce-b140-a8b6097cd9d6"
-          (reference "C82") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C") (at 138.43 54.61 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 87a97a60-5f36-444d-b5d2-bf51153abdaa)
-    (property "Reference" "C?" (at 142.24 53.3399 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Value" "47x16" (at 142.24 55.8799 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "Capacitor_SMD:C_1210_3225Metric" (at 137.4648 50.8 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 138.43 54.61 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "" (at 138.43 54.61 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid b1de2b52-63b9-4e1d-b02d-f941daa09c32))
-    (pin "2" (uuid 2518874e-f1fc-41dc-b03b-ff0693f217ad))
-    (instances
-      (project "Kampela"
-        (path "/472e0f49-51e5-4b9c-a9f6-6aed0741c677/107d2fe5-3a51-4aa0-a4ed-d8d997e2d812"
-          (reference "C?") (unit 1)
-        )
-      )
-      (project "Kampela_G2"
-        (path "/f1094595-086c-43ea-a0be-6f801d9d8744/107d2fe5-3a51-4aa0-a4ed-d8d997e2d812"
-          (reference "C11") (unit 1)
-        )
-        (path "/f1094595-086c-43ea-a0be-6f801d9d8744/66544aab-419b-42ce-b140-a8b6097cd9d6"
-          (reference "C62") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C") (at 153.67 82.55 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 962df67b-7cfb-4125-896f-95a7e6a475bd)
-    (property "Reference" "C?" (at 157.48 81.2799 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Value" "47x16" (at 157.48 83.8199 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "Capacitor_SMD:C_1210_3225Metric" (at 152.7048 78.74 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 153.67 82.55 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "" (at 153.67 82.55 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 67f8716f-3ec8-4f85-8ab2-f3e4941657b0))
-    (pin "2" (uuid 955a6540-3b7e-4e8d-900c-93b8ae729936))
-    (instances
-      (project "Kampela"
-        (path "/472e0f49-51e5-4b9c-a9f6-6aed0741c677/107d2fe5-3a51-4aa0-a4ed-d8d997e2d812"
-          (reference "C?") (unit 1)
-        )
-      )
-      (project "Kampela_G2"
-        (path "/f1094595-086c-43ea-a0be-6f801d9d8744/107d2fe5-3a51-4aa0-a4ed-d8d997e2d812"
-          (reference "C75") (unit 1)
-        )
-        (path "/f1094595-086c-43ea-a0be-6f801d9d8744/66544aab-419b-42ce-b140-a8b6097cd9d6"
-          (reference "C68") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C") (at 152.4 54.61 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 991d2b8a-a153-4675-b12d-c0e2b1c44bb0)
-    (property "Reference" "C?" (at 156.21 53.3399 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Value" "47x16" (at 156.21 55.8799 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "Capacitor_SMD:C_1210_3225Metric" (at 151.4348 50.8 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 152.4 54.61 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "" (at 152.4 54.61 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid c2551bd8-5c40-4a13-9b8f-d7fd19d12fa7))
-    (pin "2" (uuid 7eb08f7b-cbc1-435c-9e51-7b3e977caaaa))
-    (instances
-      (project "Kampela"
-        (path "/472e0f49-51e5-4b9c-a9f6-6aed0741c677/107d2fe5-3a51-4aa0-a4ed-d8d997e2d812"
-          (reference "C?") (unit 1)
-        )
-      )
-      (project "Kampela_G2"
-        (path "/f1094595-086c-43ea-a0be-6f801d9d8744/107d2fe5-3a51-4aa0-a4ed-d8d997e2d812"
-          (reference "C13") (unit 1)
-        )
-        (path "/f1094595-086c-43ea-a0be-6f801d9d8744/66544aab-419b-42ce-b140-a8b6097cd9d6"
-          (reference "C67") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C") (at 167.64 82.55 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid a5563351-b0fa-4fa2-bfdd-33c7f459d5d3)
-    (property "Reference" "C?" (at 171.45 81.2799 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Value" "47x16" (at 171.45 83.8199 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "Capacitor_SMD:C_1210_3225Metric" (at 166.6748 78.74 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 167.64 82.55 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "" (at 167.64 82.55 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid b64bd2ca-9085-4c65-a936-dae074fea781))
-    (pin "2" (uuid ad0ca2b6-01f9-4cc8-bc51-e992c9aa0589))
-    (instances
-      (project "Kampela"
-        (path "/472e0f49-51e5-4b9c-a9f6-6aed0741c677/107d2fe5-3a51-4aa0-a4ed-d8d997e2d812"
-          (reference "C?") (unit 1)
-        )
-      )
-      (project "Kampela_G2"
-        (path "/f1094595-086c-43ea-a0be-6f801d9d8744/107d2fe5-3a51-4aa0-a4ed-d8d997e2d812"
-          (reference "C83") (unit 1)
-        )
-        (path "/f1094595-086c-43ea-a0be-6f801d9d8744/66544aab-419b-42ce-b140-a8b6097cd9d6"
-          (reference "C74") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C") (at 194.31 82.55 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid b69b7e81-6202-4f22-98e1-6893e73981a4)
-    (property "Reference" "C?" (at 198.12 81.2799 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Value" "47x16" (at 198.12 83.8199 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "Capacitor_SMD:C_1210_3225Metric" (at 193.3448 78.74 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 194.31 82.55 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "" (at 194.31 82.55 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 88f64338-e171-4f8f-ae81-0f28df99bf59))
-    (pin "2" (uuid 9d88332c-253b-4e7e-b859-47161eedaf96))
-    (instances
-      (project "Kampela"
-        (path "/472e0f49-51e5-4b9c-a9f6-6aed0741c677/107d2fe5-3a51-4aa0-a4ed-d8d997e2d812"
-          (reference "C?") (unit 1)
-        )
-      )
-      (project "Kampela_G2"
-        (path "/f1094595-086c-43ea-a0be-6f801d9d8744/107d2fe5-3a51-4aa0-a4ed-d8d997e2d812"
-          (reference "C59") (unit 1)
-        )
-        (path "/f1094595-086c-43ea-a0be-6f801d9d8744/66544aab-419b-42ce-b140-a8b6097cd9d6"
-          (reference "C83") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C") (at 113.03 109.22 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid b6be9fa9-6daf-40d1-8e58-7ff957be44bd)
-    (property "Reference" "C?" (at 116.84 107.9499 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Value" "47x16" (at 116.84 110.4899 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "Capacitor_SMD:C_1210_3225Metric" (at 112.0648 105.41 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 113.03 109.22 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "" (at 113.03 109.22 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 6d23a0ff-1358-41b6-9244-1088cfe0fc5b))
-    (pin "2" (uuid 25888c7e-bbfe-480c-a0c3-dbc795efdf00))
-    (instances
-      (project "Kampela"
-        (path "/472e0f49-51e5-4b9c-a9f6-6aed0741c677/107d2fe5-3a51-4aa0-a4ed-d8d997e2d812"
-          (reference "C?") (unit 1)
-        )
-      )
-      (project "Kampela_G2"
-        (path "/f1094595-086c-43ea-a0be-6f801d9d8744/107d2fe5-3a51-4aa0-a4ed-d8d997e2d812"
-          (reference "C84") (unit 1)
-        )
-        (path "/f1094595-086c-43ea-a0be-6f801d9d8744/66544aab-419b-42ce-b140-a8b6097cd9d6"
-          (reference "C17") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C") (at 166.37 54.61 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid b6c89cbf-95e1-4b22-abcb-012e15cba90a)
-    (property "Reference" "C?" (at 170.18 53.3399 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Value" "47x16" (at 170.18 55.8799 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "Capacitor_SMD:C_1210_3225Metric" (at 165.4048 50.8 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 166.37 54.61 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "" (at 166.37 54.61 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 8f3aa36e-2169-4c52-9b33-369718dd1007))
-    (pin "2" (uuid 978c4677-0dd3-443a-afde-1d55bd54b508))
-    (instances
-      (project "Kampela"
-        (path "/472e0f49-51e5-4b9c-a9f6-6aed0741c677/107d2fe5-3a51-4aa0-a4ed-d8d997e2d812"
-          (reference "C?") (unit 1)
-        )
-      )
-      (project "Kampela_G2"
-        (path "/f1094595-086c-43ea-a0be-6f801d9d8744/107d2fe5-3a51-4aa0-a4ed-d8d997e2d812"
-          (reference "C15") (unit 1)
-        )
-        (path "/f1094595-086c-43ea-a0be-6f801d9d8744/66544aab-419b-42ce-b140-a8b6097cd9d6"
-          (reference "C71") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C") (at 153.67 135.89 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid bd060c36-551b-4815-8b2a-b33794e0ebb7)
-    (property "Reference" "C?" (at 157.48 134.6199 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Value" "47x16" (at 157.48 137.1599 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "Capacitor_SMD:C_1210_3225Metric" (at 152.7048 132.08 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 153.67 135.89 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "" (at 153.67 135.89 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid fbfc8fc0-1c2e-4142-a14d-a88fad6af683))
-    (pin "2" (uuid f2e321ce-4441-4660-b499-89e067de1c7a))
-    (instances
-      (project "Kampela"
-        (path "/472e0f49-51e5-4b9c-a9f6-6aed0741c677/107d2fe5-3a51-4aa0-a4ed-d8d997e2d812"
-          (reference "C?") (unit 1)
-        )
-      )
-      (project "Kampela_G2"
-        (path "/f1094595-086c-43ea-a0be-6f801d9d8744/107d2fe5-3a51-4aa0-a4ed-d8d997e2d812"
-          (reference "C79") (unit 1)
-        )
-        (path "/f1094595-086c-43ea-a0be-6f801d9d8744/66544aab-419b-42ce-b140-a8b6097cd9d6"
-          (reference "C70") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C") (at 181.61 82.55 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid c0807c7d-10cd-42d1-af12-806afccce6a5)
-    (property "Reference" "C?" (at 185.42 81.2799 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Value" "47x16" (at 185.42 83.8199 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "Capacitor_SMD:C_1210_3225Metric" (at 180.6448 78.74 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 181.61 82.55 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "" (at 181.61 82.55 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid d882dfd5-a721-44ef-bd4b-082a4db2a9ff))
-    (pin "2" (uuid 7d047936-e4ec-47b2-970a-07d480a28c2e))
-    (instances
-      (project "Kampela"
-        (path "/472e0f49-51e5-4b9c-a9f6-6aed0741c677/107d2fe5-3a51-4aa0-a4ed-d8d997e2d812"
-          (reference "C?") (unit 1)
-        )
-      )
-      (project "Kampela_G2"
-        (path "/f1094595-086c-43ea-a0be-6f801d9d8744/107d2fe5-3a51-4aa0-a4ed-d8d997e2d812"
-          (reference "C67") (unit 1)
-        )
-        (path "/f1094595-086c-43ea-a0be-6f801d9d8744/66544aab-419b-42ce-b140-a8b6097cd9d6"
-          (reference "C78") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 100.33 119.38 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid d208ea4a-7df1-4eb9-b887-7fbe78c93763)
-    (property "Reference" "#PWR?" (at 100.33 125.73 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 100.33 124.46 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "" (at 100.33 119.38 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 100.33 119.38 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "" (at 100.33 119.38 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 92e6ae79-4d6b-454f-9d98-feb5199a839e))
-    (instances
-      (project "Kampela"
-        (path "/472e0f49-51e5-4b9c-a9f6-6aed0741c677/107d2fe5-3a51-4aa0-a4ed-d8d997e2d812"
-          (reference "#PWR?") (unit 1)
-        )
-      )
-      (project "Kampela_G2"
-        (path "/f1094595-086c-43ea-a0be-6f801d9d8744/107d2fe5-3a51-4aa0-a4ed-d8d997e2d812"
-          (reference "#PWR099") (unit 1)
-        )
-        (path "/f1094595-086c-43ea-a0be-6f801d9d8744/66544aab-419b-42ce-b140-a8b6097cd9d6"
-          (reference "#PWR099") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C") (at 125.73 135.89 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid daa200f1-2d71-415f-b3d4-d1665912d66a)
-    (property "Reference" "C?" (at 129.54 134.6199 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Value" "47x16" (at 129.54 137.1599 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "Capacitor_SMD:C_1210_3225Metric" (at 124.7648 132.08 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 125.73 135.89 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "" (at 125.73 135.89 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 4ab53238-a5a8-4a86-87a6-13e9fb5574f3))
-    (pin "2" (uuid dab37bd1-68f8-42ee-ab2b-9526e720adef))
-    (instances
-      (project "Kampela"
-        (path "/472e0f49-51e5-4b9c-a9f6-6aed0741c677/107d2fe5-3a51-4aa0-a4ed-d8d997e2d812"
-          (reference "C?") (unit 1)
-        )
-      )
-      (project "Kampela_G2"
-        (path "/f1094595-086c-43ea-a0be-6f801d9d8744/107d2fe5-3a51-4aa0-a4ed-d8d997e2d812"
-          (reference "C70") (unit 1)
-        )
-        (path "/f1094595-086c-43ea-a0be-6f801d9d8744/66544aab-419b-42ce-b140-a8b6097cd9d6"
-          (reference "C61") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C") (at 113.03 82.55 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid daf35343-4682-480e-8f7c-23d364f8b949)
-    (property "Reference" "C?" (at 116.84 81.2799 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Value" "47x16" (at 116.84 83.8199 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "Capacitor_SMD:C_1210_3225Metric" (at 112.0648 78.74 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 113.03 82.55 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "" (at 113.03 82.55 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid dcfd4e6a-e364-425e-8c86-08d0fb3309c7))
-    (pin "2" (uuid 6f0f181e-42f5-46f4-b884-d33f5435d9f1))
-    (instances
-      (project "Kampela"
-        (path "/472e0f49-51e5-4b9c-a9f6-6aed0741c677/107d2fe5-3a51-4aa0-a4ed-d8d997e2d812"
-          (reference "C?") (unit 1)
-        )
-      )
-      (project "Kampela_G2"
-        (path "/f1094595-086c-43ea-a0be-6f801d9d8744/107d2fe5-3a51-4aa0-a4ed-d8d997e2d812"
-          (reference "C82") (unit 1)
-        )
-        (path "/f1094595-086c-43ea-a0be-6f801d9d8744/66544aab-419b-42ce-b140-a8b6097cd9d6"
-          (reference "C15") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C") (at 167.64 109.22 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid dd46fb00-02f2-47c4-9a81-d4d3c63128dc)
-    (property "Reference" "C?" (at 171.45 107.9499 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Value" "47x16" (at 171.45 110.4899 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "Capacitor_SMD:C_1210_3225Metric" (at 166.6748 105.41 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 167.64 109.22 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "" (at 167.64 109.22 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid df0576c6-dd2e-424a-bab4-910d3931ebc9))
-    (pin "2" (uuid 08949ad1-2ef3-4fca-b995-87f33721602a))
-    (instances
-      (project "Kampela"
-        (path "/472e0f49-51e5-4b9c-a9f6-6aed0741c677/107d2fe5-3a51-4aa0-a4ed-d8d997e2d812"
-          (reference "C?") (unit 1)
-        )
-      )
-      (project "Kampela_G2"
-        (path "/f1094595-086c-43ea-a0be-6f801d9d8744/107d2fe5-3a51-4aa0-a4ed-d8d997e2d812"
-          (reference "C85") (unit 1)
-        )
-        (path "/f1094595-086c-43ea-a0be-6f801d9d8744/66544aab-419b-42ce-b140-a8b6097cd9d6"
-          (reference "C75") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C") (at 113.03 135.89 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid de209e4f-6575-46c3-a75d-68b612f6ffb7)
-    (property "Reference" "C?" (at 116.84 134.6199 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Value" "47x16" (at 116.84 137.1599 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "Capacitor_SMD:C_1210_3225Metric" (at 112.0648 132.08 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 113.03 135.89 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "" (at 113.03 135.89 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid ae6c6e36-efdc-4d02-a739-25aecf24d1fd))
-    (pin "2" (uuid b11ab6da-0d7b-4276-bc28-561dd1262ffe))
-    (instances
-      (project "Kampela"
-        (path "/472e0f49-51e5-4b9c-a9f6-6aed0741c677/107d2fe5-3a51-4aa0-a4ed-d8d997e2d812"
-          (reference "C?") (unit 1)
-        )
-      )
-      (project "Kampela_G2"
-        (path "/f1094595-086c-43ea-a0be-6f801d9d8744/107d2fe5-3a51-4aa0-a4ed-d8d997e2d812"
-          (reference "C86") (unit 1)
-        )
-        (path "/f1094595-086c-43ea-a0be-6f801d9d8744/66544aab-419b-42ce-b140-a8b6097cd9d6"
-          (reference "C19") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C") (at 194.31 109.22 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid ded91e9d-8ebc-49ea-835f-2cd736b17ad3)
-    (property "Reference" "C?" (at 198.12 107.9499 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Value" "47x16" (at 198.12 110.4899 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "Capacitor_SMD:C_1210_3225Metric" (at 193.3448 105.41 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 194.31 109.22 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "" (at 194.31 109.22 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid fc465a9e-6132-488f-8f39-f59614214b14))
-    (pin "2" (uuid 4ba40f3d-9c35-4db6-b1c0-96d49a95171d))
-    (instances
-      (project "Kampela"
-        (path "/472e0f49-51e5-4b9c-a9f6-6aed0741c677/107d2fe5-3a51-4aa0-a4ed-d8d997e2d812"
-          (reference "C?") (unit 1)
-        )
-      )
-      (project "Kampela_G2"
-        (path "/f1094595-086c-43ea-a0be-6f801d9d8744/107d2fe5-3a51-4aa0-a4ed-d8d997e2d812"
-          (reference "C61") (unit 1)
-        )
-        (path "/f1094595-086c-43ea-a0be-6f801d9d8744/66544aab-419b-42ce-b140-a8b6097cd9d6"
-          (reference "C84") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C") (at 180.34 54.61 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid f319a69d-4115-44ec-8803-25c57b9b34bf)
-    (property "Reference" "C?" (at 184.15 53.3399 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Value" "47x16" (at 184.15 55.8799 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "Capacitor_SMD:C_1210_3225Metric" (at 179.3748 50.8 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 180.34 54.61 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "" (at 180.34 54.61 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid b8474abe-9881-4df5-8b2a-7a86b5885072))
-    (pin "2" (uuid 01cb32d4-d93a-4f38-a5a0-89656107ef68))
-    (instances
-      (project "Kampela"
-        (path "/472e0f49-51e5-4b9c-a9f6-6aed0741c677/107d2fe5-3a51-4aa0-a4ed-d8d997e2d812"
-          (reference "C?") (unit 1)
-        )
-      )
-      (project "Kampela_G2"
-        (path "/f1094595-086c-43ea-a0be-6f801d9d8744/107d2fe5-3a51-4aa0-a4ed-d8d997e2d812"
-          (reference "C17") (unit 1)
-        )
-        (path "/f1094595-086c-43ea-a0be-6f801d9d8744/66544aab-419b-42ce-b140-a8b6097cd9d6"
-          (reference "C77") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C") (at 125.73 54.61 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid faf050e9-1d7c-43a8-bb85-e0e819328e82)
-    (property "Reference" "C?" (at 129.54 53.3399 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Value" "47x16" (at 129.54 55.8799 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "Capacitor_SMD:C_1210_3225Metric" (at 124.7648 50.8 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 125.73 54.61 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "" (at 125.73 54.61 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 0d7e7d80-f294-40e3-83dc-df16d24ed297))
-    (pin "2" (uuid 813d9e45-63f2-4977-96c4-70dd8351b015))
-    (instances
-      (project "Kampela"
-        (path "/472e0f49-51e5-4b9c-a9f6-6aed0741c677/107d2fe5-3a51-4aa0-a4ed-d8d997e2d812"
-          (reference "C?") (unit 1)
-        )
-      )
-      (project "Kampela_G2"
-        (path "/f1094595-086c-43ea-a0be-6f801d9d8744/107d2fe5-3a51-4aa0-a4ed-d8d997e2d812"
-          (reference "C10") (unit 1)
-        )
-        (path "/f1094595-086c-43ea-a0be-6f801d9d8744/66544aab-419b-42ce-b140-a8b6097cd9d6"
-          (reference "C58") (unit 1)
-        )
-      )
-    )
-  )
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "fed1c332-e928-41ce-a00d-0fa0cc15f0e1")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Device:C"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "power-flag"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 193.04 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "014ab28f-3b06-4941-b74f-b091a4bc4f8c")
+	)
+	(junction
+		(at 152.4 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "034b666e-c8a7-4b82-a834-86fc4a984a65")
+	)
+	(junction
+		(at 180.34 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "03cb015d-31cd-4b78-8ad9-b00dd23279bb")
+	)
+	(junction
+		(at 100.33 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "046f42a3-b1f0-4773-a7b6-0ba9161bb54b")
+	)
+	(junction
+		(at 181.61 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0c891104-e9a9-41c9-944e-2b2972668fbd")
+	)
+	(junction
+		(at 138.43 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0d48590c-9280-4c1d-bd56-b4b5a0068d30")
+	)
+	(junction
+		(at 166.37 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0fb9ac1e-036e-4241-ab62-98f452cde161")
+	)
+	(junction
+		(at 138.43 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "13283741-2d37-40d2-b9d7-1da205dcc755")
+	)
+	(junction
+		(at 125.73 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2084e30f-37f4-47fa-9e44-e67d26fd65c3")
+	)
+	(junction
+		(at 167.64 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2f05609a-2f8e-4e20-b9bd-ae326ddf32cc")
+	)
+	(junction
+		(at 153.67 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2fd63501-833f-4bb5-968c-09d14fa55d51")
+	)
+	(junction
+		(at 125.73 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "33465f0c-27f6-42c0-aea0-8d0be9fef0a9")
+	)
+	(junction
+		(at 113.03 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3db3f4f1-d97b-4626-a8d0-5e34245f407f")
+	)
+	(junction
+		(at 100.33 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "44e37e8d-7c03-4d9a-b534-91695059f7f7")
+	)
+	(junction
+		(at 167.64 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "45df0d74-6cc3-4a7c-b765-1aca32ae3b92")
+	)
+	(junction
+		(at 113.03 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4a130768-29b6-44f5-9bb0-a8d5438761fe")
+	)
+	(junction
+		(at 153.67 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5bf8bb34-a68f-41c8-83ba-fa3bf76e5ce3")
+	)
+	(junction
+		(at 113.03 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "61496012-2713-4eee-92b5-59647b670a9b")
+	)
+	(junction
+		(at 113.03 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "66b6dfc3-8c1d-41aa-b664-798a8dc39d54")
+	)
+	(junction
+		(at 125.73 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6714d01e-ef38-4892-9a72-740b03d837c9")
+	)
+	(junction
+		(at 100.33 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7235e136-8256-4b8f-bba9-7a47151b4319")
+	)
+	(junction
+		(at 153.67 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "745b4541-4ca7-4d6c-b2c4-b4f13b1bc861")
+	)
+	(junction
+		(at 138.43 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "79fe208c-341b-4a85-a920-5db1753ba399")
+	)
+	(junction
+		(at 167.64 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7ab50b38-d4b4-4949-9d27-f33965da9d3c")
+	)
+	(junction
+		(at 193.04 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7b05c28e-c580-4917-8fc5-e0cb41d97f72")
+	)
+	(junction
+		(at 153.67 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "805fe9cc-2b97-42fe-a4d3-63880daeca08")
+	)
+	(junction
+		(at 100.33 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "82920dc7-788d-413f-9574-5db6df33f3c0")
+	)
+	(junction
+		(at 181.61 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "83b5445d-6308-4651-a4ae-9ff09a02b1ae")
+	)
+	(junction
+		(at 166.37 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "87c4b0a7-bbee-4d43-a49a-5ffae4d5e6d4")
+	)
+	(junction
+		(at 167.64 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8e7ef6d9-b8bd-476e-90ea-9b2986870723")
+	)
+	(junction
+		(at 125.73 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "940c475f-20e1-45e9-95a3-2a516c25c34d")
+	)
+	(junction
+		(at 181.61 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a28a8914-2cf8-4609-8f2a-29f40b9dff71")
+	)
+	(junction
+		(at 138.43 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a2ad9e76-3d9e-4edc-a606-53eee4d246da")
+	)
+	(junction
+		(at 138.43 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aebf1f8d-c3ed-4448-936b-9e8f88e184c5")
+	)
+	(junction
+		(at 125.73 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "af175c69-e786-4042-8e93-a28d1f5698a4")
+	)
+	(junction
+		(at 167.64 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b0a0ec30-4955-413d-85be-f6358802f597")
+	)
+	(junction
+		(at 180.34 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b1ac9403-4a63-4ab3-b425-c9dd3545cf80")
+	)
+	(junction
+		(at 153.67 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b4632656-fae6-41c0-a588-51ec7b1609d8")
+	)
+	(junction
+		(at 152.4 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b646e905-624b-450e-8e2c-75595cfadbd9")
+	)
+	(junction
+		(at 181.61 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bf76d184-5243-4044-9681-cb23ce655da6")
+	)
+	(junction
+		(at 181.61 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c1b93721-9652-4077-a963-a7303d38c15b")
+	)
+	(junction
+		(at 113.03 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c36e667b-fe73-4177-b5ce-b83236d22933")
+	)
+	(junction
+		(at 113.03 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c3a36163-4d99-4511-9d5a-bdb59b016a4d")
+	)
+	(junction
+		(at 113.03 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c67d082e-e226-42ba-994a-a3afdbae6b4b")
+	)
+	(junction
+		(at 153.67 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cb528de8-5601-44ea-b321-6a8be21029b0")
+	)
+	(junction
+		(at 125.73 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cb75a25b-3fa7-4133-b562-86cdec23e44a")
+	)
+	(junction
+		(at 113.03 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ccb414ee-6894-42dc-8ff6-562b48d927e7")
+	)
+	(junction
+		(at 138.43 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d3112671-6491-4e79-9594-77a24090adc7")
+	)
+	(junction
+		(at 167.64 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dd45acf0-c35e-4f0c-afc2-85bb1a07d2dd")
+	)
+	(junction
+		(at 138.43 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e13acef7-67d8-4ee6-beb4-52f091697af5")
+	)
+	(junction
+		(at 138.43 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e1b22f49-5c49-4f7d-a5bb-10bd304c2605")
+	)
+	(junction
+		(at 125.73 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f3dfba59-9c31-4910-b775-5a3ee25e1c52")
+	)
+	(junction
+		(at 181.61 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f708dec0-91ef-4b35-93d9-c5dccd69afde")
+	)
+	(junction
+		(at 125.73 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f9a3559f-8d95-4ca9-ba6c-a06a6b3ca792")
+	)
+	(wire
+		(pts
+			(xy 138.43 101.6) (xy 138.43 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01832084-9fd7-4536-97f1-313e340e3f24")
+	)
+	(wire
+		(pts
+			(xy 194.31 101.6) (xy 194.31 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "048eff1d-9e5d-4a20-ade3-13f0cad0925e")
+	)
+	(wire
+		(pts
+			(xy 113.03 139.7) (xy 113.03 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "065bd32e-1677-4c88-847d-9a46fdd46b00")
+	)
+	(wire
+		(pts
+			(xy 152.4 46.99) (xy 152.4 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0986ab25-7bf2-4586-b2e2-eb56ae6bc259")
+	)
+	(wire
+		(pts
+			(xy 180.34 46.99) (xy 180.34 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11622d60-dcea-447a-8a21-61918ab3b6d2")
+	)
+	(wire
+		(pts
+			(xy 167.64 92.71) (xy 181.61 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12002efe-1b42-43f1-a2dd-51d99ef81c6f")
+	)
+	(wire
+		(pts
+			(xy 125.73 101.6) (xy 125.73 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12ad5e30-6c23-42eb-a791-3155b6150556")
+	)
+	(wire
+		(pts
+			(xy 113.03 46.99) (xy 125.73 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1996049e-cd1e-4d81-9bbb-936eaa661c33")
+	)
+	(wire
+		(pts
+			(xy 113.03 113.03) (xy 113.03 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ca291fa-2fa9-4465-9764-5a944f8b4304")
+	)
+	(wire
+		(pts
+			(xy 100.33 46.99) (xy 113.03 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cabbe1b-4b9e-43ef-a34d-9bfacbd46ebd")
+	)
+	(wire
+		(pts
+			(xy 153.67 113.03) (xy 153.67 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e14584a-4901-4f55-9dd3-ed1ec11c6b56")
+	)
+	(wire
+		(pts
+			(xy 138.43 74.93) (xy 138.43 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e219b32-1199-4950-898e-715e07375070")
+	)
+	(wire
+		(pts
+			(xy 167.64 146.05) (xy 181.61 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f4d00d6-8951-4457-8bba-b4a4f4172472")
+	)
+	(wire
+		(pts
+			(xy 113.03 46.99) (xy 113.03 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25390822-f8e2-486f-8840-1f39e18083b1")
+	)
+	(wire
+		(pts
+			(xy 113.03 128.27) (xy 125.73 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26529c00-c5b1-4ce3-bcb2-4042ed87ccb8")
+	)
+	(wire
+		(pts
+			(xy 180.34 58.42) (xy 180.34 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "279314fe-bd3f-439b-9920-6aca6838f7b8")
+	)
+	(wire
+		(pts
+			(xy 100.33 146.05) (xy 113.03 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cecdc94-40ae-45ad-87a4-3dfbb6f495ad")
+	)
+	(wire
+		(pts
+			(xy 113.03 92.71) (xy 125.73 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33445c7f-a759-4891-a0f4-69e2556b12c3")
+	)
+	(wire
+		(pts
+			(xy 152.4 46.99) (xy 166.37 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34124153-5700-45ad-8043-80fcac83f208")
+	)
+	(wire
+		(pts
+			(xy 138.43 113.03) (xy 138.43 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "351e1c9b-b019-4d36-8fa3-462bfaa58b94")
+	)
+	(wire
+		(pts
+			(xy 181.61 113.03) (xy 181.61 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3664e154-a4bd-421e-a48f-0d1cb5f30f0f")
+	)
+	(wire
+		(pts
+			(xy 100.33 86.36) (xy 100.33 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "376c933e-abdc-4140-8219-efdcc88c4b4e")
+	)
+	(wire
+		(pts
+			(xy 113.03 86.36) (xy 113.03 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38e02e5e-5074-4013-b142-73db2d027219")
+	)
+	(wire
+		(pts
+			(xy 125.73 128.27) (xy 125.73 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a66ec2f-94de-42f3-a907-a95bf3ae5f6c")
+	)
+	(wire
+		(pts
+			(xy 181.61 101.6) (xy 194.31 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e1fa015-16b6-4fcd-bac6-ecf0de6f728f")
+	)
+	(wire
+		(pts
+			(xy 194.31 139.7) (xy 194.31 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ea10e27-3a92-4c50-a15c-28fbcc4a8774")
+	)
+	(wire
+		(pts
+			(xy 194.31 113.03) (xy 194.31 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "436e9feb-f777-4c61-9873-5431b9363597")
+	)
+	(wire
+		(pts
+			(xy 181.61 86.36) (xy 181.61 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4492e086-470e-4fe3-ad65-c5fd2660cf80")
+	)
+	(wire
+		(pts
+			(xy 100.33 64.77) (xy 113.03 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44eaca44-d53b-4e53-9b6b-c44d5bb364f5")
+	)
+	(wire
+		(pts
+			(xy 100.33 78.74) (xy 100.33 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "468abefe-96e5-48dc-b948-21817a3ce296")
+	)
+	(wire
+		(pts
+			(xy 138.43 146.05) (xy 153.67 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "488366cc-560a-4371-8867-cc5cb9a6fed7")
+	)
+	(wire
+		(pts
+			(xy 100.33 132.08) (xy 100.33 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4931276e-9ca0-4c0e-b108-dd03ce09fea8")
+	)
+	(wire
+		(pts
+			(xy 100.33 119.38) (xy 113.03 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "498565a7-a387-48c7-8da0-a38f62c5c98e")
+	)
+	(wire
+		(pts
+			(xy 181.61 74.93) (xy 194.31 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49acf1fa-b88a-4625-bb0a-779b303392df")
+	)
+	(wire
+		(pts
+			(xy 166.37 58.42) (xy 166.37 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a20f104-061e-49f4-ac23-4b85f51ab236")
+	)
+	(wire
+		(pts
+			(xy 100.33 139.7) (xy 100.33 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a844b56-8f5e-449c-824a-a99bf0f688a7")
+	)
+	(wire
+		(pts
+			(xy 138.43 86.36) (xy 138.43 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b265394-a8cb-48de-9880-9189c558debf")
+	)
+	(wire
+		(pts
+			(xy 138.43 139.7) (xy 138.43 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d980e59-fe13-4495-b82b-1d3f1ff27cba")
+	)
+	(wire
+		(pts
+			(xy 193.04 64.77) (xy 207.01 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e8a8ac3-67e5-4b4b-b762-c14d4c1b79e9")
+	)
+	(wire
+		(pts
+			(xy 125.73 58.42) (xy 125.73 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51976115-7a46-45ee-b462-ddd15d138782")
+	)
+	(wire
+		(pts
+			(xy 167.64 128.27) (xy 167.64 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "556ec47f-8bcb-41a5-a66d-d035ae06929b")
+	)
+	(wire
+		(pts
+			(xy 138.43 128.27) (xy 153.67 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55a7d92c-434d-481b-af85-7800029dc173")
+	)
+	(wire
+		(pts
+			(xy 193.04 46.99) (xy 207.01 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57cb26b3-9acf-45d2-9f63-dc977b068bb2")
+	)
+	(wire
+		(pts
+			(xy 153.67 139.7) (xy 153.67 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c6536b9-774b-4092-a897-1e1e8f9e7773")
+	)
+	(wire
+		(pts
+			(xy 180.34 46.99) (xy 193.04 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5cb668e5-96c3-4814-98af-7576c2e82d93")
+	)
+	(wire
+		(pts
+			(xy 113.03 128.27) (xy 113.03 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d22ab13-91ab-4b20-8921-d1392c4d2b05")
+	)
+	(wire
+		(pts
+			(xy 167.64 101.6) (xy 167.64 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ea60d02-af4a-467e-b046-6d69102db813")
+	)
+	(wire
+		(pts
+			(xy 113.03 64.77) (xy 125.73 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ff57a08-c838-458c-939d-8494e2a0fa11")
+	)
+	(wire
+		(pts
+			(xy 125.73 146.05) (xy 138.43 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61bdffd3-45c8-45ec-981d-ffc936c33701")
+	)
+	(wire
+		(pts
+			(xy 167.64 86.36) (xy 167.64 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "630703aa-7a12-4801-96e1-2be10edd98d8")
+	)
+	(wire
+		(pts
+			(xy 100.33 128.27) (xy 113.03 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "637ba497-3233-48a5-844e-88df44d12c55")
+	)
+	(wire
+		(pts
+			(xy 100.33 105.41) (xy 100.33 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6382b8a3-3b8b-4cfa-8a8f-b1895610da51")
+	)
+	(wire
+		(pts
+			(xy 113.03 74.93) (xy 113.03 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "648506f1-0534-488b-848f-af7ec2cb7324")
+	)
+	(wire
+		(pts
+			(xy 166.37 64.77) (xy 180.34 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "653373d3-3c80-4a51-a2f7-044d4f065820")
+	)
+	(wire
+		(pts
+			(xy 167.64 128.27) (xy 181.61 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68a4d8c2-ff44-4264-afed-0274aa6d50c8")
+	)
+	(wire
+		(pts
+			(xy 153.67 119.38) (xy 167.64 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6906ff91-b40c-4afc-babf-0dc956dc6d52")
+	)
+	(wire
+		(pts
+			(xy 153.67 74.93) (xy 153.67 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b5bdda0-dedc-46c0-a2e1-993a53d73a9c")
+	)
+	(wire
+		(pts
+			(xy 100.33 50.8) (xy 100.33 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d936b77-63ea-44d4-9e89-40f8c51586bd")
+	)
+	(wire
+		(pts
+			(xy 194.31 74.93) (xy 194.31 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70256170-e92d-4126-b054-4e8783d7c786")
+	)
+	(wire
+		(pts
+			(xy 113.03 101.6) (xy 113.03 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "780a807b-691c-465c-b884-e1e47dccb557")
+	)
+	(wire
+		(pts
+			(xy 167.64 113.03) (xy 167.64 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78e9ee98-3bd9-45f7-935b-2a3d7b938dcd")
+	)
+	(wire
+		(pts
+			(xy 153.67 74.93) (xy 167.64 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79ab7574-596f-4556-b7db-fbb70aafa83b")
+	)
+	(wire
+		(pts
+			(xy 153.67 146.05) (xy 167.64 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7aa07771-a059-4d66-9bb6-2d096e477eeb")
+	)
+	(wire
+		(pts
+			(xy 138.43 119.38) (xy 153.67 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ae63382-7595-40be-a0ab-89b677c1090c")
+	)
+	(wire
+		(pts
+			(xy 181.61 128.27) (xy 181.61 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d340af5-f086-48c8-b17b-03431f5accfc")
+	)
+	(wire
+		(pts
+			(xy 113.03 74.93) (xy 125.73 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ee557f8-98f9-4bee-baca-973707ffa54b")
+	)
+	(wire
+		(pts
+			(xy 125.73 86.36) (xy 125.73 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "838294a4-02d7-4b15-ad95-dd73b4e608e6")
+	)
+	(wire
+		(pts
+			(xy 125.73 128.27) (xy 138.43 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85312f35-8a75-47c5-997a-d8eaaf922a72")
+	)
+	(wire
+		(pts
+			(xy 166.37 46.99) (xy 180.34 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8718f7d2-5f6f-4bbc-ad8c-fdd9523f43b8")
+	)
+	(wire
+		(pts
+			(xy 125.73 119.38) (xy 138.43 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c460433-b452-456f-9e59-eb0c914f1aaf")
+	)
+	(wire
+		(pts
+			(xy 100.33 113.03) (xy 100.33 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cb59b1c-fb1a-40ce-b117-68eb4e0ec4e8")
+	)
+	(wire
+		(pts
+			(xy 100.33 64.77) (xy 100.33 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d616636-b39a-48ad-8f96-c7553886bbc4")
+	)
+	(wire
+		(pts
+			(xy 153.67 86.36) (xy 153.67 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e0c9cc6-5470-4a33-a332-71af963e5f4f")
+	)
+	(wire
+		(pts
+			(xy 125.73 139.7) (xy 125.73 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90c54310-f784-46d8-b993-8642c70ba3a9")
+	)
+	(wire
+		(pts
+			(xy 138.43 101.6) (xy 153.67 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96898852-c5c5-4a45-b570-5c35f4295ddc")
+	)
+	(wire
+		(pts
+			(xy 100.33 74.93) (xy 113.03 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98f0aee8-8296-4176-8301-3d7a6642162a")
+	)
+	(wire
+		(pts
+			(xy 113.03 101.6) (xy 125.73 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d370503-c8a4-446c-ae4e-4e6eafaef1be")
+	)
+	(wire
+		(pts
+			(xy 153.67 101.6) (xy 153.67 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e491d05-a92e-432d-840a-c65f0bddb0a9")
+	)
+	(wire
+		(pts
+			(xy 113.03 146.05) (xy 125.73 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f89a3d8-3260-4aea-98ed-9a2b6cad88e1")
+	)
+	(wire
+		(pts
+			(xy 125.73 46.99) (xy 138.43 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0055c92-6749-4af4-91c0-7bc30cebc589")
+	)
+	(wire
+		(pts
+			(xy 113.03 119.38) (xy 125.73 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0887bc9-8ed9-4c61-8689-864f9343d142")
+	)
+	(wire
+		(pts
+			(xy 138.43 74.93) (xy 153.67 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8d66522-f703-4796-b7c0-1979b581a867")
+	)
+	(wire
+		(pts
+			(xy 193.04 58.42) (xy 193.04 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aaab1aab-d026-49e1-9318-96a513a406a1")
+	)
+	(wire
+		(pts
+			(xy 193.04 64.77) (xy 180.34 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abb7b483-be61-43f9-b6d8-363c668b6180")
+	)
+	(wire
+		(pts
+			(xy 193.04 46.99) (xy 193.04 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad31b4f7-3cac-42b0-898a-338ed0bb1444")
+	)
+	(wire
+		(pts
+			(xy 166.37 46.99) (xy 166.37 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b166ae04-b554-4669-878d-45ab61869598")
+	)
+	(wire
+		(pts
+			(xy 153.67 128.27) (xy 167.64 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2b92c6e-9df9-4280-bc9e-d9763188d4b2")
+	)
+	(wire
+		(pts
+			(xy 152.4 58.42) (xy 152.4 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2f0627d-d49b-48b3-92f8-1d76c9d5df90")
+	)
+	(wire
+		(pts
+			(xy 125.73 113.03) (xy 125.73 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4228410-93ca-4231-b161-493a589d588d")
+	)
+	(wire
+		(pts
+			(xy 153.67 92.71) (xy 167.64 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5fd6c7e-d97e-4ff8-80fc-eb9f0a020e4c")
+	)
+	(wire
+		(pts
+			(xy 100.33 58.42) (xy 100.33 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bab26209-eb0c-44aa-8532-a3a9209ad01d")
+	)
+	(wire
+		(pts
+			(xy 153.67 128.27) (xy 153.67 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb9acba2-983e-48fa-bd2a-5112bd54645d")
+	)
+	(wire
+		(pts
+			(xy 138.43 58.42) (xy 138.43 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdac02cc-a212-4a5a-86e3-7d25ee556eb2")
+	)
+	(wire
+		(pts
+			(xy 181.61 139.7) (xy 181.61 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bde90aec-e8e9-4770-b934-f819f059e410")
+	)
+	(wire
+		(pts
+			(xy 194.31 119.38) (xy 181.61 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c60999ed-416f-4c0a-b4b1-1a56fdf315b0")
+	)
+	(wire
+		(pts
+			(xy 167.64 74.93) (xy 167.64 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c801c222-4e58-4560-86ae-634ea8529729")
+	)
+	(wire
+		(pts
+			(xy 194.31 92.71) (xy 181.61 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c824b2ed-2f36-4c08-9318-7b29c2894c02")
+	)
+	(wire
+		(pts
+			(xy 152.4 64.77) (xy 166.37 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca6154dd-c897-4681-80ab-3d7e0636334b")
+	)
+	(wire
+		(pts
+			(xy 138.43 46.99) (xy 152.4 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cab8d7e3-1d5f-4e34-88f8-ce9fb7b5ac1c")
+	)
+	(wire
+		(pts
+			(xy 167.64 139.7) (xy 167.64 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd4eb9b0-6be6-496c-91ba-8df4b7630501")
+	)
+	(wire
+		(pts
+			(xy 125.73 101.6) (xy 138.43 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d029aff6-66fb-4d96-bcab-ef323e2780ba")
+	)
+	(wire
+		(pts
+			(xy 181.61 128.27) (xy 194.31 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3cb4527-a360-4986-b7a5-4f1dd470c5d7")
+	)
+	(wire
+		(pts
+			(xy 125.73 46.99) (xy 125.73 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d450bcf6-a738-4e65-b29f-0fe981d2c68c")
+	)
+	(wire
+		(pts
+			(xy 153.67 101.6) (xy 167.64 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d59a493e-6090-4767-9cfb-93ee304d74a9")
+	)
+	(wire
+		(pts
+			(xy 125.73 92.71) (xy 138.43 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc169b20-1f31-488d-b92c-552e175efd17")
+	)
+	(wire
+		(pts
+			(xy 125.73 64.77) (xy 138.43 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc9f4ac6-2f0c-4802-813f-02c00e859f4d")
+	)
+	(wire
+		(pts
+			(xy 167.64 101.6) (xy 181.61 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd3ddf75-8a9c-4f34-b40c-c8da2e627e7f")
+	)
+	(wire
+		(pts
+			(xy 113.03 58.42) (xy 113.03 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df75018d-609d-421a-8f41-86a2a9e13df3")
+	)
+	(wire
+		(pts
+			(xy 181.61 101.6) (xy 181.61 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6d01e3d-6cd2-4abf-805c-da7f90f15139")
+	)
+	(wire
+		(pts
+			(xy 194.31 146.05) (xy 181.61 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e862bd6d-b947-4a1d-9971-d65affc211a0")
+	)
+	(wire
+		(pts
+			(xy 138.43 128.27) (xy 138.43 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9e1ce44-9c26-40a6-8686-54476de80e57")
+	)
+	(wire
+		(pts
+			(xy 125.73 74.93) (xy 138.43 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea53d2d3-75e0-4ab5-ba69-aaa0783a9c13")
+	)
+	(wire
+		(pts
+			(xy 181.61 74.93) (xy 181.61 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecf09a00-bdc3-4914-aa06-a38bcfb62225")
+	)
+	(wire
+		(pts
+			(xy 167.64 74.93) (xy 181.61 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee4e9acb-6605-49b1-bae9-84aa0df6f811")
+	)
+	(wire
+		(pts
+			(xy 138.43 64.77) (xy 152.4 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5b7ac2b-c437-4424-8ab9-1046157c340f")
+	)
+	(wire
+		(pts
+			(xy 138.43 46.99) (xy 138.43 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f785cda4-09ff-41e2-b1e5-aadd7199b689")
+	)
+	(wire
+		(pts
+			(xy 194.31 128.27) (xy 194.31 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f87d1fee-c9aa-45e0-9a84-4cf37abcda8f")
+	)
+	(wire
+		(pts
+			(xy 167.64 119.38) (xy 181.61 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f91223f0-dff7-40c8-a715-7c4db31fea74")
+	)
+	(wire
+		(pts
+			(xy 125.73 74.93) (xy 125.73 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9dafe1a-d6a7-4518-953a-4b65793017f4")
+	)
+	(wire
+		(pts
+			(xy 100.33 92.71) (xy 113.03 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb89f312-7756-47ff-9f5e-9ae144a5a987")
+	)
+	(wire
+		(pts
+			(xy 138.43 92.71) (xy 153.67 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe058347-b5e7-4fb0-aa36-fa403e7a996f")
+	)
+	(wire
+		(pts
+			(xy 194.31 86.36) (xy 194.31 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fee2cc75-b6f8-4eda-9667-fb28c72408d5")
+	)
+	(wire
+		(pts
+			(xy 100.33 101.6) (xy 113.03 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fefead2a-0097-41d8-a7f5-3c3664ce620f")
+	)
+	(label "HV"
+		(at 100.33 101.6 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5ad65c68-c95e-4cd6-b7b9-21ce2b560998")
+	)
+	(label "HV"
+		(at 100.33 46.99 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "69a4fa40-f7d8-4df7-8bcf-248f7fdcbc8c")
+	)
+	(label "HV"
+		(at 100.33 128.27 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9ba36131-957e-4131-b399-dc2382868ee5")
+	)
+	(label "HV"
+		(at 100.33 74.93 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ab0b7997-ec66-4490-bde7-d66b6803afa4")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 207.01 64.77 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "11459df1-541d-4e6e-8b51-8e98634f4def")
+	)
+	(hierarchical_label "HV"
+		(shape input)
+		(at 207.01 46.99 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1d068258-f460-4f37-985f-6cdb335a5cae")
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 100.33 82.55 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "05378835-e4f2-41fd-994b-eb531d34dd1a")
+		(property "Reference" "C?"
+			(at 104.14 81.2799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "47x16"
+			(at 104.14 83.8199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+			(at 99.3648 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 100.33 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 100.33 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "67e489ee-0ec7-4b33-8858-590ae172f399")
+		)
+		(pin "2"
+			(uuid "9e5eafa8-890a-447e-945a-89a929229377")
+		)
+		(instances
+			(project "Kampela"
+				(path "/472e0f49-51e5-4b9c-a9f6-6aed0741c677/107d2fe5-3a51-4aa0-a4ed-d8d997e2d812"
+					(reference "C?")
+					(unit 1)
+				)
+			)
+			(project "Kampela_G5"
+				(path "/f1094595-086c-43ea-a0be-6f801d9d8744/66544aab-419b-42ce-b140-a8b6097cd9d6"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 138.43 109.22 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0d3951ef-73fb-4f05-bb30-6a6ff1d21b32")
+		(property "Reference" "C?"
+			(at 142.24 107.9499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "47x16"
+			(at 142.24 110.4899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+			(at 137.4648 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 138.43 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 138.43 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2990f118-070d-4fcc-8f1b-1d1c1690fecf")
+		)
+		(pin "2"
+			(uuid "c70afa87-daca-4888-9cd9-d499512eb0b0")
+		)
+		(instances
+			(project "Kampela"
+				(path "/472e0f49-51e5-4b9c-a9f6-6aed0741c677/107d2fe5-3a51-4aa0-a4ed-d8d997e2d812"
+					(reference "C?")
+					(unit 1)
+				)
+			)
+			(project "Kampela_G5"
+				(path "/f1094595-086c-43ea-a0be-6f801d9d8744/66544aab-419b-42ce-b140-a8b6097cd9d6"
+					(reference "C65")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 138.43 82.55 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "119615cf-7767-4e1f-a0f6-80937bfd3d9e")
+		(property "Reference" "C?"
+			(at 142.24 81.2799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "47x16"
+			(at 142.24 83.8199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+			(at 137.4648 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 138.43 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 138.43 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fff57de9-b712-46d5-a866-cfaa327c8d7d")
+		)
+		(pin "2"
+			(uuid "9d8960c2-96f4-4df7-97dd-c21a06510fbe")
+		)
+		(instances
+			(project "Kampela"
+				(path "/472e0f49-51e5-4b9c-a9f6-6aed0741c677/107d2fe5-3a51-4aa0-a4ed-d8d997e2d812"
+					(reference "C?")
+					(unit 1)
+				)
+			)
+			(project "Kampela_G5"
+				(path "/f1094595-086c-43ea-a0be-6f801d9d8744/66544aab-419b-42ce-b140-a8b6097cd9d6"
+					(reference "C63")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 181.61 109.22 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "133f6a2b-8015-4a0e-87e6-bb93f503c1ca")
+		(property "Reference" "C?"
+			(at 185.42 107.9499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "47x16"
+			(at 185.42 110.4899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+			(at 180.6448 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 181.61 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 181.61 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7dd7b333-f1a6-424b-8b05-a62beee33a2a")
+		)
+		(pin "2"
+			(uuid "a453919e-2739-4379-9bd4-d28cbac2ffd5")
+		)
+		(instances
+			(project "Kampela"
+				(path "/472e0f49-51e5-4b9c-a9f6-6aed0741c677/107d2fe5-3a51-4aa0-a4ed-d8d997e2d812"
+					(reference "C?")
+					(unit 1)
+				)
+			)
+			(project "Kampela_G5"
+				(path "/f1094595-086c-43ea-a0be-6f801d9d8744/66544aab-419b-42ce-b140-a8b6097cd9d6"
+					(reference "C79")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 181.61 135.89 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1a63d193-830a-45a6-b999-bd2f520f8ecc")
+		(property "Reference" "C?"
+			(at 185.42 134.6199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "47x16"
+			(at 185.42 137.1599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+			(at 180.6448 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 181.61 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 181.61 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "738979ca-a4bd-4078-b5a7-bd3710ee8139")
+		)
+		(pin "2"
+			(uuid "9eac663d-0669-4e88-9fec-727ca14f145c")
+		)
+		(instances
+			(project "Kampela"
+				(path "/472e0f49-51e5-4b9c-a9f6-6aed0741c677/107d2fe5-3a51-4aa0-a4ed-d8d997e2d812"
+					(reference "C?")
+					(unit 1)
+				)
+			)
+			(project "Kampela_G5"
+				(path "/f1094595-086c-43ea-a0be-6f801d9d8744/66544aab-419b-42ce-b140-a8b6097cd9d6"
+					(reference "C81")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 125.73 82.55 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3bd63f0b-debf-49f3-9c42-4a2b8f40e793")
+		(property "Reference" "C?"
+			(at 129.54 81.2799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "47x16"
+			(at 129.54 83.8199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+			(at 124.7648 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 125.73 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 125.73 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "204b4f78-18c2-40ea-88c4-00e63db32501")
+		)
+		(pin "2"
+			(uuid "2557cbb0-27e4-4b9c-9a6c-b08c744d71a0")
+		)
+		(instances
+			(project "Kampela"
+				(path "/472e0f49-51e5-4b9c-a9f6-6aed0741c677/107d2fe5-3a51-4aa0-a4ed-d8d997e2d812"
+					(reference "C?")
+					(unit 1)
+				)
+			)
+			(project "Kampela_G5"
+				(path "/f1094595-086c-43ea-a0be-6f801d9d8744/66544aab-419b-42ce-b140-a8b6097cd9d6"
+					(reference "C59")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 100.33 92.71 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3be4367a-0a14-4741-95a3-5304d2bee5ba")
+		(property "Reference" "#PWR?"
+			(at 100.33 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 100.33 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.33 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 100.33 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cc0d37dc-a476-4d54-b538-04559cfe75f2")
+		)
+		(instances
+			(project "Kampela"
+				(path "/472e0f49-51e5-4b9c-a9f6-6aed0741c677/107d2fe5-3a51-4aa0-a4ed-d8d997e2d812"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+			(project "Kampela_G5"
+				(path "/f1094595-086c-43ea-a0be-6f801d9d8744/66544aab-419b-42ce-b140-a8b6097cd9d6"
+					(reference "#PWR098")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 100.33 135.89 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3d0b8229-03c8-4e9b-a0da-22f3260ccad0")
+		(property "Reference" "C?"
+			(at 104.14 134.6199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "47x16"
+			(at 104.14 137.1599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+			(at 99.3648 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 100.33 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 100.33 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "09edc9d1-1cc2-4b75-a432-defd49bbbe95")
+		)
+		(pin "2"
+			(uuid "4ad784eb-6f01-48a4-a702-d0dbd195782f")
+		)
+		(instances
+			(project "Kampela"
+				(path "/472e0f49-51e5-4b9c-a9f6-6aed0741c677/107d2fe5-3a51-4aa0-a4ed-d8d997e2d812"
+					(reference "C?")
+					(unit 1)
+				)
+			)
+			(project "Kampela_G5"
+				(path "/f1094595-086c-43ea-a0be-6f801d9d8744/66544aab-419b-42ce-b140-a8b6097cd9d6"
+					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 138.43 135.89 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4afadd7b-34ae-4ec7-9298-49cb860f5527")
+		(property "Reference" "C?"
+			(at 142.24 134.6199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "47x16"
+			(at 142.24 137.1599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+			(at 137.4648 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 138.43 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 138.43 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "92b347ba-16ed-4d7e-b146-56b32e8a7ac5")
+		)
+		(pin "2"
+			(uuid "908340e0-9a58-47d3-9e8a-c2f7e3fd65fa")
+		)
+		(instances
+			(project "Kampela"
+				(path "/472e0f49-51e5-4b9c-a9f6-6aed0741c677/107d2fe5-3a51-4aa0-a4ed-d8d997e2d812"
+					(reference "C?")
+					(unit 1)
+				)
+			)
+			(project "Kampela_G5"
+				(path "/f1094595-086c-43ea-a0be-6f801d9d8744/66544aab-419b-42ce-b140-a8b6097cd9d6"
+					(reference "C66")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 125.73 109.22 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4c6e5200-f3bd-4a03-9622-a8d303d4ba1b")
+		(property "Reference" "C?"
+			(at 129.54 107.9499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "47x16"
+			(at 129.54 110.4899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+			(at 124.7648 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 125.73 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 125.73 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "47fa0a8a-4b4f-45e7-af4f-a1880fcfe26f")
+		)
+		(pin "2"
+			(uuid "d8c96998-e596-4e7d-b9ce-bffa91fdfffa")
+		)
+		(instances
+			(project "Kampela"
+				(path "/472e0f49-51e5-4b9c-a9f6-6aed0741c677/107d2fe5-3a51-4aa0-a4ed-d8d997e2d812"
+					(reference "C?")
+					(unit 1)
+				)
+			)
+			(project "Kampela_G5"
+				(path "/f1094595-086c-43ea-a0be-6f801d9d8744/66544aab-419b-42ce-b140-a8b6097cd9d6"
+					(reference "C60")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 167.64 135.89 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5151a291-857a-4061-9aec-f8b0e47cfac4")
+		(property "Reference" "C?"
+			(at 171.45 134.6199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "47x16"
+			(at 171.45 137.1599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+			(at 166.6748 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 167.64 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 167.64 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4277231e-f99a-4da4-b222-c47c83b07c3e")
+		)
+		(pin "2"
+			(uuid "dc33eec4-8308-4692-81b5-fc3e0ec491ef")
+		)
+		(instances
+			(project "Kampela"
+				(path "/472e0f49-51e5-4b9c-a9f6-6aed0741c677/107d2fe5-3a51-4aa0-a4ed-d8d997e2d812"
+					(reference "C?")
+					(unit 1)
+				)
+			)
+			(project "Kampela_G5"
+				(path "/f1094595-086c-43ea-a0be-6f801d9d8744/66544aab-419b-42ce-b140-a8b6097cd9d6"
+					(reference "C76")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 100.33 66.04 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "661df795-d500-4d5b-afc2-ae522304d933")
+		(property "Reference" "#PWR?"
+			(at 100.33 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 100.33 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.33 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 100.33 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "34f255c7-7227-4f90-b2bc-02a25c7bf200")
+		)
+		(instances
+			(project "Kampela"
+				(path "/472e0f49-51e5-4b9c-a9f6-6aed0741c677/107d2fe5-3a51-4aa0-a4ed-d8d997e2d812"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+			(project "Kampela_G5"
+				(path "/f1094595-086c-43ea-a0be-6f801d9d8744/66544aab-419b-42ce-b140-a8b6097cd9d6"
+					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 100.33 146.05 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6d12d6a1-9f6d-454b-bb30-daa4fbaafc8b")
+		(property "Reference" "#PWR?"
+			(at 100.33 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 100.33 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.33 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 100.33 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8e37030d-8ea9-49fc-9a00-dae6288f64a8")
+		)
+		(instances
+			(project "Kampela"
+				(path "/472e0f49-51e5-4b9c-a9f6-6aed0741c677/107d2fe5-3a51-4aa0-a4ed-d8d997e2d812"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+			(project "Kampela_G5"
+				(path "/f1094595-086c-43ea-a0be-6f801d9d8744/66544aab-419b-42ce-b140-a8b6097cd9d6"
+					(reference "#PWR0100")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 153.67 109.22 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "72ce1c5b-bceb-4ebf-9d61-c9d000c913ab")
+		(property "Reference" "C?"
+			(at 157.48 107.9499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "47x16"
+			(at 157.48 110.4899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+			(at 152.7048 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 153.67 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 153.67 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "16330bf6-c16d-4ca0-a67b-0f82336e9537")
+		)
+		(pin "2"
+			(uuid "6acc47fa-1386-4c6f-ada5-5f0dfa6cd0e3")
+		)
+		(instances
+			(project "Kampela"
+				(path "/472e0f49-51e5-4b9c-a9f6-6aed0741c677/107d2fe5-3a51-4aa0-a4ed-d8d997e2d812"
+					(reference "C?")
+					(unit 1)
+				)
+			)
+			(project "Kampela_G5"
+				(path "/f1094595-086c-43ea-a0be-6f801d9d8744/66544aab-419b-42ce-b140-a8b6097cd9d6"
+					(reference "C69")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 113.03 54.61 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7f73655c-29c7-483c-afb3-cf9584d6f104")
+		(property "Reference" "C?"
+			(at 116.84 53.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "47x16"
+			(at 116.84 55.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+			(at 112.0648 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 113.03 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 113.03 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4236fda4-5383-4673-a5df-42e2c35eea57")
+		)
+		(pin "2"
+			(uuid "ee2c0945-dcf8-4b73-9f86-3f9417436296")
+		)
+		(instances
+			(project "Kampela"
+				(path "/472e0f49-51e5-4b9c-a9f6-6aed0741c677/107d2fe5-3a51-4aa0-a4ed-d8d997e2d812"
+					(reference "C?")
+					(unit 1)
+				)
+			)
+			(project "Kampela_G5"
+				(path "/f1094595-086c-43ea-a0be-6f801d9d8744/66544aab-419b-42ce-b140-a8b6097cd9d6"
+					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 194.31 135.89 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "80ec9456-6b73-4e8e-be1c-d9d872faab25")
+		(property "Reference" "C?"
+			(at 198.12 134.6199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "47x16"
+			(at 198.12 137.1599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+			(at 193.3448 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 194.31 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 194.31 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8cc553f3-d299-4c46-aeca-8d1744407950")
+		)
+		(pin "2"
+			(uuid "4adb5971-2710-4221-997f-8a8b869a61f2")
+		)
+		(instances
+			(project "Kampela"
+				(path "/472e0f49-51e5-4b9c-a9f6-6aed0741c677/107d2fe5-3a51-4aa0-a4ed-d8d997e2d812"
+					(reference "C?")
+					(unit 1)
+				)
+			)
+			(project "Kampela_G5"
+				(path "/f1094595-086c-43ea-a0be-6f801d9d8744/66544aab-419b-42ce-b140-a8b6097cd9d6"
+					(reference "C85")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 100.33 54.61 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8185faf8-9de2-4688-a393-ca9d0af3df59")
+		(property "Reference" "C?"
+			(at 104.14 53.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "47x16"
+			(at 104.14 55.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+			(at 99.3648 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 100.33 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 100.33 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7f9cb67c-77f5-48a5-bedf-8c743b990ed2")
+		)
+		(pin "2"
+			(uuid "9d9bd34b-ad55-4124-b18e-b74ac87cf331")
+		)
+		(instances
+			(project "Kampela"
+				(path "/472e0f49-51e5-4b9c-a9f6-6aed0741c677/107d2fe5-3a51-4aa0-a4ed-d8d997e2d812"
+					(reference "C?")
+					(unit 1)
+				)
+			)
+			(project "Kampela_G5"
+				(path "/f1094595-086c-43ea-a0be-6f801d9d8744/66544aab-419b-42ce-b140-a8b6097cd9d6"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 100.33 109.22 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "848f2b40-406f-48d0-910d-a6f083aaaec6")
+		(property "Reference" "C?"
+			(at 104.14 107.9499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "47x16"
+			(at 104.14 110.4899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+			(at 99.3648 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 100.33 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 100.33 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e2d2e933-56c3-4e48-8ed4-99a591f7a388")
+		)
+		(pin "2"
+			(uuid "fcc7162b-6cff-43b6-8fea-dfd86172bb52")
+		)
+		(instances
+			(project "Kampela"
+				(path "/472e0f49-51e5-4b9c-a9f6-6aed0741c677/107d2fe5-3a51-4aa0-a4ed-d8d997e2d812"
+					(reference "C?")
+					(unit 1)
+				)
+			)
+			(project "Kampela_G5"
+				(path "/f1094595-086c-43ea-a0be-6f801d9d8744/66544aab-419b-42ce-b140-a8b6097cd9d6"
+					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 193.04 54.61 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "87536164-ec2a-42a5-8b07-593920b496c7")
+		(property "Reference" "C?"
+			(at 196.85 53.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "47x16"
+			(at 196.85 55.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+			(at 192.0748 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 193.04 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 193.04 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c593bef9-db3b-447a-b121-14c093e6a97e")
+		)
+		(pin "2"
+			(uuid "172ce348-1ba7-48f8-afe4-76e680f26551")
+		)
+		(instances
+			(project "Kampela"
+				(path "/472e0f49-51e5-4b9c-a9f6-6aed0741c677/107d2fe5-3a51-4aa0-a4ed-d8d997e2d812"
+					(reference "C?")
+					(unit 1)
+				)
+			)
+			(project "Kampela_G5"
+				(path "/f1094595-086c-43ea-a0be-6f801d9d8744/66544aab-419b-42ce-b140-a8b6097cd9d6"
+					(reference "C82")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 138.43 54.61 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "87a97a60-5f36-444d-b5d2-bf51153abdaa")
+		(property "Reference" "C?"
+			(at 142.24 53.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "47x16"
+			(at 142.24 55.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+			(at 137.4648 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 138.43 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 138.43 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b1de2b52-63b9-4e1d-b02d-f941daa09c32")
+		)
+		(pin "2"
+			(uuid "2518874e-f1fc-41dc-b03b-ff0693f217ad")
+		)
+		(instances
+			(project "Kampela"
+				(path "/472e0f49-51e5-4b9c-a9f6-6aed0741c677/107d2fe5-3a51-4aa0-a4ed-d8d997e2d812"
+					(reference "C?")
+					(unit 1)
+				)
+			)
+			(project "Kampela_G5"
+				(path "/f1094595-086c-43ea-a0be-6f801d9d8744/66544aab-419b-42ce-b140-a8b6097cd9d6"
+					(reference "C62")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 153.67 82.55 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "962df67b-7cfb-4125-896f-95a7e6a475bd")
+		(property "Reference" "C?"
+			(at 157.48 81.2799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "47x16"
+			(at 157.48 83.8199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+			(at 152.7048 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 153.67 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 153.67 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "67f8716f-3ec8-4f85-8ab2-f3e4941657b0")
+		)
+		(pin "2"
+			(uuid "955a6540-3b7e-4e8d-900c-93b8ae729936")
+		)
+		(instances
+			(project "Kampela"
+				(path "/472e0f49-51e5-4b9c-a9f6-6aed0741c677/107d2fe5-3a51-4aa0-a4ed-d8d997e2d812"
+					(reference "C?")
+					(unit 1)
+				)
+			)
+			(project "Kampela_G5"
+				(path "/f1094595-086c-43ea-a0be-6f801d9d8744/66544aab-419b-42ce-b140-a8b6097cd9d6"
+					(reference "C68")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 152.4 54.61 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "991d2b8a-a153-4675-b12d-c0e2b1c44bb0")
+		(property "Reference" "C?"
+			(at 156.21 53.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "47x16"
+			(at 156.21 55.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+			(at 151.4348 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 152.4 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 152.4 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c2551bd8-5c40-4a13-9b8f-d7fd19d12fa7")
+		)
+		(pin "2"
+			(uuid "7eb08f7b-cbc1-435c-9e51-7b3e977caaaa")
+		)
+		(instances
+			(project "Kampela"
+				(path "/472e0f49-51e5-4b9c-a9f6-6aed0741c677/107d2fe5-3a51-4aa0-a4ed-d8d997e2d812"
+					(reference "C?")
+					(unit 1)
+				)
+			)
+			(project "Kampela_G5"
+				(path "/f1094595-086c-43ea-a0be-6f801d9d8744/66544aab-419b-42ce-b140-a8b6097cd9d6"
+					(reference "C67")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 167.64 82.55 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a5563351-b0fa-4fa2-bfdd-33c7f459d5d3")
+		(property "Reference" "C?"
+			(at 171.45 81.2799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "47x16"
+			(at 171.45 83.8199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+			(at 166.6748 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 167.64 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 167.64 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b64bd2ca-9085-4c65-a936-dae074fea781")
+		)
+		(pin "2"
+			(uuid "ad0ca2b6-01f9-4cc8-bc51-e992c9aa0589")
+		)
+		(instances
+			(project "Kampela"
+				(path "/472e0f49-51e5-4b9c-a9f6-6aed0741c677/107d2fe5-3a51-4aa0-a4ed-d8d997e2d812"
+					(reference "C?")
+					(unit 1)
+				)
+			)
+			(project "Kampela_G5"
+				(path "/f1094595-086c-43ea-a0be-6f801d9d8744/66544aab-419b-42ce-b140-a8b6097cd9d6"
+					(reference "C74")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 194.31 82.55 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b69b7e81-6202-4f22-98e1-6893e73981a4")
+		(property "Reference" "C?"
+			(at 198.12 81.2799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "47x16"
+			(at 198.12 83.8199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+			(at 193.3448 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 194.31 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 194.31 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "88f64338-e171-4f8f-ae81-0f28df99bf59")
+		)
+		(pin "2"
+			(uuid "9d88332c-253b-4e7e-b859-47161eedaf96")
+		)
+		(instances
+			(project "Kampela"
+				(path "/472e0f49-51e5-4b9c-a9f6-6aed0741c677/107d2fe5-3a51-4aa0-a4ed-d8d997e2d812"
+					(reference "C?")
+					(unit 1)
+				)
+			)
+			(project "Kampela_G5"
+				(path "/f1094595-086c-43ea-a0be-6f801d9d8744/66544aab-419b-42ce-b140-a8b6097cd9d6"
+					(reference "C83")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 113.03 109.22 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b6be9fa9-6daf-40d1-8e58-7ff957be44bd")
+		(property "Reference" "C?"
+			(at 116.84 107.9499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "47x16"
+			(at 116.84 110.4899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+			(at 112.0648 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 113.03 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 113.03 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6d23a0ff-1358-41b6-9244-1088cfe0fc5b")
+		)
+		(pin "2"
+			(uuid "25888c7e-bbfe-480c-a0c3-dbc795efdf00")
+		)
+		(instances
+			(project "Kampela"
+				(path "/472e0f49-51e5-4b9c-a9f6-6aed0741c677/107d2fe5-3a51-4aa0-a4ed-d8d997e2d812"
+					(reference "C?")
+					(unit 1)
+				)
+			)
+			(project "Kampela_G5"
+				(path "/f1094595-086c-43ea-a0be-6f801d9d8744/66544aab-419b-42ce-b140-a8b6097cd9d6"
+					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 166.37 54.61 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b6c89cbf-95e1-4b22-abcb-012e15cba90a")
+		(property "Reference" "C?"
+			(at 170.18 53.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "47x16"
+			(at 170.18 55.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+			(at 165.4048 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 166.37 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 166.37 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8f3aa36e-2169-4c52-9b33-369718dd1007")
+		)
+		(pin "2"
+			(uuid "978c4677-0dd3-443a-afde-1d55bd54b508")
+		)
+		(instances
+			(project "Kampela"
+				(path "/472e0f49-51e5-4b9c-a9f6-6aed0741c677/107d2fe5-3a51-4aa0-a4ed-d8d997e2d812"
+					(reference "C?")
+					(unit 1)
+				)
+			)
+			(project "Kampela_G5"
+				(path "/f1094595-086c-43ea-a0be-6f801d9d8744/66544aab-419b-42ce-b140-a8b6097cd9d6"
+					(reference "C71")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 153.67 135.89 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bd060c36-551b-4815-8b2a-b33794e0ebb7")
+		(property "Reference" "C?"
+			(at 157.48 134.6199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "47x16"
+			(at 157.48 137.1599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+			(at 152.7048 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 153.67 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 153.67 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fbfc8fc0-1c2e-4142-a14d-a88fad6af683")
+		)
+		(pin "2"
+			(uuid "f2e321ce-4441-4660-b499-89e067de1c7a")
+		)
+		(instances
+			(project "Kampela"
+				(path "/472e0f49-51e5-4b9c-a9f6-6aed0741c677/107d2fe5-3a51-4aa0-a4ed-d8d997e2d812"
+					(reference "C?")
+					(unit 1)
+				)
+			)
+			(project "Kampela_G5"
+				(path "/f1094595-086c-43ea-a0be-6f801d9d8744/66544aab-419b-42ce-b140-a8b6097cd9d6"
+					(reference "C70")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 181.61 82.55 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c0807c7d-10cd-42d1-af12-806afccce6a5")
+		(property "Reference" "C?"
+			(at 185.42 81.2799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "47x16"
+			(at 185.42 83.8199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+			(at 180.6448 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 181.61 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 181.61 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d882dfd5-a721-44ef-bd4b-082a4db2a9ff")
+		)
+		(pin "2"
+			(uuid "7d047936-e4ec-47b2-970a-07d480a28c2e")
+		)
+		(instances
+			(project "Kampela"
+				(path "/472e0f49-51e5-4b9c-a9f6-6aed0741c677/107d2fe5-3a51-4aa0-a4ed-d8d997e2d812"
+					(reference "C?")
+					(unit 1)
+				)
+			)
+			(project "Kampela_G5"
+				(path "/f1094595-086c-43ea-a0be-6f801d9d8744/66544aab-419b-42ce-b140-a8b6097cd9d6"
+					(reference "C78")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 100.33 119.38 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d208ea4a-7df1-4eb9-b887-7fbe78c93763")
+		(property "Reference" "#PWR?"
+			(at 100.33 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 100.33 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.33 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 100.33 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "92e6ae79-4d6b-454f-9d98-feb5199a839e")
+		)
+		(instances
+			(project "Kampela"
+				(path "/472e0f49-51e5-4b9c-a9f6-6aed0741c677/107d2fe5-3a51-4aa0-a4ed-d8d997e2d812"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+			(project "Kampela_G5"
+				(path "/f1094595-086c-43ea-a0be-6f801d9d8744/66544aab-419b-42ce-b140-a8b6097cd9d6"
+					(reference "#PWR099")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 125.73 135.89 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "daa200f1-2d71-415f-b3d4-d1665912d66a")
+		(property "Reference" "C?"
+			(at 129.54 134.6199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "47x16"
+			(at 129.54 137.1599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+			(at 124.7648 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 125.73 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 125.73 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4ab53238-a5a8-4a86-87a6-13e9fb5574f3")
+		)
+		(pin "2"
+			(uuid "dab37bd1-68f8-42ee-ab2b-9526e720adef")
+		)
+		(instances
+			(project "Kampela"
+				(path "/472e0f49-51e5-4b9c-a9f6-6aed0741c677/107d2fe5-3a51-4aa0-a4ed-d8d997e2d812"
+					(reference "C?")
+					(unit 1)
+				)
+			)
+			(project "Kampela_G5"
+				(path "/f1094595-086c-43ea-a0be-6f801d9d8744/66544aab-419b-42ce-b140-a8b6097cd9d6"
+					(reference "C61")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 113.03 82.55 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "daf35343-4682-480e-8f7c-23d364f8b949")
+		(property "Reference" "C?"
+			(at 116.84 81.2799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "47x16"
+			(at 116.84 83.8199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+			(at 112.0648 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 113.03 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 113.03 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dcfd4e6a-e364-425e-8c86-08d0fb3309c7")
+		)
+		(pin "2"
+			(uuid "6f0f181e-42f5-46f4-b884-d33f5435d9f1")
+		)
+		(instances
+			(project "Kampela"
+				(path "/472e0f49-51e5-4b9c-a9f6-6aed0741c677/107d2fe5-3a51-4aa0-a4ed-d8d997e2d812"
+					(reference "C?")
+					(unit 1)
+				)
+			)
+			(project "Kampela_G5"
+				(path "/f1094595-086c-43ea-a0be-6f801d9d8744/66544aab-419b-42ce-b140-a8b6097cd9d6"
+					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 167.64 109.22 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dd46fb00-02f2-47c4-9a81-d4d3c63128dc")
+		(property "Reference" "C?"
+			(at 171.45 107.9499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "47x16"
+			(at 171.45 110.4899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+			(at 166.6748 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 167.64 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 167.64 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "df0576c6-dd2e-424a-bab4-910d3931ebc9")
+		)
+		(pin "2"
+			(uuid "08949ad1-2ef3-4fca-b995-87f33721602a")
+		)
+		(instances
+			(project "Kampela"
+				(path "/472e0f49-51e5-4b9c-a9f6-6aed0741c677/107d2fe5-3a51-4aa0-a4ed-d8d997e2d812"
+					(reference "C?")
+					(unit 1)
+				)
+			)
+			(project "Kampela_G5"
+				(path "/f1094595-086c-43ea-a0be-6f801d9d8744/66544aab-419b-42ce-b140-a8b6097cd9d6"
+					(reference "C75")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 113.03 135.89 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "de209e4f-6575-46c3-a75d-68b612f6ffb7")
+		(property "Reference" "C?"
+			(at 116.84 134.6199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "47x16"
+			(at 116.84 137.1599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+			(at 112.0648 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 113.03 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 113.03 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ae6c6e36-efdc-4d02-a739-25aecf24d1fd")
+		)
+		(pin "2"
+			(uuid "b11ab6da-0d7b-4276-bc28-561dd1262ffe")
+		)
+		(instances
+			(project "Kampela"
+				(path "/472e0f49-51e5-4b9c-a9f6-6aed0741c677/107d2fe5-3a51-4aa0-a4ed-d8d997e2d812"
+					(reference "C?")
+					(unit 1)
+				)
+			)
+			(project "Kampela_G5"
+				(path "/f1094595-086c-43ea-a0be-6f801d9d8744/66544aab-419b-42ce-b140-a8b6097cd9d6"
+					(reference "C19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 194.31 109.22 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ded91e9d-8ebc-49ea-835f-2cd736b17ad3")
+		(property "Reference" "C?"
+			(at 198.12 107.9499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "47x16"
+			(at 198.12 110.4899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+			(at 193.3448 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 194.31 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 194.31 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fc465a9e-6132-488f-8f39-f59614214b14")
+		)
+		(pin "2"
+			(uuid "4ba40f3d-9c35-4db6-b1c0-96d49a95171d")
+		)
+		(instances
+			(project "Kampela"
+				(path "/472e0f49-51e5-4b9c-a9f6-6aed0741c677/107d2fe5-3a51-4aa0-a4ed-d8d997e2d812"
+					(reference "C?")
+					(unit 1)
+				)
+			)
+			(project "Kampela_G5"
+				(path "/f1094595-086c-43ea-a0be-6f801d9d8744/66544aab-419b-42ce-b140-a8b6097cd9d6"
+					(reference "C84")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 180.34 54.61 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f319a69d-4115-44ec-8803-25c57b9b34bf")
+		(property "Reference" "C?"
+			(at 184.15 53.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "47x16"
+			(at 184.15 55.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+			(at 179.3748 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 180.34 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 180.34 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b8474abe-9881-4df5-8b2a-7a86b5885072")
+		)
+		(pin "2"
+			(uuid "01cb32d4-d93a-4f38-a5a0-89656107ef68")
+		)
+		(instances
+			(project "Kampela"
+				(path "/472e0f49-51e5-4b9c-a9f6-6aed0741c677/107d2fe5-3a51-4aa0-a4ed-d8d997e2d812"
+					(reference "C?")
+					(unit 1)
+				)
+			)
+			(project "Kampela_G5"
+				(path "/f1094595-086c-43ea-a0be-6f801d9d8744/66544aab-419b-42ce-b140-a8b6097cd9d6"
+					(reference "C77")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 125.73 54.61 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "faf050e9-1d7c-43a8-bb85-e0e819328e82")
+		(property "Reference" "C?"
+			(at 129.54 53.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "47x16"
+			(at 129.54 55.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+			(at 124.7648 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 125.73 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 125.73 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0d7e7d80-f294-40e3-83dc-df16d24ed297")
+		)
+		(pin "2"
+			(uuid "813d9e45-63f2-4977-96c4-70dd8351b015")
+		)
+		(instances
+			(project "Kampela"
+				(path "/472e0f49-51e5-4b9c-a9f6-6aed0741c677/107d2fe5-3a51-4aa0-a4ed-d8d997e2d812"
+					(reference "C?")
+					(unit 1)
+				)
+			)
+			(project "Kampela_G5"
+				(path "/f1094595-086c-43ea-a0be-6f801d9d8744/66544aab-419b-42ce-b140-a8b6097cd9d6"
+					(reference "C58")
+					(unit 1)
+				)
+			)
+		)
+	)
 )

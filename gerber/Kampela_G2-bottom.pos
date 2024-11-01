@@ -1,7 +1,0 @@
-### Footprint positions - created on 2023-09-07T21:28:49+0300 ###
-### Printed by KiCad version 7.99.0-2190-gf88148e4e8
-## Unit = mm, Angle = deg.
-## Side : bottom
-# Ref     Val            Package                PosX       PosY       Rot  Side
-D12       SB0603WC01-RG  LED_DUAL_0603       77.7000    31.5200   90.0000  bottom
-## End
