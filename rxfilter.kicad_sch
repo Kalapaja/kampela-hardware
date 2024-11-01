@@ -563,154 +563,6 @@
 				)
 			)
 		)
-		(symbol "Device:FerriteBead_Small"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "FB"
-				(at 1.905 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "FerriteBead_Small"
-				(at 1.905 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Ferrite bead, small symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "L ferrite bead inductor filter"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Inductor_* L_* *Ferrite*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "FerriteBead_Small_0_1"
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy 0 -0.7874)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0.889) (xy 0 1.2954)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.8288 0.2794) (xy -1.1176 1.4986) (xy 1.8288 -0.2032) (xy 1.1176 -1.4224) (xy -1.8288 0.2794)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "FerriteBead_Small_1_1"
-				(pin passive line
-					(at 0 2.54 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:R"
 			(pin_numbers hide)
 			(pin_names
@@ -823,126 +675,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "power:+1V8"
-			(power)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+1V8"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+1V8\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "power-flag"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+1V8_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+1V8_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0) hide
-					(name "+1V8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1152,12 +884,6 @@
 		(uuid "00de7870-9a00-4d11-bbdf-d8a627943be2")
 	)
 	(junction
-		(at 203.2 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "161a2f61-9c32-430e-879a-f7b9865c52cd")
-	)
-	(junction
 		(at 142.24 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1174,12 +900,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "737ec7ec-c661-471b-962d-e783af865cd7")
-	)
-	(junction
-		(at 176.53 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "769de244-531b-41d1-add9-923c971da467")
 	)
 	(junction
 		(at 160.02 71.12)
@@ -1200,10 +920,10 @@
 		(uuid "95fc83f0-a096-44a7-86b0-1580d61ddbaf")
 	)
 	(junction
-		(at 203.2 93.98)
+		(at 176.53 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b8045152-0772-40aa-8e47-e35a92fdc1b1")
+		(uuid "dbb9d0a7-3852-43eb-b6b9-b9ad1b58524d")
 	)
 	(wire
 		(pts
@@ -1227,7 +947,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 106.68) (xy 113.03 115.57)
+			(xy 113.03 111.76) (xy 113.03 115.57)
 		)
 		(stroke
 			(width 0)
@@ -1254,16 +974,6 @@
 			(type default)
 		)
 		(uuid "1d01d618-3739-4997-9d22-ba0acdd93b0f")
-	)
-	(wire
-		(pts
-			(xy 176.53 67.31) (xy 176.53 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "466b39ac-32bb-4038-8cba-b26ebf557ff1")
 	)
 	(wire
 		(pts
@@ -1297,16 +1007,6 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 62.23) (xy 176.53 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4f0a3459-1fe5-4a37-a87f-e891478e3147")
-	)
-	(wire
-		(pts
 			(xy 160.02 104.14) (xy 160.02 92.71)
 		)
 		(stroke
@@ -1317,7 +1017,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 87.63) (xy 101.6 87.63)
+			(xy 100.33 87.63) (xy 104.14 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1357,7 +1057,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 87.63) (xy 113.03 87.63)
+			(xy 111.76 87.63) (xy 113.03 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1377,7 +1077,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 87.63) (xy 113.03 99.06)
+			(xy 113.03 87.63) (xy 113.03 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1407,16 +1107,6 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 93.98) (xy 207.01 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a659e37b-5a1f-41a1-862d-b260566d645c")
-	)
-	(wire
-		(pts
 			(xy 191.77 90.17) (xy 207.01 90.17)
 		)
 		(stroke
@@ -1424,16 +1114,6 @@
 			(type default)
 		)
 		(uuid "b3f7ae38-eebc-42dc-bf51-f40f59b1ad9c")
-	)
-	(wire
-		(pts
-			(xy 203.2 86.36) (xy 207.01 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bd969bde-e0ad-4a07-ae0e-a4ffc09b4df5")
 	)
 	(wire
 		(pts
@@ -1447,7 +1127,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 87.63) (xy 86.36 87.63)
+			(xy 88.9 87.63) (xy 92.71 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1535,9 +1215,9 @@
 		)
 		(uuid "f707fa9f-996f-40f3-b25e-a369a8f43124")
 	)
-	(hierarchical_label "GND"
+	(global_label "+1V8"
 		(shape input)
-		(at 207.01 93.98 0)
+		(at 176.53 71.12 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1545,23 +1225,21 @@
 			)
 			(justify left)
 		)
-		(uuid "57058e79-1a68-4bd3-85ba-7e3809e2ec29")
-	)
-	(hierarchical_label "+1V8"
-		(shape input)
-		(at 207.01 86.36 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
+		(uuid "dcc72993-19c1-4475-a42b-dbc1039efcd2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 184.5952 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
 			)
-			(justify left)
 		)
-		(uuid "8b6dd13a-5b33-4e54-adce-423cb59c9572")
 	)
 	(hierarchical_label "IN_DT"
 		(shape input)
-		(at 82.55 87.63 180)
+		(at 88.9 87.63 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1572,7 +1250,7 @@
 		(uuid "e07f652f-5a49-43ab-9fa2-d99f6298d4ec")
 	)
 	(hierarchical_label "DATA"
-		(shape input)
+		(shape output)
 		(at 207.01 90.17 0)
 		(fields_autoplaced yes)
 		(effects
@@ -1582,80 +1260,6 @@
 			(justify left)
 		)
 		(uuid "ecc01d8d-8836-461d-9d30-fc02b61a9607")
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 181.61 80.01 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0d082e3c-d845-4287-b74e-9326d651a4c7")
-		(property "Reference" "C?"
-			(at 181.356 72.39 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0.1u"
-			(at 181.864 74.676 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 177.8 79.0448 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 181.61 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 181.61 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2518a404-c9ca-4497-b69d-ca6db2ed0fbc")
-		)
-		(pin "2"
-			(uuid "829503e5-1064-4fe3-8018-42733dbd2e4c")
-		)
-		(instances
-			(project "Kampela"
-				(path "/472e0f49-51e5-4b9c-a9f6-6aed0741c677/67eb4c15-878d-4392-8f98-b0db1677ce0d"
-					(reference "C?")
-					(unit 1)
-				)
-			)
-			(project "Kampela_G5"
-				(path "/f1094595-086c-43ea-a0be-6f801d9d8744/67eb4c15-878d-4392-8f98-b0db1677ce0d"
-					(reference "C5")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -1724,83 +1328,7 @@
 			)
 			(project "Kampela_G5"
 				(path "/f1094595-086c-43ea-a0be-6f801d9d8744/67eb4c15-878d-4392-8f98-b0db1677ce0d"
-					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 123.19 107.95 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1eb7f41e-b0c5-465c-95d0-217697737195")
-		(property "Reference" "C?"
-			(at 127 106.6799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100p"
-			(at 127 109.2199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 124.1552 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 123.19 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 123.19 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "db1882c8-d480-4234-9139-04f349a34c0e")
-		)
-		(pin "2"
-			(uuid "7658cc89-bd6d-4abf-9ce8-628724edf773")
-		)
-		(instances
-			(project "Kampela"
-				(path "/472e0f49-51e5-4b9c-a9f6-6aed0741c677/67eb4c15-878d-4392-8f98-b0db1677ce0d"
-					(reference "C?")
-					(unit 1)
-				)
-			)
-			(project "Kampela_G5"
-				(path "/f1094595-086c-43ea-a0be-6f801d9d8744/67eb4c15-878d-4392-8f98-b0db1677ce0d"
-					(reference "C2")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -1808,7 +1336,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Schottky")
-		(at 105.41 87.63 180)
+		(at 107.95 87.63 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1816,7 +1344,7 @@
 		(dnp no)
 		(uuid "28ee3c93-1c0e-4fb7-b782-c4da22b06b89")
 		(property "Reference" "D?"
-			(at 99.06 82.55 0)
+			(at 105.41 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1825,7 +1353,7 @@
 			)
 		)
 		(property "Value" "BAT54WS"
-			(at 107.95 85.09 0)
+			(at 110.49 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1834,7 +1362,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-323F"
-			(at 105.41 87.63 0)
+			(at 107.95 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1843,7 +1371,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 105.41 87.63 0)
+			(at 107.95 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1852,7 +1380,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 105.41 87.63 0)
+			(at 107.95 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1875,7 +1403,7 @@
 			)
 			(project "Kampela_G5"
 				(path "/f1094595-086c-43ea-a0be-6f801d9d8744/67eb4c15-878d-4392-8f98-b0db1677ce0d"
-					(reference "D2")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -1948,7 +1476,7 @@
 			)
 			(project "Kampela_G5"
 				(path "/f1094595-086c-43ea-a0be-6f801d9d8744/67eb4c15-878d-4392-8f98-b0db1677ce0d"
-					(reference "#PWR015")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -1964,7 +1492,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2ef239eb-29aa-47f1-8645-95162de15655")
-		(property "Reference" "#FLG02"
+		(property "Reference" "#FLG01"
 			(at 174.625 80.01 0)
 			(effects
 				(font
@@ -2015,42 +1543,41 @@
 		(instances
 			(project "Kampela_G5"
 				(path "/f1094595-086c-43ea-a0be-6f801d9d8744/67eb4c15-878d-4392-8f98-b0db1677ce0d"
-					(reference "#FLG02")
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 203.2 93.98 0)
+		(lib_id "Device:R")
+		(at 96.52 87.63 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "487c6859-c2ae-481e-b103-8eefad03b287")
-		(property "Reference" "#FLG05"
-			(at 203.2 92.075 0)
+		(uuid "30aba7d1-1f79-4f0c-a825-d413bfaf88f3")
+		(property "Reference" "R1"
+			(at 96.52 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left)
 			)
 		)
-		(property "Value" "PWR_FLAG"
-			(at 203.2 88.9 0)
+		(property "Value" "10K"
+			(at 99.06 90.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 203.2 93.98 0)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 96.52 89.408 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2059,7 +1586,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 203.2 93.98 0)
+			(at 96.52 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2067,22 +1594,111 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 203.2 93.98 0)
+		(property "Description" "Resistor"
+			(at 96.52 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(property "Size" "0201"
+			(at 96.52 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "2201ef30-efed-4b20-a151-f88ee2a14174")
 		)
 		(pin "1"
-			(uuid "75fa78b0-9eee-49e5-83c3-b5e8e3043b67")
+			(uuid "75c844bb-5fc5-4c77-abef-2fd0e2d8b760")
 		)
 		(instances
-			(project "Kampela_G5"
+			(project "Kampela_H1"
 				(path "/f1094595-086c-43ea-a0be-6f801d9d8744/67eb4c15-878d-4392-8f98-b0db1677ce0d"
-					(reference "#FLG05")
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 160.02 78.74 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "38a6b4dd-89f6-45e6-b948-051a9444aafd")
+		(property "Reference" "R5"
+			(at 165.1 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "52.3K"
+			(at 162.56 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 158.242 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 160.02 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 160.02 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Size" "0201"
+			(at 160.02 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "fd7c689a-d73b-4956-8b67-f39f2c3cb3f6")
+		)
+		(pin "1"
+			(uuid "ab46bd77-2e12-4a3b-9bb4-dc08a730d0cb")
+		)
+		(instances
+			(project "Kampela_H1"
+				(path "/f1094595-086c-43ea-a0be-6f801d9d8744/67eb4c15-878d-4392-8f98-b0db1677ce0d"
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -2156,7 +1772,7 @@
 			)
 			(project "Kampela_G5"
 				(path "/f1094595-086c-43ea-a0be-6f801d9d8744/67eb4c15-878d-4392-8f98-b0db1677ce0d"
-					(reference "TP4")
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -2164,33 +1780,33 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 132.08 87.63 270)
-		(mirror x)
+		(at 181.61 80.01 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "53828eaf-2374-4716-8534-2778c9b7dc42")
-		(property "Reference" "C?"
-			(at 132.08 81.28 90)
+		(uuid "6a8e75b5-6c2f-49c1-a866-73e274e46df8")
+		(property "Reference" "C3"
+			(at 186.69 77.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "100p"
-			(at 132.08 83.82 90)
+		(property "Value" "0.1"
+			(at 187.96 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 128.27 86.6648 0)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(at 185.42 79.0448 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2199,7 +1815,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 132.08 87.63 0)
+			(at 181.61 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2207,8 +1823,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 132.08 87.63 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 181.61 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2216,97 +1832,24 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "ec68707e-1c5b-4886-b049-29b20dce8959")
+		(property "Size" "0201"
+			(at 185.42 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "2"
-			(uuid "d42f460b-7588-4004-a954-ea0f0e65e91e")
+			(uuid "dd8079ac-7545-4945-87e9-c1dfd08790cd")
+		)
+		(pin "1"
+			(uuid "bffba5e8-6386-4220-84d7-da63a4d365bb")
 		)
 		(instances
-			(project "Kampela"
-				(path "/472e0f49-51e5-4b9c-a9f6-6aed0741c677/67eb4c15-878d-4392-8f98-b0db1677ce0d"
-					(reference "C?")
-					(unit 1)
-				)
-			)
-			(project "Kampela_G5"
+			(project "Kampela_H1"
 				(path "/f1094595-086c-43ea-a0be-6f801d9d8744/67eb4c15-878d-4392-8f98-b0db1677ce0d"
 					(reference "C3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:FerriteBead_Small")
-		(at 176.53 64.77 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "554b93bb-0e0d-4678-abef-79187734b1fb")
-		(property "Reference" "FB?"
-			(at 181.61 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BLM15AG102SZ1D"
-			(at 181.61 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
-			(at 174.752 64.77 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 176.53 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 176.53 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6372408c-38c3-4f44-ba4e-8fd962e413d1")
-		)
-		(pin "2"
-			(uuid "38440639-51d0-485e-a97c-29269809df56")
-		)
-		(instances
-			(project "Kampela"
-				(path "/472e0f49-51e5-4b9c-a9f6-6aed0741c677/67eb4c15-878d-4392-8f98-b0db1677ce0d"
-					(reference "FB?")
-					(unit 1)
-				)
-			)
-			(project "Kampela_G5"
-				(path "/f1094595-086c-43ea-a0be-6f801d9d8744/67eb4c15-878d-4392-8f98-b0db1677ce0d"
-					(reference "FB1")
 					(unit 1)
 				)
 			)
@@ -2379,24 +1922,24 @@
 			)
 			(project "Kampela_G5"
 				(path "/f1094595-086c-43ea-a0be-6f801d9d8744/67eb4c15-878d-4392-8f98-b0db1677ce0d"
-					(reference "#PWR021")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 203.2 93.98 0)
+		(lib_id "power:PWR_FLAG")
+		(at 176.53 97.79 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "8cd6e76f-985f-48b4-8b47-4cd06f281806")
-		(property "Reference" "#PWR?"
-			(at 203.2 100.33 0)
+		(uuid "7d8b2b04-f63a-419e-8822-eff9ebdaa61b")
+		(property "Reference" "#FLG03"
+			(at 174.625 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2404,8 +1947,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 203.2 99.06 0)
+		(property "Value" "PWR_FLAG"
+			(at 171.45 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2414,7 +1957,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 203.2 93.98 0)
+			(at 176.53 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2422,8 +1965,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 203.2 93.98 0)
+		(property "Datasheet" "~"
+			(at 176.53 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2431,8 +1974,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 203.2 93.98 0)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 176.53 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2441,18 +1984,89 @@
 			)
 		)
 		(pin "1"
-			(uuid "c5144916-6b26-4e1a-91cb-3bb998aaa3ca")
+			(uuid "d576135a-cc2c-4943-8e86-4d6ed0510fae")
 		)
 		(instances
-			(project "Kampela"
-				(path "/472e0f49-51e5-4b9c-a9f6-6aed0741c677/67eb4c15-878d-4392-8f98-b0db1677ce0d"
-					(reference "#PWR?")
+			(project "Kampela_H1"
+				(path "/f1094595-086c-43ea-a0be-6f801d9d8744/67eb4c15-878d-4392-8f98-b0db1677ce0d"
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)
-			(project "Kampela_G5"
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 160.02 107.95 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "82029aa1-1e6a-47d2-b262-3fb80e4f2502")
+		(property "Reference" "R6"
+			(at 165.1 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "46.4K"
+			(at 167.64 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 161.798 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 160.02 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 160.02 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Size" "0201"
+			(at 160.02 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "4877c78f-29a0-4a1e-8e41-0b0feff34ca4")
+		)
+		(pin "1"
+			(uuid "eb6416b4-d73a-424c-8531-b524287c9c8b")
+		)
+		(instances
+			(project "Kampela_H1"
 				(path "/f1094595-086c-43ea-a0be-6f801d9d8744/67eb4c15-878d-4392-8f98-b0db1677ce0d"
-					(reference "#PWR091")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -2525,7 +2139,7 @@
 			)
 			(project "Kampela_G5"
 				(path "/f1094595-086c-43ea-a0be-6f801d9d8744/67eb4c15-878d-4392-8f98-b0db1677ce0d"
-					(reference "#PWR020")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -2541,7 +2155,7 @@
 		(dnp no)
 		(uuid "8fe56de5-25ef-4e22-a889-da232d02032d")
 		(property "Reference" "U?"
-			(at 180.34 83.82 0)
+			(at 179.07 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2549,7 +2163,7 @@
 			)
 		)
 		(property "Value" "LMV7271"
-			(at 184.15 86.36 0)
+			(at 181.61 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2608,6 +2222,161 @@
 			(project "Kampela_G5"
 				(path "/f1094595-086c-43ea-a0be-6f801d9d8744/67eb4c15-878d-4392-8f98-b0db1677ce0d"
 					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 132.08 87.63 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "92e9eda9-8679-47ab-9ce8-5d0f588535a1")
+		(property "Reference" "C2"
+			(at 130.81 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100p"
+			(at 129.54 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(at 128.27 88.5952 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 132.08 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 132.08 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Size" "0201"
+			(at 132.08 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "90bf7e1b-b19f-4f39-a1fb-c99ddff7894f")
+		)
+		(pin "1"
+			(uuid "a54f3111-b385-47f2-8c3d-e7db27ded4db")
+		)
+		(instances
+			(project "Kampela_H1"
+				(path "/f1094595-086c-43ea-a0be-6f801d9d8744/67eb4c15-878d-4392-8f98-b0db1677ce0d"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 142.24 107.95 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "98772524-12e7-4983-a6ff-f736f8524e63")
+		(property "Reference" "R4"
+			(at 147.32 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100K"
+			(at 144.78 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 140.462 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 142.24 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 142.24 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Size" "0201"
+			(at 142.24 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "4a299ab4-667b-4136-8ec8-4835345c841d")
+		)
+		(pin "1"
+			(uuid "0889fb71-c80b-44bf-98ff-2a40c4ed2c6c")
+		)
+		(instances
+			(project "Kampela_H1"
+				(path "/f1094595-086c-43ea-a0be-6f801d9d8744/67eb4c15-878d-4392-8f98-b0db1677ce0d"
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -2680,309 +2449,7 @@
 			)
 			(project "Kampela_G5"
 				(path "/f1094595-086c-43ea-a0be-6f801d9d8744/67eb4c15-878d-4392-8f98-b0db1677ce0d"
-					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 160.02 107.95 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b1f236d4-881c-41d7-a1a0-e18445be351a")
-		(property "Reference" "R?"
-			(at 162.56 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "47K"
-			(at 162.56 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 158.242 107.95 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 160.02 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 160.02 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "18e8e521-1098-4bcc-99f6-9e33aaf04316")
-		)
-		(pin "2"
-			(uuid "6117d622-2f88-4370-8e2c-819b73d86cc5")
-		)
-		(instances
-			(project "Kampela"
-				(path "/472e0f49-51e5-4b9c-a9f6-6aed0741c677/67eb4c15-878d-4392-8f98-b0db1677ce0d"
-					(reference "R?")
-					(unit 1)
-				)
-			)
-			(project "Kampela_G5"
-				(path "/f1094595-086c-43ea-a0be-6f801d9d8744/67eb4c15-878d-4392-8f98-b0db1677ce0d"
-					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 90.17 87.63 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b8b5644f-568b-477e-9c00-a2bcc53e835e")
-		(property "Reference" "R?"
-			(at 90.17 81.28 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10K"
-			(at 90.17 83.82 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 90.17 89.408 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 90.17 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 90.17 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cd555f64-6cd3-4150-9146-abf627d3847c")
-		)
-		(pin "2"
-			(uuid "2739501e-2b00-457e-b35d-8b87a8486ba7")
-		)
-		(instances
-			(project "Kampela"
-				(path "/472e0f49-51e5-4b9c-a9f6-6aed0741c677/67eb4c15-878d-4392-8f98-b0db1677ce0d"
-					(reference "R?")
-					(unit 1)
-				)
-			)
-			(project "Kampela_G5"
-				(path "/f1094595-086c-43ea-a0be-6f801d9d8744/67eb4c15-878d-4392-8f98-b0db1677ce0d"
-					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 160.02 78.74 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bec269b0-ae9d-4516-9fe9-e7d24d65aef8")
-		(property "Reference" "R?"
-			(at 162.56 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "52.3K"
-			(at 162.56 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 158.242 78.74 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 160.02 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 160.02 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "82f948d9-aced-4821-88e7-7d80bc45590d")
-		)
-		(pin "2"
-			(uuid "d860123f-3bf7-4c89-8022-4cd3c5592bf5")
-		)
-		(instances
-			(project "Kampela"
-				(path "/472e0f49-51e5-4b9c-a9f6-6aed0741c677/67eb4c15-878d-4392-8f98-b0db1677ce0d"
-					(reference "R?")
-					(unit 1)
-				)
-			)
-			(project "Kampela_G5"
-				(path "/f1094595-086c-43ea-a0be-6f801d9d8744/67eb4c15-878d-4392-8f98-b0db1677ce0d"
-					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 142.24 78.74 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c49702c7-476e-4d31-a011-6f23e9227063")
-		(property "Reference" "R?"
-			(at 144.78 78.105 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100K"
-			(at 144.78 80.645 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 140.462 78.74 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 142.24 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 142.24 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4c17a998-dcb1-4b3b-9fdf-a8fe5e21bb03")
-		)
-		(pin "2"
-			(uuid "7dd00786-ae7d-4144-a903-6f9ab36ed4cf")
-		)
-		(instances
-			(project "Kampela"
-				(path "/472e0f49-51e5-4b9c-a9f6-6aed0741c677/67eb4c15-878d-4392-8f98-b0db1677ce0d"
-					(reference "R?")
-					(unit 1)
-				)
-			)
-			(project "Kampela_G5"
-				(path "/f1094595-086c-43ea-a0be-6f801d9d8744/67eb4c15-878d-4392-8f98-b0db1677ce0d"
-					(reference "R5")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -3055,74 +2522,7 @@
 			)
 			(project "Kampela_G5"
 				(path "/f1094595-086c-43ea-a0be-6f801d9d8744/67eb4c15-878d-4392-8f98-b0db1677ce0d"
-					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 203.2 86.36 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c957b88e-fe65-416e-89f5-146f0bf220e7")
-		(property "Reference" "#FLG01"
-			(at 203.2 84.455 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 203.2 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 203.2 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 203.2 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 203.2 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fc510763-da14-4fff-bf0b-a2573023bce8")
-		)
-		(instances
-			(project "Kampela_G5"
-				(path "/f1094595-086c-43ea-a0be-6f801d9d8744/67eb4c15-878d-4392-8f98-b0db1677ce0d"
-					(reference "#FLG01")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -3130,16 +2530,16 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 142.24 107.95 0)
+		(at 142.24 78.74 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d9f2106a-9f1a-4caf-b3cf-28de0339fb31")
-		(property "Reference" "R?"
-			(at 144.78 107.315 0)
+		(uuid "ce049cd9-fa3b-4d05-8e10-239c0055e97a")
+		(property "Reference" "R3"
+			(at 147.32 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3148,7 +2548,7 @@
 			)
 		)
 		(property "Value" "100K"
-			(at 144.78 109.855 0)
+			(at 144.78 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3156,8 +2556,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 140.462 107.95 90)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 140.462 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3166,7 +2566,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 142.24 107.95 0)
+			(at 142.24 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3174,8 +2574,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 142.24 107.95 0)
+		(property "Description" "Resistor"
+			(at 142.24 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3183,22 +2583,24 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "529233e1-9398-49cd-a9d3-1b8512fc2834")
+		(property "Size" "0201"
+			(at 142.24 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "2"
-			(uuid "694a687a-8125-43b9-9e69-28a56bd1e820")
+			(uuid "af32a364-82af-4821-8e84-c716c166fa49")
+		)
+		(pin "1"
+			(uuid "c5c1a9c6-5a8e-4d47-aabf-4f5ebf5c4b7e")
 		)
 		(instances
-			(project "Kampela"
-				(path "/472e0f49-51e5-4b9c-a9f6-6aed0741c677/67eb4c15-878d-4392-8f98-b0db1677ce0d"
-					(reference "R?")
-					(unit 1)
-				)
-			)
-			(project "Kampela_G5"
+			(project "Kampela_H1"
 				(path "/f1094595-086c-43ea-a0be-6f801d9d8744/67eb4c15-878d-4392-8f98-b0db1677ce0d"
-					(reference "R7")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -3206,16 +2608,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 113.03 102.87 0)
+		(at 113.03 107.95 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e05b4ecf-dc9d-4b09-a904-2385655e785b")
-		(property "Reference" "R?"
-			(at 115.57 101.6 0)
+		(uuid "d07cc2f7-be45-4208-be20-87132b8ced94")
+		(property "Reference" "R2"
+			(at 107.95 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3224,7 +2625,7 @@
 			)
 		)
 		(property "Value" "52.3K"
-			(at 115.57 104.14 0)
+			(at 110.49 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3232,8 +2633,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 111.252 102.87 90)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 114.808 107.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3242,7 +2643,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 113.03 102.87 0)
+			(at 113.03 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3250,8 +2651,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 113.03 102.87 0)
+		(property "Description" "Resistor"
+			(at 113.03 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3259,20 +2660,22 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "9853dae6-120d-4b4b-b4e1-14258b000b3b")
+		(property "Size" "0201"
+			(at 113.03 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "2"
-			(uuid "e6ce2f14-9b0d-49e2-8c38-a42b1e0653f1")
+			(uuid "77ce933f-eda4-4365-9203-3cf6a1d5c864")
+		)
+		(pin "1"
+			(uuid "33068d1c-1e94-4143-95e7-6d3f4611ede4")
 		)
 		(instances
-			(project "Kampela"
-				(path "/472e0f49-51e5-4b9c-a9f6-6aed0741c677/67eb4c15-878d-4392-8f98-b0db1677ce0d"
-					(reference "R?")
-					(unit 1)
-				)
-			)
-			(project "Kampela_G5"
+			(project "Kampela_H1"
 				(path "/f1094595-086c-43ea-a0be-6f801d9d8744/67eb4c15-878d-4392-8f98-b0db1677ce0d"
 					(reference "R2")
 					(unit 1)
@@ -3281,98 +2684,16 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+1V8")
-		(at 176.53 60.96 0)
+		(lib_id "Device:C")
+		(at 123.19 107.95 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e737f7b4-3017-4a48-a198-ecda30bd2ac1")
-		(property "Reference" "#PWR?"
-			(at 176.53 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+1V8"
-			(at 176.53 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 176.53 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 176.53 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 176.53 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "66c07240-60d7-43c7-8905-d37d84f7ee8b")
-		)
-		(instances
-			(project "Kampela"
-				(path "/472e0f49-51e5-4b9c-a9f6-6aed0741c677/67eb4c15-878d-4392-8f98-b0db1677ce0d"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-			(project "Kampela_G5"
-				(path "/f1094595-086c-43ea-a0be-6f801d9d8744/67eb4c15-878d-4392-8f98-b0db1677ce0d"
-					(reference "#PWR019")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+1V8")
-		(at 203.2 86.36 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f899647b-70c6-42f2-948f-935d3d392e17")
-		(property "Reference" "#PWR?"
-			(at 207.01 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+1V8"
-			(at 199.39 86.36 90)
+		(uuid "f101ad07-2376-49fc-8841-7fda61893101")
+		(property "Reference" "C1"
+			(at 129.54 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3380,8 +2701,17 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 203.2 86.36 0)
+		(property "Value" "100p"
+			(at 130.81 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(at 122.2248 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3389,8 +2719,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 203.2 86.36 0)
+		(property "Datasheet" "~"
+			(at 123.19 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3398,28 +2728,33 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 203.2 86.36 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 123.19 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(property "Size" "0201"
+			(at 128.27 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f18972db-6895-469c-a22c-b0f24d9c2ab5")
 		)
 		(pin "1"
-			(uuid "15454b8d-8405-4d38-8848-0f8ac5f8e712")
+			(uuid "9c0df98d-0d8d-48ba-a1f6-4bac9dd34609")
 		)
 		(instances
-			(project "Kampela"
-				(path "/472e0f49-51e5-4b9c-a9f6-6aed0741c677/67eb4c15-878d-4392-8f98-b0db1677ce0d"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-			(project "Kampela_G5"
+			(project "Kampela_H1"
 				(path "/f1094595-086c-43ea-a0be-6f801d9d8744/67eb4c15-878d-4392-8f98-b0db1677ce0d"
-					(reference "#PWR090")
+					(reference "C1")
 					(unit 1)
 				)
 			)
