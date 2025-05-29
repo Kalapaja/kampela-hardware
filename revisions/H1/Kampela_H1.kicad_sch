@@ -1,0 +1,1506 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "f1094595-086c-43ea-a0be-6f801d9d8744")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Mechanical:Fiducial"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "FID"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Fiducial"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Fiducial Marker"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "fiducial marker"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Fiducial*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Fiducial_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 105.41 63.5) (xy 156.21 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15c7b644-feaa-4a72-99f5-372726787def")
+	)
+	(wire
+		(pts
+			(xy 181.61 58.42) (xy 200.66 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cd74bf8-5e3c-4b0b-a750-9e87360874e7")
+	)
+	(wire
+		(pts
+			(xy 181.61 49.53) (xy 200.66 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fb537fe-d13a-45f4-b55e-a3df2c964692")
+	)
+	(wire
+		(pts
+			(xy 181.61 43.18) (xy 200.66 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f9b2ca7-938b-4b23-b58b-d413ab15ed4f")
+	)
+	(wire
+		(pts
+			(xy 181.61 63.5) (xy 200.66 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79dbefdb-6c64-481b-938e-0e9f465569c7")
+	)
+	(wire
+		(pts
+			(xy 105.41 60.96) (xy 156.21 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fa3ce1b-5dba-4410-b2d5-97e218f3a8d1")
+	)
+	(wire
+		(pts
+			(xy 105.41 39.37) (xy 156.21 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "951b706f-5ee5-467f-976f-d402bb6a24ad")
+	)
+	(wire
+		(pts
+			(xy 181.61 40.64) (xy 200.66 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96721c4e-b9a4-43e2-bb3c-5f62807c67ff")
+	)
+	(wire
+		(pts
+			(xy 181.61 99.06) (xy 200.66 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97cf9b63-1b24-4f6f-af42-b2f6f77c2b90")
+	)
+	(wire
+		(pts
+			(xy 181.61 78.74) (xy 200.66 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "985152cb-f9a3-4159-841a-b23a0a329dcb")
+	)
+	(wire
+		(pts
+			(xy 181.61 101.6) (xy 200.66 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2d27d54-b117-4952-923d-47971f5bddc0")
+	)
+	(wire
+		(pts
+			(xy 181.61 55.88) (xy 200.66 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4e02290-3801-4a82-889e-24ae19ddf805")
+	)
+	(wire
+		(pts
+			(xy 181.61 83.82) (xy 200.66 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7a4778c-006b-43fa-9e27-acfe005b8154")
+	)
+	(wire
+		(pts
+			(xy 181.61 81.28) (xy 200.66 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7ae8065-97e1-46de-a6f2-f9b500fa9db9")
+	)
+	(wire
+		(pts
+			(xy 181.61 96.52) (xy 200.66 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad741ab5-5951-4d6c-94e6-1233b57788e9")
+	)
+	(wire
+		(pts
+			(xy 109.22 50.8) (xy 105.41 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba8c8b4f-ee18-4408-8378-1b96cfc10866")
+	)
+	(wire
+		(pts
+			(xy 181.61 93.98) (xy 200.66 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4f6ef6a-bea0-44cc-9755-48447a603194")
+	)
+	(wire
+		(pts
+			(xy 181.61 88.9) (xy 200.66 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf2e7f99-09f7-4556-bb29-cfa4037ef151")
+	)
+	(wire
+		(pts
+			(xy 105.41 41.91) (xy 109.22 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2bf8467-272a-440f-a96d-032043d52350")
+	)
+	(wire
+		(pts
+			(xy 109.22 41.91) (xy 109.22 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3ed2ceb-bbcd-475e-a647-ab7ceca4518a")
+	)
+	(wire
+		(pts
+			(xy 181.61 45.72) (xy 200.66 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f06bc4c9-e5b5-4cd4-ad8c-84811098654e")
+	)
+	(wire
+		(pts
+			(xy 181.61 91.44) (xy 200.66 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9a3f0a1-d269-44fd-9c3e-4793f4641271")
+	)
+	(wire
+		(pts
+			(xy 181.61 86.36) (xy 200.66 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fead049c-337d-4e0d-a260-ad3b482f0eb7")
+	)
+	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 228.6 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "07b6e9fa-5f27-4d03-a108-8598ae262114")
+		(property "Reference" "FID?"
+			(at 231.14 50.7999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 231.14 53.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_0.5mm_Mask1.5mm"
+			(at 228.6 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 228.6 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 228.6 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Kampela"
+				(path "/472e0f49-51e5-4b9c-a9f6-6aed0741c677"
+					(reference "FID?")
+					(unit 1)
+				)
+			)
+			(project "Kampela_G5"
+				(path "/f1094595-086c-43ea-a0be-6f801d9d8744"
+					(reference "FID1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 242.57 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "49b50032-60bf-486c-90ee-ada0700a21b5")
+		(property "Reference" "FID?"
+			(at 245.11 57.1499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 245.11 59.6899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_0.5mm_Mask1.5mm"
+			(at 242.57 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 242.57 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 242.57 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Kampela"
+				(path "/472e0f49-51e5-4b9c-a9f6-6aed0741c677"
+					(reference "FID?")
+					(unit 1)
+				)
+			)
+			(project "Kampela_G5"
+				(path "/f1094595-086c-43ea-a0be-6f801d9d8744"
+					(reference "FID4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 242.57 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5b4b0dd3-69b5-482f-846f-fc5616165a2a")
+		(property "Reference" "H2"
+			(at 245.11 67.945 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 245.11 70.485 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.1mm"
+			(at 242.57 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 242.57 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 242.57 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Kampela_G5"
+				(path "/f1094595-086c-43ea-a0be-6f801d9d8744"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 261.62 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9cf98707-ecb1-4914-a3b2-a92820e3e288")
+		(property "Reference" "H3"
+			(at 264.16 62.865 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 264.16 65.405 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.1mm"
+			(at 261.62 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 261.62 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 261.62 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Kampela_G5"
+				(path "/f1094595-086c-43ea-a0be-6f801d9d8744"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 242.57 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9ec0f513-e523-40e8-95e2-90ce8323235c")
+		(property "Reference" "H1"
+			(at 245.11 62.865 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 245.11 65.405 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.1mm"
+			(at 242.57 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 242.57 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 242.57 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Kampela_G5"
+				(path "/f1094595-086c-43ea-a0be-6f801d9d8744"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 242.57 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dc0985ce-3d77-4399-be2d-eb0592f40a31")
+		(property "Reference" "FID?"
+			(at 245.11 50.7999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 245.11 53.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_0.5mm_Mask1.5mm"
+			(at 242.57 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 242.57 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 242.57 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Kampela"
+				(path "/472e0f49-51e5-4b9c-a9f6-6aed0741c677"
+					(reference "FID?")
+					(unit 1)
+				)
+			)
+			(project "Kampela_G5"
+				(path "/f1094595-086c-43ea-a0be-6f801d9d8744"
+					(reference "FID3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 228.6 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e907db61-12ad-41c2-906d-7cba99d56fff")
+		(property "Reference" "FID?"
+			(at 231.14 57.1499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 231.14 59.6899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_0.5mm_Mask1.5mm"
+			(at 228.6 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 228.6 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 228.6 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Kampela"
+				(path "/472e0f49-51e5-4b9c-a9f6-6aed0741c677"
+					(reference "FID?")
+					(unit 1)
+				)
+			)
+			(project "Kampela_G5"
+				(path "/f1094595-086c-43ea-a0be-6f801d9d8744"
+					(reference "FID2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 81.28 48.26)
+		(size 24.13 20.32)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "107d2fe5-3a51-4aa0-a4ed-d8d997e2d812")
+		(property "Sheetname" "Power"
+			(at 81.28 47.5484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 81.28 69.1646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "P_GOOD" output
+			(at 105.41 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d9f2c296-c15f-4784-aab8-d35621ae701a")
+		)
+		(pin "V_CHK" output
+			(at 105.41 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "3c0759ce-219a-498b-8c1a-4e1e10efbad4")
+		)
+		(pin "OUT_DT" output
+			(at 105.41 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "3c1ed2ae-ffab-478c-9643-47994c2a83cb")
+		)
+		(instances
+			(project "Kampela"
+				(path "/472e0f49-51e5-4b9c-a9f6-6aed0741c677"
+					(page "3")
+				)
+			)
+			(project "Kampela_H1"
+				(path "/f1094595-086c-43ea-a0be-6f801d9d8744"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 200.66 76.2)
+		(size 24.13 27.94)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "426d2e5c-9813-4137-9bb6-36832fb9b69b")
+		(property "Sheetname" "MCU UI"
+			(at 200.66 75.4884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcuUi.kicad_sch"
+			(at 200.66 104.7246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "HE" bidirectional
+			(at 200.66 88.9 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d7f4354d-a0dd-4903-951b-c5b6038bec82")
+		)
+		(pin "VAV" bidirectional
+			(at 200.66 91.44 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "73b11457-7a0e-4715-86de-9f32ccc9a8cd")
+		)
+		(pin "ZAYIN" bidirectional
+			(at 200.66 93.98 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "01428069-2558-4bf0-9409-7f6972fc6104")
+		)
+		(pin "HET" bidirectional
+			(at 200.66 96.52 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6c2418d9-6096-438b-8f09-33af7d7ffeed")
+		)
+		(pin "YOD" bidirectional
+			(at 200.66 101.6 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "087c77f7-06eb-405e-bd3d-fea24a6fccf5")
+		)
+		(pin "TET" bidirectional
+			(at 200.66 99.06 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "626591b7-8046-48ea-8eed-99a935acbec8")
+		)
+		(pin "DALET" bidirectional
+			(at 200.66 86.36 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "55537f15-65ee-4b6d-a27d-97f9a3a1eaf7")
+		)
+		(pin "ALEPH" bidirectional
+			(at 200.66 78.74 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8067db47-85ac-493b-b1c8-94a29cc412b3")
+		)
+		(pin "GIMEL" bidirectional
+			(at 200.66 83.82 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d4831b50-fcf8-4e63-a173-41037b912e59")
+		)
+		(pin "BET" bidirectional
+			(at 200.66 81.28 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "1817dc81-ed2b-4287-984d-795a9840f77b")
+		)
+		(instances
+			(project "Kampela_H1"
+				(path "/f1094595-086c-43ea-a0be-6f801d9d8744"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 81.28 29.21)
+		(size 24.13 15.24)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "67eb4c15-878d-4392-8f98-b0db1677ce0d")
+		(property "Sheetname" "RX Filter"
+			(at 81.28 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "rxfilter.kicad_sch"
+			(at 81.28 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "IN_DT" input
+			(at 105.41 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e8cfc9d4-4dcf-4582-b277-b42e82f180df")
+		)
+		(pin "DATA" output
+			(at 105.41 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b2a4cc6a-45d2-411a-bf3a-e6340c3bf4a8")
+		)
+		(instances
+			(project "Kampela"
+				(path "/472e0f49-51e5-4b9c-a9f6-6aed0741c677"
+					(page "2")
+				)
+			)
+			(project "Kampela_H1"
+				(path "/f1094595-086c-43ea-a0be-6f801d9d8744"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 200.66 29.21)
+		(size 24.13 39.37)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7868ecaa-9431-43d7-95a8-9c0f01ec9958")
+		(property "Sheetname" "Display"
+			(at 200.66 28.4984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "display.kicad_sch"
+			(at 200.66 69.1646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SCK" input
+			(at 200.66 63.5 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f8e76e11-1989-458b-932f-b497cc04540f")
+		)
+		(pin "SDI" input
+			(at 200.66 58.42 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a7cfa5f8-0bea-4131-8883-8ed3352ac761")
+		)
+		(pin "CS" input
+			(at 200.66 55.88 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d0e4604f-d4f1-4f03-a7ad-afa89dbcd435")
+		)
+		(pin "EXTIN" input
+			(at 200.66 49.53 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f17cd155-c724-48ab-a364-7d46167f4387")
+		)
+		(pin "SCL" bidirectional
+			(at 200.66 40.64 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "eccc9ab7-59dc-4788-a27f-15d8d1795520")
+		)
+		(pin "SDA" bidirectional
+			(at 200.66 43.18 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3399d081-1299-448c-821d-bc53979072b7")
+		)
+		(pin "INT" input
+			(at 200.66 45.72 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a996029f-fb21-49f8-a354-2d60bd4a490a")
+		)
+		(instances
+			(project "Kampela"
+				(path "/472e0f49-51e5-4b9c-a9f6-6aed0741c677"
+					(page "4")
+				)
+			)
+			(project "Kampela_H1"
+				(path "/f1094595-086c-43ea-a0be-6f801d9d8744"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 156.21 29.21)
+		(size 25.4 74.93)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "da08338c-417a-4808-acf4-35a11b7a82db")
+		(property "Sheetname" "MCU SEC"
+			(at 156.21 28.4984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcuSec.kicad_sch"
+			(at 156.21 104.7246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "E_SCK" output
+			(at 181.61 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9c4ee8e2-d11c-4d97-b5e9-01b08eb01e44")
+		)
+		(pin "E_MOSI" output
+			(at 181.61 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "1c22a491-6c8b-4ed5-8b89-f40bd78e60c4")
+		)
+		(pin "D_CS" output
+			(at 181.61 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d671e4ee-7ee9-4052-9fae-6d91aee86732")
+		)
+		(pin "SCL" bidirectional
+			(at 181.61 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "08350522-feac-49e9-b906-6b49ef29154d")
+		)
+		(pin "SDA" bidirectional
+			(at 181.61 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "bcac3a34-5232-4f9e-a747-58774033cfde")
+		)
+		(pin "INT" input
+			(at 181.61 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9cec50b4-180d-49d0-8d5a-7325ef3183e3")
+		)
+		(pin "P_GOOD" input
+			(at 156.21 60.96 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d4f6b0d7-122e-4207-9453-7eb7b28a665f")
+		)
+		(pin "DATA" input
+			(at 156.21 39.37 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e4caa2fd-9720-443a-8e2d-20c487013a4d")
+		)
+		(pin "V_CHK" input
+			(at 156.21 63.5 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e240a61c-637a-44f1-91ee-c6d26c9d731c")
+		)
+		(pin "ALEPH" bidirectional
+			(at 181.61 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e5ba4cef-bae5-4b3c-be30-3fda7d982729")
+		)
+		(pin "YOD" bidirectional
+			(at 181.61 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "85333c5b-277d-40a3-8397-f18d8530af42")
+		)
+		(pin "HET" bidirectional
+			(at 181.61 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b38829e5-1027-4292-9856-4a27e6e18aaa")
+		)
+		(pin "ZAYIN" bidirectional
+			(at 181.61 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "fed95776-0d85-430a-8745-b4e6fd7e43b1")
+		)
+		(pin "HE" bidirectional
+			(at 181.61 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "6b6140b7-2fd3-41e0-8af1-61b846ba6996")
+		)
+		(pin "VAV" bidirectional
+			(at 181.61 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "8047e6f8-dbec-4388-8055-a850fddce2cb")
+		)
+		(pin "TET" bidirectional
+			(at 181.61 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "455cd149-ff72-43ac-a837-2ec53b8864c9")
+		)
+		(pin "GIMEL" bidirectional
+			(at 181.61 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d723d50a-414b-4fb1-9725-7a887bda3aff")
+		)
+		(pin "DALET" bidirectional
+			(at 181.61 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "5e591bce-f58c-4261-9772-7edc49fffc22")
+		)
+		(pin "BET" bidirectional
+			(at 181.61 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "75e0e258-f8f5-4175-a7ab-e7e1cf6f362d")
+		)
+		(pin "EXTIN" output
+			(at 181.61 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d4243cfb-19be-47f2-9d7c-ce2e1d5e7144")
+		)
+		(instances
+			(project "Kampela"
+				(path "/472e0f49-51e5-4b9c-a9f6-6aed0741c677"
+					(page "5")
+				)
+			)
+			(project "Kampela_H1"
+				(path "/f1094595-086c-43ea-a0be-6f801d9d8744"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
